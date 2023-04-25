@@ -2,12 +2,12 @@
 
 - Code analysis directory:
   - Analysis directory: it contains three different analysis files: 
-  *Leaning Temporal analysis: analysis carried out over 5 days, both for the political profiles of the users and for the general ones. 
+  -Leaning Temporal analysis: analysis carried out over 5 days, both for the political profiles of the users and for the general ones. 
    Contains the evolution of news over 5 days, and shows the number of news (for each topic and for each user) for each day, through 
    the use of multi line graphs.
-  *News Rate analysis: it contains the analysis of the top 20 news, on different days chosen randomly, for each user and for each topic, 
+  -News Rate analysis: it contains the analysis of the top 20 news, on different days chosen randomly, for each user and for each topic, 
    through the use of multi bar plots.
-  *Positional User analysis: contains the evolution of news, over three days, for users in India. contains the topic position (1, 2, 3, 4) 
+  -Positional User analysis: contains the evolution of news, over three days, for users in India. contains the topic position (1, 2, 3, 4) 
    on each day, and compared on multi bar plots.
   - News Media Aggregators API directory: it contains files for the extraction and manage of APIs of different news media aggregators.
   - NLP: it contains files for the NLP analysis and preprocessing of text articles. The automated_preProcessArticle.ipynb contains a system function 
