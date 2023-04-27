@@ -18,8 +18,10 @@
       1. 4 graphs for the USA, 2 evaluate the pro-republican and 2 pro-democratic trend.
       2. 4 graphs for India politics, 2 evaluate the pro-gov and 2 the pro-opp trend.
       3. 4 graphs for Macro/Micro topics, 2 evaluate the macro and 2 the micro trend.
-     - News Rate Analysis: Analysys carried out on different days (separately) on top 20 news for each   day, for each user, and plotted a multi-bar graph for each topic.
-        1. 6 graphs: 2 about politics trend, 4 about macro and micro trend.
+    - News Rate Analysis: Analysys carried out on different days (separately) on top 20 news for each   day, for each user, and plotted a multi-bar graph for each topic.
+      1. 6 graphs: 2 about politics trend, 4 about macro and micro trend.
+    - Positional User Analysis: Analysis carried out on 3 days, about position of a particular topic in the three different days, and compared each other.
+      1. 4 graphs: 2 about to User 1 - User 6, 2 about User 7 - User 10 (respectively, for each student).
   - News Media Aggregators API
   - NLP
 - Plotted graph analysis
