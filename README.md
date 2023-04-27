@@ -13,6 +13,14 @@
 ### Git repository 
 
 - Code Analysis:
-  - prova
+  - Analysis:
+    - Leaning Temporal Analysis
+  - News Media Aggregators API
+  - NLP
+- Plotted graph analysis
+  - Leaning Temporal Analysis
+  - News Rate Analysis
+  - Positional User Analysis
+
   
 
