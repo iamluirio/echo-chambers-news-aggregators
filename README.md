@@ -14,7 +14,7 @@
 
 - Code Analysis:
   - Analysis:
-    - Leaning Temporal Analysis
+    - Leaning Temporal Analysis: Analysis carried out over 5 days, the progress of the topic over the various       days is evaluated, calculating the number of news provided by google news, for each day, for each topic       and for each user. 4 graphs for the USA, 2 evaluate the pro-republican and 2 pro-democratic trend.
   - News Media Aggregators API
   - NLP
 - Plotted graph analysis
