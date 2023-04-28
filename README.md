@@ -66,7 +66,7 @@
         1. Depth of each node calculation.
         2. Building the tree.
         3. Printing the tree.
-    [Automated pre-Process Article](https://github.com/ptrespidi/echo_chambers_intership/blob/main/Code%20analysis/NLP/automated_preProcessArticle.ipynb): it contains an automated system, that performs all the tasks and the analysis in the NLP folder, after providing a list of urls about text articles. It produces a list of .txt files, one for each article, which contain the scores about the analysis. 
+    - [Automated pre-Process Article](https://github.com/ptrespidi/echo_chambers_intership/blob/main/Code%20analysis/NLP/automated_preProcessArticle.ipynb): it contains an automated system, that performs all the tasks and the analysis in the NLP folder, after providing a list of urls about text articles. It produces a list of .txt files, one for each article, which contain the scores about the analysis. 
 - Plotted graph analysis
   - Leaning Temporal Analysis: it contains the graph plots about the Leaning Temporal Analysis.
   - News Rate Analysis: it contains the graph plots about the News Rate Analysis.
