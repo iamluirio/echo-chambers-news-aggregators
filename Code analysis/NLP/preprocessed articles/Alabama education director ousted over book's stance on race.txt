@@ -1,0 +1,742 @@
+Sentence 1: Alabama education director ousted book 's stance race Alabama Gov .
+Total words: 13
+Filtered words: ['Alabama', 'education', 'director', 'ousted', 'book', "'s", 'stance', 'race', 'Alabama', 'Gov', '.']
+Number of filtered words: 11
+Stop words: ['over', 'on']
+Number of stop words: 2
+Average number of stop words per sentence: 0.15
+Sentiment score: 0
+
+Sentence 2: Kay Ivey Friday announced replaced director early childhood education use teacher training book , written nationally recognized education group , Republican governor denounced teaching “ woke concepts '' language inclusion structural racism .
+Total words: 50
+Filtered words: ['Kay', 'Ivey', 'Friday', 'announced', 'replaced', 'director', 'early', 'childhood', 'education', 'use', 'teacher', 'training', 'book', ',', 'written', 'nationally', 'recognized', 'education', 'group', ',', 'Republican', 'governor', 'denounced', 'teaching', '“', 'woke', 'concepts', "''", 'language', 'inclusion', 'structural', 'racism', '.']
+Number of filtered words: 33
+Stop words: ['on', 'she', 'her', 'of', 'over', 'the', 'of', 'a', 'by', 'a', 'that', 'the', 'as', 'because', 'of', 'about', 'and']
+Number of stop words: 17
+Average number of stop words per sentence: 0.34
+Sentiment score: 1
+
+Sentence 3: Barbara Cooper forced head Alabama Department Early Childhood Education Ivey expressed concern distribution book state-run pre-kindergartens .
+Total words: 30
+Filtered words: ['Barbara', 'Cooper', 'forced', 'head', 'Alabama', 'Department', 'Early', 'Childhood', 'Education', 'Ivey', 'expressed', 'concern', 'distribution', 'book', 'state-run', 'pre-kindergartens', '.']
+Number of filtered words: 17
+Stop words: ['was', 'out', 'as', 'as', 'of', 'the', 'of', 'after', 'over', 'the', 'of', 'the', 'to']
+Number of stop words: 13
+Average number of stop words per sentence: 0.43
+Sentiment score: 1
+
+Sentence 4: Ivey spokesperson Gina Maiola identified book National Association Education Young Children ( NAEYC ) Developmentally Appropriate Practice Book , 4th edition .
+Total words: 28
+Filtered words: ['Ivey', 'spokesperson', 'Gina', 'Maiola', 'identified', 'book', 'National', 'Association', 'Education', 'Young', 'Children', '(', 'NAEYC', ')', 'Developmentally', 'Appropriate', 'Practice', 'Book', ',', '4th', 'edition', '.']
+Number of filtered words: 22
+Stop words: ['the', 'as', 'the', 'for', 'the', 'of']
+Number of stop words: 6
+Average number of stop words per sentence: 0.21
+Sentiment score: 1
+
+Sentence 5: MONTGOMERY , Ala. ( AP ) — Alabama Gov .
+Total words: 10
+Filtered words: ['MONTGOMERY', ',', 'Ala.', '(', 'AP', ')', '—', 'Alabama', 'Gov', '.']
+Number of filtered words: 10
+Stop words: []
+Number of stop words: 0
+Average number of stop words per sentence: 0.0
+Sentiment score: 2
+
+Sentence 6: Kay Ivey Friday announced replaced director early childhood education use teacher training book , written nationally recognized education group , Republican governor denounced teaching “ woke concepts '' language inclusion structural racism .
+Total words: 50
+Filtered words: ['Kay', 'Ivey', 'Friday', 'announced', 'replaced', 'director', 'early', 'childhood', 'education', 'use', 'teacher', 'training', 'book', ',', 'written', 'nationally', 'recognized', 'education', 'group', ',', 'Republican', 'governor', 'denounced', 'teaching', '“', 'woke', 'concepts', "''", 'language', 'inclusion', 'structural', 'racism', '.']
+Number of filtered words: 33
+Stop words: ['on', 'she', 'her', 'of', 'over', 'the', 'of', 'a', 'by', 'a', 'that', 'the', 'as', 'because', 'of', 'about', 'and']
+Number of stop words: 17
+Average number of stop words per sentence: 0.34
+Sentiment score: 1
+
+Sentence 7: Barbara Cooper forced head Alabama Department Early Childhood Education Ivey expressed concern distribution book state-run pre-kindergartens .
+Total words: 30
+Filtered words: ['Barbara', 'Cooper', 'forced', 'head', 'Alabama', 'Department', 'Early', 'Childhood', 'Education', 'Ivey', 'expressed', 'concern', 'distribution', 'book', 'state-run', 'pre-kindergartens', '.']
+Number of filtered words: 17
+Stop words: ['was', 'out', 'as', 'as', 'of', 'the', 'of', 'after', 'over', 'the', 'of', 'the', 'to']
+Number of stop words: 13
+Average number of stop words per sentence: 0.43
+Sentiment score: 0
+
+Sentence 8: Ivey spokesperson Gina Maiola identified book National Association Education Young Children ( NAEYC ) Developmentally Appropriate Practice Book , 4th edition .
+Total words: 28
+Filtered words: ['Ivey', 'spokesperson', 'Gina', 'Maiola', 'identified', 'book', 'National', 'Association', 'Education', 'Young', 'Children', '(', 'NAEYC', ')', 'Developmentally', 'Appropriate', 'Practice', 'Book', ',', '4th', 'edition', '.']
+Number of filtered words: 22
+Stop words: ['the', 'as', 'the', 'for', 'the', 'of']
+Number of stop words: 6
+Average number of stop words per sentence: 0.21
+Sentiment score: 1
+
+Sentence 9: Maiola said understands books removed state classrooms .
+Total words: 15
+Filtered words: ['Maiola', 'said', 'understands', 'books', 'removed', 'state', 'classrooms', '.']
+Number of filtered words: 8
+Stop words: ['she', 'that', 'the', 'have', 'been', 'from', 'the']
+Number of stop words: 7
+Average number of stop words per sentence: 0.47
+Sentiment score: 1
+
+Sentence 10: “ education Alabama ’ children top priority governor , absolutely room distract take away mission .
+Total words: 30
+Filtered words: ['“', 'education', 'Alabama', '’', 'children', 'top', 'priority', 'governor', ',', 'absolutely', 'room', 'distract', 'take', 'away', 'mission', '.']
+Number of filtered words: 16
+Stop words: ['The', 'of', 's', 'is', 'my', 'as', 'and', 'there', 'is', 'no', 'to', 'or', 'from', 'this']
+Number of stop words: 14
+Average number of stop words per sentence: 0.47
+Sentiment score: 1
+
+Sentence 11: Let crystal clear : Woke concepts zero proper education divisive core place Alabama classrooms age level , let alone youngest learners , '' Ivey said statement .
+Total words: 49
+Filtered words: ['Let', 'crystal', 'clear', ':', 'Woke', 'concepts', 'zero', 'proper', 'education', 'divisive', 'core', 'place', 'Alabama', 'classrooms', 'age', 'level', ',', 'let', 'alone', 'youngest', 'learners', ',', "''", 'Ivey', 'said', 'statement', '.']
+Number of filtered words: 27
+Stop words: ['me', 'be', 'that', 'have', 'to', 'do', 'with', 'a', 'and', 'that', 'are', 'at', 'the', 'have', 'no', 'in', 'at', 'any', 'with', 'our', 'in', 'a']
+Number of stop words: 22
+Average number of stop words per sentence: 0.45
+Sentiment score: 1
+
+Sentence 12: Ivey 's statement comes conservative politicians made rallying cry decrying so-called “ woke ” teachings , schools sometimes emerging flashpoint diversity training parents ’ rights .
+Total words: 36
+Filtered words: ['Ivey', "'s", 'statement', 'comes', 'conservative', 'politicians', 'made', 'rallying', 'cry', 'decrying', 'so-called', '“', 'woke', '”', 'teachings', ',', 'schools', 'sometimes', 'emerging', 'flashpoint', 'diversity', 'training', 'parents', '’', 'rights', '.']
+Number of filtered words: 26
+Stop words: ['as', 'have', 'a', 'out', 'of', 'with', 'as', 'a', 'over', 'and']
+Number of stop words: 10
+Average number of stop words per sentence: 0.28
+Sentiment score: 1
+
+Sentence 13: governor ’ office said Ivey first asked Cooper “ send memo disavow book immediately discontinue use. ” Ivey 's office say Cooper responded governor made decision replace Cooper accepted resignation .
+Total words: 50
+Filtered words: ['governor', '’', 'office', 'said', 'Ivey', 'first', 'asked', 'Cooper', '“', 'send', 'memo', 'disavow', 'book', 'immediately', 'discontinue', 'use.', '”', 'Ivey', "'s", 'office', 'say', 'Cooper', 'responded', 'governor', 'made', 'decision', 'replace', 'Cooper', 'accepted', 'resignation', '.']
+Number of filtered words: 31
+Stop words: ['The', 's', 'to', 'a', 'to', 'this', 'and', 'to', 'its', 'did', 'not', 'how', 'but', 'that', 'the', 'the', 'to', 'and', 'her']
+Number of stop words: 19
+Average number of stop words per sentence: 0.38
+Sentiment score: 1
+
+Sentence 14: Cooper could immediately reached comment .
+Total words: 9
+Filtered words: ['Cooper', 'could', 'immediately', 'reached', 'comment', '.']
+Number of filtered words: 6
+Stop words: ['not', 'be', 'for']
+Number of stop words: 3
+Average number of stop words per sentence: 0.33
+Sentiment score: 1
+
+Sentence 15: book guide early childhood educators .
+Total words: 10
+Filtered words: ['book', 'guide', 'early', 'childhood', 'educators', '.']
+Number of filtered words: 6
+Stop words: ['The', 'is', 'a', 'for']
+Number of stop words: 4
+Average number of stop words per sentence: 0.4
+Sentiment score: 1
+
+Sentence 16: curriculum taught children .
+Total words: 9
+Filtered words: ['curriculum', 'taught', 'children', '.']
+Number of filtered words: 4
+Stop words: ['It', 'is', 'not', 'a', 'to']
+Number of stop words: 5
+Average number of stop words per sentence: 0.56
+Sentiment score: 1
+
+Sentence 17: governor ’ office , press release , cited two examples book — one discussing white privilege “ United States built systemic structural racism ” another Ivey 's office claimed teaches LGBTQ+ inclusion 4-year-olds .
+Total words: 49
+Filtered words: ['governor', '’', 'office', ',', 'press', 'release', ',', 'cited', 'two', 'examples', 'book', '—', 'one', 'discussing', 'white', 'privilege', '“', 'United', 'States', 'built', 'systemic', 'structural', 'racism', '”', 'another', 'Ivey', "'s", 'office', 'claimed', 'teaches', 'LGBTQ+', 'inclusion', '4-year-olds', '.']
+Number of filtered words: 34
+Stop words: ['The', 's', 'in', 'a', 'from', 'the', 'and', 'that', 'the', 'is', 'on', 'and', 'and', 'that', 'to']
+Number of stop words: 15
+Average number of stop words per sentence: 0.31
+Sentiment score: 1
+
+Sentence 18: sections , according copy 881-page book obtained Associated Press , discuss combating bias making sure children feel welcome .
+Total words: 29
+Filtered words: ['sections', ',', 'according', 'copy', '881-page', 'book', 'obtained', 'Associated', 'Press', ',', 'discuss', 'combating', 'bias', 'making', 'sure', 'children', 'feel', 'welcome', '.']
+Number of filtered words: 19
+Stop words: ['Those', 'to', 'a', 'of', 'the', 'by', 'The', 'and', 'that', 'all']
+Number of stop words: 10
+Average number of stop words per sentence: 0.34
+Sentiment score: 1
+
+Sentence 19: Story continues “ Early childhood programs also serve welcome families represent many compositions .
+Total words: 16
+Filtered words: ['Story', 'continues', '“', 'Early', 'childhood', 'programs', 'also', 'serve', 'welcome', 'families', 'represent', 'many', 'compositions', '.']
+Number of filtered words: 14
+Stop words: ['and', 'that']
+Number of stop words: 2
+Average number of stop words per sentence: 0.12
+Sentiment score: 1
+
+Sentence 20: Children families ( e.g. , single parent , grandparent-led , foster , LGBTQIA+ ) need hear see messages promote equality , dignity , worth , ” book states .
+Total words: 36
+Filtered words: ['Children', 'families', '(', 'e.g.', ',', 'single', 'parent', ',', 'grandparent-led', ',', 'foster', ',', 'LGBTQIA+', ')', 'need', 'hear', 'see', 'messages', 'promote', 'equality', ',', 'dignity', ',', 'worth', ',', '”', 'book', 'states', '.']
+Number of filtered words: 29
+Stop words: ['from', 'all', 'to', 'and', 'that', 'and', 'the']
+Number of stop words: 7
+Average number of stop words per sentence: 0.19
+Sentiment score: 1
+
+Sentence 21: section structural racism states “ systemic structural racism ... permeated every institution system policies practices position people color oppressive , repressive , menial positions .
+Total words: 37
+Filtered words: ['section', 'structural', 'racism', 'states', '“', 'systemic', 'structural', 'racism', '...', 'permeated', 'every', 'institution', 'system', 'policies', 'practices', 'position', 'people', 'color', 'oppressive', ',', 'repressive', ',', 'menial', 'positions', '.']
+Number of filtered words: 25
+Stop words: ['The', 'on', 'that', 'and', 'has', 'and', 'through', 'and', 'that', 'of', 'in', 'and']
+Number of stop words: 12
+Average number of stop words per sentence: 0.32
+Sentiment score: 1
+
+Sentence 22: early education system immune forces. ” says preschool one place children “ begin see represented society ” classroom place `` affirmation healing . ''
+Total words: 45
+Filtered words: ['early', 'education', 'system', 'immune', 'forces.', '”', 'says', 'preschool', 'one', 'place', 'children', '“', 'begin', 'see', 'represented', 'society', '”', 'classroom', 'place', '``', 'affirmation', 'healing', '.', "''"]
+Number of filtered words: 24
+Stop words: ['The', 'is', 'not', 'to', 'these', 'It', 'is', 'where', 'to', 'how', 'they', 'are', 'in', 'and', 'that', 'the', 'should', 'be', 'a', 'of', 'and']
+Number of stop words: 21
+Average number of stop words per sentence: 0.47
+Sentiment score: 2
+
+Sentence 23: NAEYC national accrediting board works provide high-quality education materials resources young children .
+Total words: 19
+Filtered words: ['NAEYC', 'national', 'accrediting', 'board', 'works', 'provide', 'high-quality', 'education', 'materials', 'resources', 'young', 'children', '.']
+Number of filtered words: 13
+Stop words: ['is', 'a', 'that', 'to', 'and', 'for']
+Number of stop words: 6
+Average number of stop words per sentence: 0.32
+Sentiment score: 1
+
+Sentence 24: emailed response Associated Press , group address Ivey 's statements said book research-based resource educators .
+Total words: 28
+Filtered words: ['emailed', 'response', 'Associated', 'Press', ',', 'group', 'address', 'Ivey', "'s", 'statements', 'said', 'book', 'research-based', 'resource', 'educators', '.']
+Number of filtered words: 16
+Stop words: ['In', 'an', 'to', 'The', 'the', 'did', 'not', 'but', 'the', 'is', 'a', 'for']
+Number of stop words: 12
+Average number of stop words per sentence: 0.43
+Sentiment score: 2
+
+Sentence 25: “ nearly four decades , partnership hundreds thousands families educators , Developmentally Appropriate Practice served foundation high-quality early childhood education across states communities .
+Total words: 37
+Filtered words: ['“', 'nearly', 'four', 'decades', ',', 'partnership', 'hundreds', 'thousands', 'families', 'educators', ',', 'Developmentally', 'Appropriate', 'Practice', 'served', 'foundation', 'high-quality', 'early', 'childhood', 'education', 'across', 'states', 'communities', '.']
+Number of filtered words: 24
+Stop words: ['For', 'and', 'in', 'with', 'of', 'of', 'and', 'has', 'as', 'the', 'for', 'all', 'and']
+Number of stop words: 13
+Average number of stop words per sentence: 0.35
+Sentiment score: 2
+
+Sentence 26: curriculum , responsive , educator-developed , educator-informed , research-based resource honed multiple generations support teachers helping children thrive reach full potential , '' statement read .
+Total words: 43
+Filtered words: ['curriculum', ',', 'responsive', ',', 'educator-developed', ',', 'educator-informed', ',', 'research-based', 'resource', 'honed', 'multiple', 'generations', 'support', 'teachers', 'helping', 'children', 'thrive', 'reach', 'full', 'potential', ',', "''", 'statement', 'read', '.']
+Number of filtered words: 26
+Stop words: ['While', 'not', 'a', 'it', 'is', 'a', 'and', 'that', 'has', 'been', 'over', 'to', 'in', 'all', 'and', 'their', 'the']
+Number of stop words: 17
+Average number of stop words per sentence: 0.4
+Sentiment score: 1
+
+Sentence 27: Cooper member NAEYC board .
+Total words: 9
+Filtered words: ['Cooper', 'member', 'NAEYC', 'board', '.']
+Number of filtered words: 5
+Stop words: ['is', 'a', 'of', 'the']
+Number of stop words: 4
+Average number of stop words per sentence: 0.44
+Sentiment score: 1
+
+Sentence 28: previously published statement organization 's website latest edition book , Cooper said book teaches , “ applicable skills teaching developmentally appropriate practices build brains critical first five years life. ” Alabama 's First Class voluntary pre-kindergarten programs operates 1,400 classrooms across state .
+Total words: 61
+Filtered words: ['previously', 'published', 'statement', 'organization', "'s", 'website', 'latest', 'edition', 'book', ',', 'Cooper', 'said', 'book', 'teaches', ',', '“', 'applicable', 'skills', 'teaching', 'developmentally', 'appropriate', 'practices', 'build', 'brains', 'critical', 'first', 'five', 'years', 'life.', '”', 'Alabama', "'s", 'First', 'Class', 'voluntary', 'pre-kindergarten', 'programs', 'operates', '1,400', 'classrooms', 'across', 'state', '.']
+Number of filtered words: 43
+Stop words: ['In', 'a', 'on', 'the', 'about', 'the', 'of', 'the', 'that', 'for', 'through', 'that', 'during', 'the', 'of', 'more', 'than', 'the']
+Number of stop words: 18
+Average number of stop words per sentence: 0.3
+Sentiment score: 1
+
+Sentence 29: program high ratings National Institute Early Education Research .
+Total words: 15
+Filtered words: ['program', 'high', 'ratings', 'National', 'Institute', 'Early', 'Education', 'Research', '.']
+Number of filtered words: 9
+Stop words: ['The', 'has', 'won', 'from', 'the', 'for']
+Number of stop words: 6
+Average number of stop words per sentence: 0.4
+Sentiment score: 2
+
+Total number of words: 871
+Total number of stop words: 301
+Maximum number of stop words per sentence: 22
+Minimum number of stop words per sentence: 0
+Average number of stop words per article: 0.34
+
+Stanza Average of sentiment score for all sentences: 1.103448275862069
+Stanza Maximum sentiment score: 2
+Stanza Minimum sentiment score: 0
+Stanza Standard deviation: 0.48879060563561927
+
+Vader average scores: [0.04834483 0.90672414 0.045     ]
+Vader maximum scores: [0.314 1.    0.222]
+Vader minimum scores: [0.    0.686 0.   ]
+Vader standard deviation scores: [0.07102126 0.09209886 0.0765709 ]
+
+MPQA average scores: 0.09523809523809523
+MPQA maximum scores: 1
+MPQA minimum scores: -1
+MPQA standard deviation scores: 0.839771051835638
+
+1. Token: alabama, Sentiment Score: 0
+2. Token: education, Sentiment Score: 1
+3. Token: director, Sentiment Score: 0
+4. Token: ousted, Sentiment Score: 0
+5. Token: book, Sentiment Score: 1
+6. Token: stance, Sentiment Score: -1
+7. Token: race, Sentiment Score: 1
+8. Token: alabama, Sentiment Score: 0
+9. Token: gov, Sentiment Score: 0
+10. Token: kay, Sentiment Score: 0
+11. Token: ivey, Sentiment Score: 0
+12. Token: friday, Sentiment Score: 0
+13. Token: announced, Sentiment Score: 0
+14. Token: replaced, Sentiment Score: -1
+15. Token: director, Sentiment Score: 0
+16. Token: early, Sentiment Score: 1
+17. Token: childhood, Sentiment Score: 0
+18. Token: education, Sentiment Score: 1
+19. Token: use, Sentiment Score: 1
+20. Token: teacher, Sentiment Score: 1
+21. Token: training, Sentiment Score: 1
+22. Token: book, Sentiment Score: 1
+23. Token: written, Sentiment Score: 0
+24. Token: nationally, Sentiment Score: 0
+25. Token: recognized, Sentiment Score: 1
+26. Token: education, Sentiment Score: 1
+27. Token: group, Sentiment Score: 1
+28. Token: republican, Sentiment Score: 0
+29. Token: governor, Sentiment Score: 0
+30. Token: denounced, Sentiment Score: -1
+31. Token: teaching, Sentiment Score: 1
+32. Token: woke, Sentiment Score: 1
+33. Token: concepts, Sentiment Score: 0
+34. Token: language, Sentiment Score: 0
+35. Token: inclusion, Sentiment Score: 1
+36. Token: structural, Sentiment Score: 0
+37. Token: racism, Sentiment Score: 0
+38. Token: barbara, Sentiment Score: 0
+39. Token: cooper, Sentiment Score: 0
+40. Token: forced, Sentiment Score: 0
+41. Token: head, Sentiment Score: -1
+42. Token: alabama, Sentiment Score: 0
+43. Token: department, Sentiment Score: 0
+44. Token: early, Sentiment Score: 1
+45. Token: childhood, Sentiment Score: 0
+46. Token: education, Sentiment Score: 1
+47. Token: ivey, Sentiment Score: 0
+48. Token: expressed, Sentiment Score: 1
+49. Token: concern, Sentiment Score: 1
+50. Token: distribution, Sentiment Score: 1
+51. Token: book, Sentiment Score: 1
+52. Token: ivey, Sentiment Score: 0
+53. Token: spokesperson, Sentiment Score: 0
+54. Token: gina, Sentiment Score: 0
+55. Token: maiola, Sentiment Score: 0
+56. Token: identified, Sentiment Score: 0
+57. Token: book, Sentiment Score: 1
+58. Token: national, Sentiment Score: 0
+59. Token: association, Sentiment Score: 0
+60. Token: education, Sentiment Score: 1
+61. Token: young, Sentiment Score: 0
+62. Token: children, Sentiment Score: 1
+63. Token: naeyc, Sentiment Score: 0
+64. Token: developmentally, Sentiment Score: 1
+65. Token: appropriate, Sentiment Score: 1
+66. Token: practice, Sentiment Score: 1
+67. Token: book, Sentiment Score: 1
+68. Token: 4th, Sentiment Score: 0
+69. Token: edition, Sentiment Score: 0
+70. Token: montgomery, Sentiment Score: 0
+71. Token: ap, Sentiment Score: 0
+72. Token: alabama, Sentiment Score: 0
+73. Token: gov, Sentiment Score: 0
+74. Token: kay, Sentiment Score: 0
+75. Token: ivey, Sentiment Score: 0
+76. Token: friday, Sentiment Score: 0
+77. Token: announced, Sentiment Score: 0
+78. Token: replaced, Sentiment Score: -1
+79. Token: director, Sentiment Score: 0
+80. Token: early, Sentiment Score: 1
+81. Token: childhood, Sentiment Score: 0
+82. Token: education, Sentiment Score: 1
+83. Token: use, Sentiment Score: 1
+84. Token: teacher, Sentiment Score: 1
+85. Token: training, Sentiment Score: 1
+86. Token: book, Sentiment Score: 1
+87. Token: written, Sentiment Score: 0
+88. Token: nationally, Sentiment Score: 0
+89. Token: recognized, Sentiment Score: 1
+90. Token: education, Sentiment Score: 1
+91. Token: group, Sentiment Score: 1
+92. Token: republican, Sentiment Score: 0
+93. Token: governor, Sentiment Score: 0
+94. Token: denounced, Sentiment Score: -1
+95. Token: teaching, Sentiment Score: 1
+96. Token: woke, Sentiment Score: 1
+97. Token: concepts, Sentiment Score: 0
+98. Token: language, Sentiment Score: 0
+99. Token: inclusion, Sentiment Score: 1
+100. Token: structural, Sentiment Score: 0
+101. Token: racism, Sentiment Score: 0
+102. Token: barbara, Sentiment Score: 0
+103. Token: cooper, Sentiment Score: 0
+104. Token: forced, Sentiment Score: 0
+105. Token: head, Sentiment Score: -1
+106. Token: alabama, Sentiment Score: 0
+107. Token: department, Sentiment Score: 0
+108. Token: early, Sentiment Score: 1
+109. Token: childhood, Sentiment Score: 0
+110. Token: education, Sentiment Score: 1
+111. Token: ivey, Sentiment Score: 0
+112. Token: expressed, Sentiment Score: 1
+113. Token: concern, Sentiment Score: 1
+114. Token: distribution, Sentiment Score: 1
+115. Token: book, Sentiment Score: 1
+116. Token: ivey, Sentiment Score: 0
+117. Token: spokesperson, Sentiment Score: 0
+118. Token: gina, Sentiment Score: 0
+119. Token: maiola, Sentiment Score: 0
+120. Token: identified, Sentiment Score: 0
+121. Token: book, Sentiment Score: 1
+122. Token: national, Sentiment Score: 0
+123. Token: association, Sentiment Score: 0
+124. Token: education, Sentiment Score: 1
+125. Token: young, Sentiment Score: 0
+126. Token: children, Sentiment Score: 1
+127. Token: naeyc, Sentiment Score: 0
+128. Token: developmentally, Sentiment Score: 1
+129. Token: appropriate, Sentiment Score: 1
+130. Token: practice, Sentiment Score: 1
+131. Token: book, Sentiment Score: 1
+132. Token: 4th, Sentiment Score: 0
+133. Token: edition, Sentiment Score: 0
+134. Token: maiola, Sentiment Score: 0
+135. Token: said, Sentiment Score: 1
+136. Token: understands, Sentiment Score: 1
+137. Token: books, Sentiment Score: 1
+138. Token: removed, Sentiment Score: -1
+139. Token: state, Sentiment Score: 0
+140. Token: classrooms, Sentiment Score: 0
+141. Token: education, Sentiment Score: 1
+142. Token: alabama, Sentiment Score: 0
+143. Token: children, Sentiment Score: 1
+144. Token: top, Sentiment Score: -1
+145. Token: priority, Sentiment Score: -1
+146. Token: governor, Sentiment Score: 0
+147. Token: absolutely, Sentiment Score: 1
+148. Token: room, Sentiment Score: 1
+149. Token: distract, Sentiment Score: -1
+150. Token: take, Sentiment Score: 1
+151. Token: away, Sentiment Score: -1
+152. Token: mission, Sentiment Score: 0
+153. Token: let, Sentiment Score: -1
+154. Token: crystal, Sentiment Score: 0
+155. Token: clear, Sentiment Score: 1
+156. Token: woke, Sentiment Score: 1
+157. Token: concepts, Sentiment Score: 0
+158. Token: zero, Sentiment Score: -1
+159. Token: proper, Sentiment Score: 1
+160. Token: education, Sentiment Score: 1
+161. Token: divisive, Sentiment Score: -1
+162. Token: core, Sentiment Score: 1
+163. Token: place, Sentiment Score: 1
+164. Token: alabama, Sentiment Score: 0
+165. Token: classrooms, Sentiment Score: 0
+166. Token: age, Sentiment Score: 1
+167. Token: level, Sentiment Score: 0
+168. Token: let, Sentiment Score: -1
+169. Token: alone, Sentiment Score: 1
+170. Token: youngest, Sentiment Score: 0
+171. Token: learners, Sentiment Score: 0
+172. Token: ivey, Sentiment Score: 0
+173. Token: said, Sentiment Score: 1
+174. Token: statement, Sentiment Score: 1
+175. Token: ivey, Sentiment Score: 0
+176. Token: statement, Sentiment Score: 1
+177. Token: comes, Sentiment Score: 1
+178. Token: conservative, Sentiment Score: -1
+179. Token: politicians, Sentiment Score: 0
+180. Token: made, Sentiment Score: 1
+181. Token: rallying, Sentiment Score: 1
+182. Token: cry, Sentiment Score: -1
+183. Token: decrying, Sentiment Score: -1
+184. Token: woke, Sentiment Score: 1
+185. Token: teachings, Sentiment Score: 1
+186. Token: schools, Sentiment Score: 1
+187. Token: sometimes, Sentiment Score: 0
+188. Token: emerging, Sentiment Score: 1
+189. Token: flashpoint, Sentiment Score: 0
+190. Token: diversity, Sentiment Score: -1
+191. Token: training, Sentiment Score: 1
+192. Token: parents, Sentiment Score: 0
+193. Token: rights, Sentiment Score: 1
+194. Token: governor, Sentiment Score: 0
+195. Token: office, Sentiment Score: 0
+196. Token: said, Sentiment Score: 1
+197. Token: ivey, Sentiment Score: 0
+198. Token: first, Sentiment Score: 1
+199. Token: asked, Sentiment Score: 1
+200. Token: cooper, Sentiment Score: 0
+201. Token: send, Sentiment Score: 1
+202. Token: memo, Sentiment Score: 0
+203. Token: disavow, Sentiment Score: 0
+204. Token: book, Sentiment Score: 1
+205. Token: immediately, Sentiment Score: -1
+206. Token: discontinue, Sentiment Score: 0
+207. Token: ivey, Sentiment Score: 0
+208. Token: office, Sentiment Score: 0
+209. Token: say, Sentiment Score: 1
+210. Token: cooper, Sentiment Score: 0
+211. Token: responded, Sentiment Score: 1
+212. Token: governor, Sentiment Score: 0
+213. Token: made, Sentiment Score: 1
+214. Token: decision, Sentiment Score: 1
+215. Token: replace, Sentiment Score: -1
+216. Token: cooper, Sentiment Score: 0
+217. Token: accepted, Sentiment Score: 1
+218. Token: resignation, Sentiment Score: 0
+219. Token: cooper, Sentiment Score: 0
+220. Token: could, Sentiment Score: 0
+221. Token: immediately, Sentiment Score: -1
+222. Token: reached, Sentiment Score: -1
+223. Token: comment, Sentiment Score: -1
+224. Token: book, Sentiment Score: 1
+225. Token: guide, Sentiment Score: 1
+226. Token: early, Sentiment Score: 1
+227. Token: childhood, Sentiment Score: 0
+228. Token: educators, Sentiment Score: 0
+229. Token: curriculum, Sentiment Score: 0
+230. Token: taught, Sentiment Score: 1
+231. Token: children, Sentiment Score: 1
+232. Token: governor, Sentiment Score: 0
+233. Token: office, Sentiment Score: 0
+234. Token: press, Sentiment Score: -1
+235. Token: release, Sentiment Score: 1
+236. Token: cited, Sentiment Score: 0
+237. Token: two, Sentiment Score: 0
+238. Token: examples, Sentiment Score: 1
+239. Token: book, Sentiment Score: 1
+240. Token: one, Sentiment Score: 1
+241. Token: discussing, Sentiment Score: 0
+242. Token: white, Sentiment Score: 1
+243. Token: privilege, Sentiment Score: 1
+244. Token: united, Sentiment Score: -1
+245. Token: states, Sentiment Score: 0
+246. Token: built, Sentiment Score: 0
+247. Token: systemic, Sentiment Score: 0
+248. Token: structural, Sentiment Score: 0
+249. Token: racism, Sentiment Score: 0
+250. Token: another, Sentiment Score: -1
+251. Token: ivey, Sentiment Score: 0
+252. Token: office, Sentiment Score: 0
+253. Token: claimed, Sentiment Score: 0
+254. Token: teaches, Sentiment Score: 1
+255. Token: inclusion, Sentiment Score: 1
+256. Token: sections, Sentiment Score: 1
+257. Token: according, Sentiment Score: 1
+258. Token: copy, Sentiment Score: 1
+259. Token: book, Sentiment Score: 1
+260. Token: obtained, Sentiment Score: 1
+261. Token: associated, Sentiment Score: 0
+262. Token: press, Sentiment Score: -1
+263. Token: discuss, Sentiment Score: 0
+264. Token: combating, Sentiment Score: -1
+265. Token: bias, Sentiment Score: -1
+266. Token: making, Sentiment Score: 1
+267. Token: sure, Sentiment Score: 1
+268. Token: children, Sentiment Score: 1
+269. Token: feel, Sentiment Score: 1
+270. Token: welcome, Sentiment Score: 1
+271. Token: story, Sentiment Score: -1
+272. Token: continues, Sentiment Score: 0
+273. Token: early, Sentiment Score: 1
+274. Token: childhood, Sentiment Score: 0
+275. Token: programs, Sentiment Score: 0
+276. Token: also, Sentiment Score: 0
+277. Token: serve, Sentiment Score: 1
+278. Token: welcome, Sentiment Score: 1
+279. Token: families, Sentiment Score: 0
+280. Token: represent, Sentiment Score: 1
+281. Token: many, Sentiment Score: 0
+282. Token: compositions, Sentiment Score: 0
+283. Token: children, Sentiment Score: 1
+284. Token: families, Sentiment Score: 0
+285. Token: single, Sentiment Score: -1
+286. Token: parent, Sentiment Score: 0
+287. Token: foster, Sentiment Score: 1
+288. Token: need, Sentiment Score: -1
+289. Token: hear, Sentiment Score: 0
+290. Token: see, Sentiment Score: 1
+291. Token: messages, Sentiment Score: 0
+292. Token: promote, Sentiment Score: 1
+293. Token: equality, Sentiment Score: -1
+294. Token: dignity, Sentiment Score: 1
+295. Token: worth, Sentiment Score: 1
+296. Token: book, Sentiment Score: 1
+297. Token: states, Sentiment Score: 0
+298. Token: section, Sentiment Score: 1
+299. Token: structural, Sentiment Score: 0
+300. Token: racism, Sentiment Score: 0
+301. Token: states, Sentiment Score: 0
+302. Token: systemic, Sentiment Score: 0
+303. Token: structural, Sentiment Score: 0
+304. Token: racism, Sentiment Score: 0
+305. Token: permeated, Sentiment Score: 0
+306. Token: every, Sentiment Score: 1
+307. Token: institution, Sentiment Score: -1
+308. Token: system, Sentiment Score: 1
+309. Token: policies, Sentiment Score: 0
+310. Token: practices, Sentiment Score: 1
+311. Token: position, Sentiment Score: -1
+312. Token: people, Sentiment Score: 0
+313. Token: color, Sentiment Score: 1
+314. Token: oppressive, Sentiment Score: 1
+315. Token: repressive, Sentiment Score: 0
+316. Token: menial, Sentiment Score: -1
+317. Token: positions, Sentiment Score: -1
+318. Token: early, Sentiment Score: 1
+319. Token: education, Sentiment Score: 1
+320. Token: system, Sentiment Score: 1
+321. Token: immune, Sentiment Score: -1
+322. Token: says, Sentiment Score: 1
+323. Token: preschool, Sentiment Score: 0
+324. Token: one, Sentiment Score: 1
+325. Token: place, Sentiment Score: 1
+326. Token: children, Sentiment Score: 1
+327. Token: begin, Sentiment Score: -1
+328. Token: see, Sentiment Score: 1
+329. Token: represented, Sentiment Score: 1
+330. Token: society, Sentiment Score: 0
+331. Token: classroom, Sentiment Score: 0
+332. Token: place, Sentiment Score: 1
+333. Token: affirmation, Sentiment Score: 1
+334. Token: healing, Sentiment Score: 1
+335. Token: naeyc, Sentiment Score: 0
+336. Token: national, Sentiment Score: 0
+337. Token: accrediting, Sentiment Score: 0
+338. Token: board, Sentiment Score: 1
+339. Token: works, Sentiment Score: 1
+340. Token: provide, Sentiment Score: 1
+341. Token: education, Sentiment Score: 1
+342. Token: materials, Sentiment Score: 0
+343. Token: resources, Sentiment Score: 0
+344. Token: young, Sentiment Score: 0
+345. Token: children, Sentiment Score: 1
+346. Token: emailed, Sentiment Score: 0
+347. Token: response, Sentiment Score: 1
+348. Token: associated, Sentiment Score: 0
+349. Token: press, Sentiment Score: -1
+350. Token: group, Sentiment Score: 1
+351. Token: address, Sentiment Score: 1
+352. Token: ivey, Sentiment Score: 0
+353. Token: statements, Sentiment Score: 1
+354. Token: said, Sentiment Score: 1
+355. Token: book, Sentiment Score: 1
+356. Token: resource, Sentiment Score: 0
+357. Token: educators, Sentiment Score: 0
+358. Token: nearly, Sentiment Score: 1
+359. Token: four, Sentiment Score: 0
+360. Token: decades, Sentiment Score: 0
+361. Token: partnership, Sentiment Score: 0
+362. Token: hundreds, Sentiment Score: 0
+363. Token: thousands, Sentiment Score: 0
+364. Token: families, Sentiment Score: 0
+365. Token: educators, Sentiment Score: 0
+366. Token: developmentally, Sentiment Score: 1
+367. Token: appropriate, Sentiment Score: 1
+368. Token: practice, Sentiment Score: 1
+369. Token: served, Sentiment Score: 1
+370. Token: foundation, Sentiment Score: 0
+371. Token: early, Sentiment Score: 1
+372. Token: childhood, Sentiment Score: 0
+373. Token: education, Sentiment Score: 1
+374. Token: across, Sentiment Score: 0
+375. Token: states, Sentiment Score: 0
+376. Token: communities, Sentiment Score: 0
+377. Token: curriculum, Sentiment Score: 0
+378. Token: responsive, Sentiment Score: 1
+379. Token: resource, Sentiment Score: 0
+380. Token: honed, Sentiment Score: 0
+381. Token: multiple, Sentiment Score: 0
+382. Token: generations, Sentiment Score: 0
+383. Token: support, Sentiment Score: 1
+384. Token: teachers, Sentiment Score: 1
+385. Token: helping, Sentiment Score: 1
+386. Token: children, Sentiment Score: 1
+387. Token: thrive, Sentiment Score: 1
+388. Token: reach, Sentiment Score: 1
+389. Token: full, Sentiment Score: 1
+390. Token: potential, Sentiment Score: -1
+391. Token: statement, Sentiment Score: 1
+392. Token: read, Sentiment Score: 1
+393. Token: cooper, Sentiment Score: 0
+394. Token: member, Sentiment Score: 0
+395. Token: naeyc, Sentiment Score: 0
+396. Token: board, Sentiment Score: 1
+397. Token: previously, Sentiment Score: 0
+398. Token: published, Sentiment Score: 0
+399. Token: statement, Sentiment Score: 1
+400. Token: organization, Sentiment Score: 1
+401. Token: website, Sentiment Score: 0
+402. Token: latest, Sentiment Score: -1
+403. Token: edition, Sentiment Score: 0
+404. Token: book, Sentiment Score: 1
+405. Token: cooper, Sentiment Score: 0
+406. Token: said, Sentiment Score: 1
+407. Token: book, Sentiment Score: 1
+408. Token: teaches, Sentiment Score: 1
+409. Token: applicable, Sentiment Score: 1
+410. Token: skills, Sentiment Score: 1
+411. Token: teaching, Sentiment Score: 1
+412. Token: developmentally, Sentiment Score: 1
+413. Token: appropriate, Sentiment Score: 1
+414. Token: practices, Sentiment Score: 1
+415. Token: build, Sentiment Score: 0
+416. Token: brains, Sentiment Score: 1
+417. Token: critical, Sentiment Score: 1
+418. Token: first, Sentiment Score: 1
+419. Token: five, Sentiment Score: 0
+420. Token: years, Sentiment Score: 0
+421. Token: alabama, Sentiment Score: 0
+422. Token: first, Sentiment Score: 1
+423. Token: class, Sentiment Score: 1
+424. Token: voluntary, Sentiment Score: -1
+425. Token: programs, Sentiment Score: 0
+426. Token: operates, Sentiment Score: 0
+427. Token: classrooms, Sentiment Score: 0
+428. Token: across, Sentiment Score: 0
+429. Token: state, Sentiment Score: 0
+430. Token: program, Sentiment Score: 0
+431. Token: high, Sentiment Score: 1
+432. Token: ratings, Sentiment Score: 1
+433. Token: national, Sentiment Score: 0
+434. Token: institute, Sentiment Score: 0
+435. Token: early, Sentiment Score: 1
+436. Token: education, Sentiment Score: 1
+437. Token: research, Sentiment Score: 0
+Flesch-Kincaid score: 15.96612079781941
+The estimated reading level of the article is: 16
+
+Flesch Reading Ease score: 27.57287327478042
+The article is classified as: very_confusing
+
+Dale-Chall Readability score: 11.101677449919958
+The estimated comprehension level for different grade levels is: ['college_graduate']
+
+Automated Readability Index (ARI) score: 17.013763250118984, which corresponds to a grade level of ['college_graduate'].
+This means that the text can be read by someone who is around [24, 100] years old.
+
+Coleman-Liau Index Score: 13.961606022584693
+Estimated Grade Level: 14
+
+Gunning Fog score: 17.216440963959677
+The estimated grade level for comprehension is: college_graduate
+
+SPACHE score: 8.544683771037944
+This corresponds to a grade level of 9.
+
+Linsear Write Index score: 19.775862068965516
+Approximate grade level equivalent: 20
