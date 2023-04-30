@@ -300,6 +300,8 @@ Total number of stop words: 275
 Maximum number of stop words per sentence: 16
 Minimum number of stop words per sentence: 1
 Average number of stop words per article: 0.33
+Total adjectives: 61
+Average number of adjectives in the article: 0.07
 
 Stanza Average of sentiment score for all sentences: 0.7948717948717948
 Stanza Maximum sentiment score: 1
@@ -341,3 +343,7 @@ This corresponds to a grade level of 8.
 
 Linsear Write Index score: 16.636363636363637
 Approximate grade level equivalent: 17
+
+Perplexity (how well the LDA model predicts the corpus) of the article: -4.498550829291344
+Coherence (how coherent the topics are) of the article: 0.5803932263210413
+
