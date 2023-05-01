@@ -6,7 +6,6 @@ Stop words: ['over', 'on']
 Number of stop words: 2
 Average number of stop words per sentence: 0.15
 Sentiment score: 0
-
 Sentence 2: Kay Ivey Friday announced replaced director early childhood education use teacher training book , written nationally recognized education group , Republican governor denounced teaching “ woke concepts '' language inclusion structural racism .
 Total words: 50
 Filtered words: ['Kay', 'Ivey', 'Friday', 'announced', 'replaced', 'director', 'early', 'childhood', 'education', 'use', 'teacher', 'training', 'book', ',', 'written', 'nationally', 'recognized', 'education', 'group', ',', 'Republican', 'governor', 'denounced', 'teaching', '“', 'woke', 'concepts', "''", 'language', 'inclusion', 'structural', 'racism', '.']
@@ -15,7 +14,6 @@ Stop words: ['on', 'she', 'her', 'of', 'over', 'the', 'of', 'a', 'by', 'a', 'tha
 Number of stop words: 17
 Average number of stop words per sentence: 0.34
 Sentiment score: 1
-
 Sentence 3: Barbara Cooper forced head Alabama Department Early Childhood Education Ivey expressed concern distribution book state-run pre-kindergartens .
 Total words: 30
 Filtered words: ['Barbara', 'Cooper', 'forced', 'head', 'Alabama', 'Department', 'Early', 'Childhood', 'Education', 'Ivey', 'expressed', 'concern', 'distribution', 'book', 'state-run', 'pre-kindergartens', '.']
@@ -24,7 +22,6 @@ Stop words: ['was', 'out', 'as', 'as', 'of', 'the', 'of', 'after', 'over', 'the'
 Number of stop words: 13
 Average number of stop words per sentence: 0.43
 Sentiment score: 1
-
 Sentence 4: Ivey spokesperson Gina Maiola identified book National Association Education Young Children ( NAEYC ) Developmentally Appropriate Practice Book , 4th edition .
 Total words: 28
 Filtered words: ['Ivey', 'spokesperson', 'Gina', 'Maiola', 'identified', 'book', 'National', 'Association', 'Education', 'Young', 'Children', '(', 'NAEYC', ')', 'Developmentally', 'Appropriate', 'Practice', 'Book', ',', '4th', 'edition', '.']
@@ -33,7 +30,6 @@ Stop words: ['the', 'as', 'the', 'for', 'the', 'of']
 Number of stop words: 6
 Average number of stop words per sentence: 0.21
 Sentiment score: 1
-
 Sentence 5: MONTGOMERY , Ala. ( AP ) — Alabama Gov .
 Total words: 10
 Filtered words: ['MONTGOMERY', ',', 'Ala.', '(', 'AP', ')', '—', 'Alabama', 'Gov', '.']
@@ -42,7 +38,6 @@ Stop words: []
 Number of stop words: 0
 Average number of stop words per sentence: 0.0
 Sentiment score: 2
-
 Sentence 6: Kay Ivey Friday announced replaced director early childhood education use teacher training book , written nationally recognized education group , Republican governor denounced teaching “ woke concepts '' language inclusion structural racism .
 Total words: 50
 Filtered words: ['Kay', 'Ivey', 'Friday', 'announced', 'replaced', 'director', 'early', 'childhood', 'education', 'use', 'teacher', 'training', 'book', ',', 'written', 'nationally', 'recognized', 'education', 'group', ',', 'Republican', 'governor', 'denounced', 'teaching', '“', 'woke', 'concepts', "''", 'language', 'inclusion', 'structural', 'racism', '.']
@@ -51,7 +46,6 @@ Stop words: ['on', 'she', 'her', 'of', 'over', 'the', 'of', 'a', 'by', 'a', 'tha
 Number of stop words: 17
 Average number of stop words per sentence: 0.34
 Sentiment score: 1
-
 Sentence 7: Barbara Cooper forced head Alabama Department Early Childhood Education Ivey expressed concern distribution book state-run pre-kindergartens .
 Total words: 30
 Filtered words: ['Barbara', 'Cooper', 'forced', 'head', 'Alabama', 'Department', 'Early', 'Childhood', 'Education', 'Ivey', 'expressed', 'concern', 'distribution', 'book', 'state-run', 'pre-kindergartens', '.']
@@ -60,7 +54,6 @@ Stop words: ['was', 'out', 'as', 'as', 'of', 'the', 'of', 'after', 'over', 'the'
 Number of stop words: 13
 Average number of stop words per sentence: 0.43
 Sentiment score: 0
-
 Sentence 8: Ivey spokesperson Gina Maiola identified book National Association Education Young Children ( NAEYC ) Developmentally Appropriate Practice Book , 4th edition .
 Total words: 28
 Filtered words: ['Ivey', 'spokesperson', 'Gina', 'Maiola', 'identified', 'book', 'National', 'Association', 'Education', 'Young', 'Children', '(', 'NAEYC', ')', 'Developmentally', 'Appropriate', 'Practice', 'Book', ',', '4th', 'edition', '.']
@@ -69,7 +62,6 @@ Stop words: ['the', 'as', 'the', 'for', 'the', 'of']
 Number of stop words: 6
 Average number of stop words per sentence: 0.21
 Sentiment score: 1
-
 Sentence 9: Maiola said understands books removed state classrooms .
 Total words: 15
 Filtered words: ['Maiola', 'said', 'understands', 'books', 'removed', 'state', 'classrooms', '.']
@@ -78,7 +70,6 @@ Stop words: ['she', 'that', 'the', 'have', 'been', 'from', 'the']
 Number of stop words: 7
 Average number of stop words per sentence: 0.47
 Sentiment score: 1
-
 Sentence 10: “ education Alabama ’ children top priority governor , absolutely room distract take away mission .
 Total words: 30
 Filtered words: ['“', 'education', 'Alabama', '’', 'children', 'top', 'priority', 'governor', ',', 'absolutely', 'room', 'distract', 'take', 'away', 'mission', '.']
@@ -87,7 +78,6 @@ Stop words: ['The', 'of', 's', 'is', 'my', 'as', 'and', 'there', 'is', 'no', 'to
 Number of stop words: 14
 Average number of stop words per sentence: 0.47
 Sentiment score: 1
-
 Sentence 11: Let crystal clear : Woke concepts zero proper education divisive core place Alabama classrooms age level , let alone youngest learners , '' Ivey said statement .
 Total words: 49
 Filtered words: ['Let', 'crystal', 'clear', ':', 'Woke', 'concepts', 'zero', 'proper', 'education', 'divisive', 'core', 'place', 'Alabama', 'classrooms', 'age', 'level', ',', 'let', 'alone', 'youngest', 'learners', ',', "''", 'Ivey', 'said', 'statement', '.']
@@ -96,7 +86,6 @@ Stop words: ['me', 'be', 'that', 'have', 'to', 'do', 'with', 'a', 'and', 'that',
 Number of stop words: 22
 Average number of stop words per sentence: 0.45
 Sentiment score: 1
-
 Sentence 12: Ivey 's statement comes conservative politicians made rallying cry decrying so-called “ woke ” teachings , schools sometimes emerging flashpoint diversity training parents ’ rights .
 Total words: 36
 Filtered words: ['Ivey', "'s", 'statement', 'comes', 'conservative', 'politicians', 'made', 'rallying', 'cry', 'decrying', 'so-called', '“', 'woke', '”', 'teachings', ',', 'schools', 'sometimes', 'emerging', 'flashpoint', 'diversity', 'training', 'parents', '’', 'rights', '.']
@@ -105,7 +94,6 @@ Stop words: ['as', 'have', 'a', 'out', 'of', 'with', 'as', 'a', 'over', 'and']
 Number of stop words: 10
 Average number of stop words per sentence: 0.28
 Sentiment score: 1
-
 Sentence 13: governor ’ office said Ivey first asked Cooper “ send memo disavow book immediately discontinue use. ” Ivey 's office say Cooper responded governor made decision replace Cooper accepted resignation .
 Total words: 50
 Filtered words: ['governor', '’', 'office', 'said', 'Ivey', 'first', 'asked', 'Cooper', '“', 'send', 'memo', 'disavow', 'book', 'immediately', 'discontinue', 'use.', '”', 'Ivey', "'s", 'office', 'say', 'Cooper', 'responded', 'governor', 'made', 'decision', 'replace', 'Cooper', 'accepted', 'resignation', '.']
@@ -114,7 +102,6 @@ Stop words: ['The', 's', 'to', 'a', 'to', 'this', 'and', 'to', 'its', 'did', 'no
 Number of stop words: 19
 Average number of stop words per sentence: 0.38
 Sentiment score: 1
-
 Sentence 14: Cooper could immediately reached comment .
 Total words: 9
 Filtered words: ['Cooper', 'could', 'immediately', 'reached', 'comment', '.']
@@ -123,7 +110,6 @@ Stop words: ['not', 'be', 'for']
 Number of stop words: 3
 Average number of stop words per sentence: 0.33
 Sentiment score: 1
-
 Sentence 15: book guide early childhood educators .
 Total words: 10
 Filtered words: ['book', 'guide', 'early', 'childhood', 'educators', '.']
@@ -132,7 +118,6 @@ Stop words: ['The', 'is', 'a', 'for']
 Number of stop words: 4
 Average number of stop words per sentence: 0.4
 Sentiment score: 1
-
 Sentence 16: curriculum taught children .
 Total words: 9
 Filtered words: ['curriculum', 'taught', 'children', '.']
@@ -141,7 +126,6 @@ Stop words: ['It', 'is', 'not', 'a', 'to']
 Number of stop words: 5
 Average number of stop words per sentence: 0.56
 Sentiment score: 1
-
 Sentence 17: governor ’ office , press release , cited two examples book — one discussing white privilege “ United States built systemic structural racism ” another Ivey 's office claimed teaches LGBTQ+ inclusion 4-year-olds .
 Total words: 49
 Filtered words: ['governor', '’', 'office', ',', 'press', 'release', ',', 'cited', 'two', 'examples', 'book', '—', 'one', 'discussing', 'white', 'privilege', '“', 'United', 'States', 'built', 'systemic', 'structural', 'racism', '”', 'another', 'Ivey', "'s", 'office', 'claimed', 'teaches', 'LGBTQ+', 'inclusion', '4-year-olds', '.']
@@ -150,7 +134,6 @@ Stop words: ['The', 's', 'in', 'a', 'from', 'the', 'and', 'that', 'the', 'is', '
 Number of stop words: 15
 Average number of stop words per sentence: 0.31
 Sentiment score: 1
-
 Sentence 18: sections , according copy 881-page book obtained Associated Press , discuss combating bias making sure children feel welcome .
 Total words: 29
 Filtered words: ['sections', ',', 'according', 'copy', '881-page', 'book', 'obtained', 'Associated', 'Press', ',', 'discuss', 'combating', 'bias', 'making', 'sure', 'children', 'feel', 'welcome', '.']
@@ -159,7 +142,6 @@ Stop words: ['Those', 'to', 'a', 'of', 'the', 'by', 'The', 'and', 'that', 'all']
 Number of stop words: 10
 Average number of stop words per sentence: 0.34
 Sentiment score: 1
-
 Sentence 19: Story continues “ Early childhood programs also serve welcome families represent many compositions .
 Total words: 16
 Filtered words: ['Story', 'continues', '“', 'Early', 'childhood', 'programs', 'also', 'serve', 'welcome', 'families', 'represent', 'many', 'compositions', '.']
@@ -168,7 +150,6 @@ Stop words: ['and', 'that']
 Number of stop words: 2
 Average number of stop words per sentence: 0.12
 Sentiment score: 1
-
 Sentence 20: Children families ( e.g. , single parent , grandparent-led , foster , LGBTQIA+ ) need hear see messages promote equality , dignity , worth , ” book states .
 Total words: 36
 Filtered words: ['Children', 'families', '(', 'e.g.', ',', 'single', 'parent', ',', 'grandparent-led', ',', 'foster', ',', 'LGBTQIA+', ')', 'need', 'hear', 'see', 'messages', 'promote', 'equality', ',', 'dignity', ',', 'worth', ',', '”', 'book', 'states', '.']
@@ -177,7 +158,6 @@ Stop words: ['from', 'all', 'to', 'and', 'that', 'and', 'the']
 Number of stop words: 7
 Average number of stop words per sentence: 0.19
 Sentiment score: 1
-
 Sentence 21: section structural racism states “ systemic structural racism ... permeated every institution system policies practices position people color oppressive , repressive , menial positions .
 Total words: 37
 Filtered words: ['section', 'structural', 'racism', 'states', '“', 'systemic', 'structural', 'racism', '...', 'permeated', 'every', 'institution', 'system', 'policies', 'practices', 'position', 'people', 'color', 'oppressive', ',', 'repressive', ',', 'menial', 'positions', '.']
@@ -186,7 +166,6 @@ Stop words: ['The', 'on', 'that', 'and', 'has', 'and', 'through', 'and', 'that',
 Number of stop words: 12
 Average number of stop words per sentence: 0.32
 Sentiment score: 1
-
 Sentence 22: early education system immune forces. ” says preschool one place children “ begin see represented society ” classroom place `` affirmation healing . ''
 Total words: 45
 Filtered words: ['early', 'education', 'system', 'immune', 'forces.', '”', 'says', 'preschool', 'one', 'place', 'children', '“', 'begin', 'see', 'represented', 'society', '”', 'classroom', 'place', '``', 'affirmation', 'healing', '.', "''"]
@@ -195,7 +174,6 @@ Stop words: ['The', 'is', 'not', 'to', 'these', 'It', 'is', 'where', 'to', 'how'
 Number of stop words: 21
 Average number of stop words per sentence: 0.47
 Sentiment score: 2
-
 Sentence 23: NAEYC national accrediting board works provide high-quality education materials resources young children .
 Total words: 19
 Filtered words: ['NAEYC', 'national', 'accrediting', 'board', 'works', 'provide', 'high-quality', 'education', 'materials', 'resources', 'young', 'children', '.']
@@ -204,7 +182,6 @@ Stop words: ['is', 'a', 'that', 'to', 'and', 'for']
 Number of stop words: 6
 Average number of stop words per sentence: 0.32
 Sentiment score: 1
-
 Sentence 24: emailed response Associated Press , group address Ivey 's statements said book research-based resource educators .
 Total words: 28
 Filtered words: ['emailed', 'response', 'Associated', 'Press', ',', 'group', 'address', 'Ivey', "'s", 'statements', 'said', 'book', 'research-based', 'resource', 'educators', '.']
@@ -213,7 +190,6 @@ Stop words: ['In', 'an', 'to', 'The', 'the', 'did', 'not', 'but', 'the', 'is', '
 Number of stop words: 12
 Average number of stop words per sentence: 0.43
 Sentiment score: 2
-
 Sentence 25: “ nearly four decades , partnership hundreds thousands families educators , Developmentally Appropriate Practice served foundation high-quality early childhood education across states communities .
 Total words: 37
 Filtered words: ['“', 'nearly', 'four', 'decades', ',', 'partnership', 'hundreds', 'thousands', 'families', 'educators', ',', 'Developmentally', 'Appropriate', 'Practice', 'served', 'foundation', 'high-quality', 'early', 'childhood', 'education', 'across', 'states', 'communities', '.']
@@ -222,7 +198,6 @@ Stop words: ['For', 'and', 'in', 'with', 'of', 'of', 'and', 'has', 'as', 'the', 
 Number of stop words: 13
 Average number of stop words per sentence: 0.35
 Sentiment score: 2
-
 Sentence 26: curriculum , responsive , educator-developed , educator-informed , research-based resource honed multiple generations support teachers helping children thrive reach full potential , '' statement read .
 Total words: 43
 Filtered words: ['curriculum', ',', 'responsive', ',', 'educator-developed', ',', 'educator-informed', ',', 'research-based', 'resource', 'honed', 'multiple', 'generations', 'support', 'teachers', 'helping', 'children', 'thrive', 'reach', 'full', 'potential', ',', "''", 'statement', 'read', '.']
@@ -231,7 +206,6 @@ Stop words: ['While', 'not', 'a', 'it', 'is', 'a', 'and', 'that', 'has', 'been',
 Number of stop words: 17
 Average number of stop words per sentence: 0.4
 Sentiment score: 1
-
 Sentence 27: Cooper member NAEYC board .
 Total words: 9
 Filtered words: ['Cooper', 'member', 'NAEYC', 'board', '.']
@@ -240,7 +214,6 @@ Stop words: ['is', 'a', 'of', 'the']
 Number of stop words: 4
 Average number of stop words per sentence: 0.44
 Sentiment score: 1
-
 Sentence 28: previously published statement organization 's website latest edition book , Cooper said book teaches , “ applicable skills teaching developmentally appropriate practices build brains critical first five years life. ” Alabama 's First Class voluntary pre-kindergarten programs operates 1,400 classrooms across state .
 Total words: 61
 Filtered words: ['previously', 'published', 'statement', 'organization', "'s", 'website', 'latest', 'edition', 'book', ',', 'Cooper', 'said', 'book', 'teaches', ',', '“', 'applicable', 'skills', 'teaching', 'developmentally', 'appropriate', 'practices', 'build', 'brains', 'critical', 'first', 'five', 'years', 'life.', '”', 'Alabama', "'s", 'First', 'Class', 'voluntary', 'pre-kindergarten', 'programs', 'operates', '1,400', 'classrooms', 'across', 'state', '.']
@@ -249,7 +222,6 @@ Stop words: ['In', 'a', 'on', 'the', 'about', 'the', 'of', 'the', 'that', 'for',
 Number of stop words: 18
 Average number of stop words per sentence: 0.3
 Sentiment score: 1
-
 Sentence 29: program high ratings National Institute Early Education Research .
 Total words: 15
 Filtered words: ['program', 'high', 'ratings', 'National', 'Institute', 'Early', 'Education', 'Research', '.']
@@ -258,7 +230,6 @@ Stop words: ['The', 'has', 'won', 'from', 'the', 'for']
 Number of stop words: 6
 Average number of stop words per sentence: 0.4
 Sentiment score: 2
-
 Total number of words: 871
 Total number of stop words: 301
 Maximum number of stop words per sentence: 22
@@ -310,4 +281,10 @@ Approximate grade level equivalent: 20
 
 Perplexity (how well the LDA model predicts the corpus) of the article: -4.354083601385355
 Coherence (how coherent the topics are) of the article: 0.5066332072002577
+
+Max tree depth: 13
+Words at max depth: ousted, comes
+Average tree length: 7.30
+Maximum tree length: 13
+Minimum tree length: 2
 

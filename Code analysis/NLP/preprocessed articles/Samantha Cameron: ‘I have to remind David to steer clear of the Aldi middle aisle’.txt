@@ -6,7 +6,6 @@ Stop words: ['I', 'have', 'to', 'to', 'of', 'the', 'up', 'at', 'to', 'the', 'of'
 Number of stop words: 12
 Average number of stop words per sentence: 0.31
 Sentiment score: 0
-
 Sentence 2: first activity morning used Ashtanga yoga , days ’ busy .
 Total words: 21
 Filtered words: ['first', 'activity', 'morning', 'used', 'Ashtanga', 'yoga', ',', 'days', '’', 'busy', '.']
@@ -15,7 +14,6 @@ Stop words: ['Her', 'of', 'the', 'to', 'be', 'but', 'these', 'she', 's', 'too']
 Number of stop words: 10
 Average number of stop words per sentence: 0.48
 Sentiment score: 0
-
 Sentence 3: “ know lot milk yields , ” says , setting two glasses water eight-seater catering dining table bought temporary stopgap Camerons abruptly left Downing Street seven years ago moved house , minds tabloids , forever Notting Hil Samantha Cameron - Clara Molden Every morning , Samantha Cameron wakes 5.45am soothing tones Radio 4 ’ Farming Today .
 Total words: 87
 Filtered words: ['“', 'know', 'lot', 'milk', 'yields', ',', '”', 'says', ',', 'setting', 'two', 'glasses', 'water', 'eight-seater', 'catering', 'dining', 'table', 'bought', 'temporary', 'stopgap', 'Camerons', 'abruptly', 'left', 'Downing', 'Street', 'seven', 'years', 'ago', 'moved', 'house', ',', 'minds', 'tabloids', ',', 'forever', 'Notting', 'Hil', 'Samantha', 'Cameron', '-', 'Clara', 'Molden', 'Every', 'morning', ',', 'Samantha', 'Cameron', 'wakes', '5.45am', 'soothing', 'tones', 'Radio', '4', '’', 'Farming', 'Today', '.']
@@ -24,7 +22,6 @@ Stop words: ['I', 'a', 'about', 'she', 'down', 'of', 'on', 'the', 'she', 'as', '
 Number of stop words: 30
 Average number of stop words per sentence: 0.34
 Sentiment score: 0
-
 Sentence 4: first activity morning used Ashtanga yoga , days ’ busy .
 Total words: 21
 Filtered words: ['first', 'activity', 'morning', 'used', 'Ashtanga', 'yoga', ',', 'days', '’', 'busy', '.']
@@ -33,7 +30,6 @@ Stop words: ['Her', 'of', 'the', 'to', 'be', 'but', 'these', 'she', 's', 'too']
 Number of stop words: 10
 Average number of stop words per sentence: 0.48
 Sentiment score: 1
-
 Sentence 5: “ know lot milk yields , ” says , setting two glasses water eight-seater catering dining table bought temporary stopgap Camerons abruptly left Downing Street seven years ago moved house , minds tabloids , forever Notting Hill actually north Kensington .
 Total words: 68
 Filtered words: ['“', 'know', 'lot', 'milk', 'yields', ',', '”', 'says', ',', 'setting', 'two', 'glasses', 'water', 'eight-seater', 'catering', 'dining', 'table', 'bought', 'temporary', 'stopgap', 'Camerons', 'abruptly', 'left', 'Downing', 'Street', 'seven', 'years', 'ago', 'moved', 'house', ',', 'minds', 'tabloids', ',', 'forever', 'Notting', 'Hill', 'actually', 'north', 'Kensington', '.']
@@ -42,7 +38,6 @@ Stop words: ['I', 'a', 'about', 'she', 'down', 'of', 'on', 'the', 'she', 'as', '
 Number of stop words: 27
 Average number of stop words per sentence: 0.4
 Sentiment score: 0
-
 Sentence 6: ’ similar 12-seater basement .
 Total words: 10
 Filtered words: ['’', 'similar', '12-seater', 'basement', '.']
@@ -51,7 +46,6 @@ Stop words: ['There', 's', 'a', 'in', 'the']
 Number of stop words: 5
 Average number of stop words per sentence: 0.5
 Sentiment score: 1
-
 Sentence 7: “ idea test-drive , see size worked best , buy smart version , ” explains .
 Total words: 25
 Filtered words: ['“', 'idea', 'test-drive', ',', 'see', 'size', 'worked', 'best', ',', 'buy', 'smart', 'version', ',', '”', 'explains', '.']
@@ -60,7 +54,6 @@ Stop words: ['The', 'was', 'to', 'them', 'both', 'which', 'and', 'a', 'she']
 Number of stop words: 9
 Average number of stop words per sentence: 0.36
 Sentiment score: 0
-
 Sentence 8: Samantha still ’ found time .
 Total words: 9
 Filtered words: ['Samantha', 'still', '’', 'found', 'time', '.']
@@ -69,7 +62,6 @@ Stop words: ['hasn', 't', 'the']
 Number of stop words: 3
 Average number of stop words per sentence: 0.33
 Sentiment score: 1
-
 Sentence 9: “ could work every day still ’ enough – ’ reality running business ” .
 Total words: 27
 Filtered words: ['“', 'could', 'work', 'every', 'day', 'still', '’', 'enough', '–', '’', 'reality', 'running', 'business', '”', '.']
@@ -78,7 +70,6 @@ Stop words: ['I', 'and', 'it', 'wouldn', 't', 'be', 'that', 's', 'the', 'of', 'y
 Number of stop words: 12
 Average number of stop words per sentence: 0.44
 Sentiment score: 1
-
 Sentence 10: past couple years particularly challenging .
 Total words: 10
 Filtered words: ['past', 'couple', 'years', 'particularly', 'challenging', '.']
@@ -87,7 +78,6 @@ Stop words: ['The', 'of', 'have', 'been']
 Number of stop words: 4
 Average number of stop words per sentence: 0.4
 Sentiment score: 1
-
 Sentence 11: Steering Cefinn , fashion label set 2017 , pandemic changing post-lockdown landscape walk park .
 Total words: 28
 Filtered words: ['Steering', 'Cefinn', ',', 'fashion', 'label', 'set', '2017', ',', 'pandemic', 'changing', 'post-lockdown', 'landscape', 'walk', 'park', '.']
@@ -96,7 +86,6 @@ Stop words: ['the', 'she', 'up', 'in', 'through', 'the', 'and', 'the', 'was', 'n
 Number of stop words: 13
 Average number of stop words per sentence: 0.46
 Sentiment score: 0
-
 Sentence 12: Greensill lobbying scandal engulfed husband ( revealed former prime minister tried secure government loans now-collapsed finance company ) .
 Total words: 35
 Filtered words: ['Greensill', 'lobbying', 'scandal', 'engulfed', 'husband', '(', 'revealed', 'former', 'prime', 'minister', 'tried', 'secure', 'government', 'loans', 'now-collapsed', 'finance', 'company', ')', '.']
@@ -105,7 +94,6 @@ Stop words: ['Then', 'there', 'was', 'the', 'that', 'her', 'in', 'which', 'it', 
 Number of stop words: 16
 Average number of stop words per sentence: 0.46
 Sentiment score: 0
-
 Sentence 13: David Cameron ’ brother Alex , died , aged 59 , cancer last month .
 Total words: 17
 Filtered words: ['David', 'Cameron', '’', 'brother', 'Alex', ',', 'died', ',', 'aged', '59', ',', 'cancer', 'last', 'month', '.']
@@ -114,7 +102,6 @@ Stop words: ['s', 'of']
 Number of stop words: 2
 Average number of stop words per sentence: 0.12
 Sentiment score: 1
-
 Sentence 14: eldest daughter , Nancy , aged 20 , left home university study fine art .
 Total words: 19
 Filtered words: ['eldest', 'daughter', ',', 'Nancy', ',', 'aged', '20', ',', 'left', 'home', 'university', 'study', 'fine', 'art', '.']
@@ -123,7 +110,6 @@ Stop words: ['And', 'their', 'for', 'to']
 Number of stop words: 4
 Average number of stop words per sentence: 0.21
 Sentiment score: 1
-
 Sentence 15: Camerons two children – Arthur , 17 , Florence , 12 .
 Total words: 16
 Filtered words: ['Camerons', 'two', 'children', '–', 'Arthur', ',', '17', ',', 'Florence', ',', '12', '.']
@@ -132,7 +118,6 @@ Stop words: ['The', 'have', 'other', 'and']
 Number of stop words: 4
 Average number of stop words per sentence: 0.25
 Sentiment score: 0
-
 Sentence 16: first child Ivan , tragically died 2009 .
 Total words: 10
 Filtered words: ['first', 'child', 'Ivan', ',', 'tragically', 'died', '2009', '.']
@@ -141,7 +126,6 @@ Stop words: ['Their', 'in']
 Number of stop words: 2
 Average number of stop words per sentence: 0.2
 Sentiment score: 0
-
 Sentence 17: Samantha , one eight siblings , despite different parentage , close , found Nancy ’ departure hard .
 Total words: 25
 Filtered words: ['Samantha', ',', 'one', 'eight', 'siblings', ',', 'despite', 'different', 'parentage', ',', 'close', ',', 'found', 'Nancy', '’', 'departure', 'hard', '.']
@@ -150,7 +134,6 @@ Stop words: ['as', 'of', 'who', 'their', 'are', 'all', 's']
 Number of stop words: 7
 Average number of stop words per sentence: 0.28
 Sentiment score: 1
-
 Sentence 18: speak every day .
 Total words: 6
 Filtered words: ['speak', 'every', 'day', '.']
@@ -159,7 +142,6 @@ Stop words: ['They', 'other']
 Number of stop words: 2
 Average number of stop words per sentence: 0.33
 Sentiment score: 1
-
 Sentence 19: dissonant murmur say love clothes designs Cefinn ’ bring buy husband ’ hand Brexit ’ particularly bother .
 Total words: 40
 Filtered words: ['dissonant', 'murmur', 'say', 'love', 'clothes', 'designs', 'Cefinn', '’', 'bring', 'buy', 'husband', '’', 'hand', 'Brexit', '’', 'particularly', 'bother', '.']
@@ -168,7 +150,6 @@ Stop words: ['The', 'from', 'those', 'who', 'they', 'the', 'she', 'for', 'but', 
 Number of stop words: 22
 Average number of stop words per sentence: 0.55
 Sentiment score: 1
-
 Sentence 20: part huge family trained tune-out noise – work anywhere , including kitchen breakfast bar .
 Total words: 23
 Filtered words: ['part', 'huge', 'family', 'trained', 'tune-out', 'noise', '–', 'work', 'anywhere', ',', 'including', 'kitchen', 'breakfast', 'bar', '.']
@@ -177,7 +158,6 @@ Stop words: ['Being', 'of', 'a', 'her', 'to', 'she', 'can', 'their']
 Number of stop words: 8
 Average number of stop words per sentence: 0.35
 Sentiment score: 1
-
 Sentence 21: think also means ignore negativity .
 Total words: 11
 Filtered words: ['think', 'also', 'means', 'ignore', 'negativity', '.']
@@ -186,7 +166,6 @@ Stop words: ['But', 'I', 'it', 'she', 'can']
 Number of stop words: 5
 Average number of stop words per sentence: 0.45
 Sentiment score: 0
-
 Sentence 22: “ One thing develop ’ married someone politics thick skin .
 Total words: 21
 Filtered words: ['“', 'One', 'thing', 'develop', '’', 'married', 'someone', 'politics', 'thick', 'skin', '.']
@@ -195,7 +174,6 @@ Stop words: ['you', 'have', 'to', 'if', 'you', 're', 'to', 'in', 'is', 'a']
 Number of stop words: 10
 Average number of stop words per sentence: 0.48
 Sentiment score: 1
-
 Sentence 23: everyone ’ going like , husband .
 Total words: 13
 Filtered words: ['everyone', '’', 'going', 'like', ',', 'husband', '.']
@@ -204,7 +182,6 @@ Stop words: ['Not', 's', 'to', 'you', 'or', 'your']
 Number of stop words: 6
 Average number of stop words per sentence: 0.46
 Sentiment score: 1
-
 Sentence 24: Story continues “ irk people assume ’ kind rich dilettante dabbling business , ” says .
 Total words: 27
 Filtered words: ['Story', 'continues', '“', 'irk', 'people', 'assume', '’', 'kind', 'rich', 'dilettante', 'dabbling', 'business', ',', '”', 'says', '.']
@@ -213,7 +190,6 @@ Stop words: ['What', 'does', 'me', 'is', 'when', 'I', 'm', 'some', 'of', 'in', '
 Number of stop words: 11
 Average number of stop words per sentence: 0.41
 Sentiment score: 1
-
 Sentence 25: “ ’ deadly serious building credible , decent British business. ” Camerons leaving Downing Street 2016 - David Rose end last year , money young enterprises hard come , raised additional £1.2 million investors , used hire staff ( 20 , although remains sole designer ) produce stock .
 Total words: 79
 Filtered words: ['“', '’', 'deadly', 'serious', 'building', 'credible', ',', 'decent', 'British', 'business.', '”', 'Camerons', 'leaving', 'Downing', 'Street', '2016', '-', 'David', 'Rose', 'end', 'last', 'year', ',', 'money', 'young', 'enterprises', 'hard', 'come', ',', 'raised', 'additional', '£1.2', 'million', 'investors', ',', 'used', 'hire', 'staff', '(', '20', ',', 'although', 'remains', 'sole', 'designer', ')', 'produce', 'stock', '.']
@@ -222,7 +198,6 @@ Stop words: ['I', 'm', 'about', 'a', 'The', 'in', 'At', 'the', 'of', 'when', 'fo
 Number of stop words: 30
 Average number of stop words per sentence: 0.38
 Sentiment score: 0
-
 Sentence 26: child always trying sell stuff – adulthood succeeded .
 Total words: 16
 Filtered words: ['child', 'always', 'trying', 'sell', 'stuff', '–', 'adulthood', 'succeeded', '.']
@@ -231,7 +206,6 @@ Stop words: ['As', 'a', 'she', 'was', 'to', 'and', 'in']
 Number of stop words: 7
 Average number of stop words per sentence: 0.44
 Sentiment score: 1
-
 Sentence 27: creative stewardship , Smythson , worked two decades , went slightly quaint , top-drawer stationery company hot leather-goods house .
 Total words: 29
 Filtered words: ['creative', 'stewardship', ',', 'Smythson', ',', 'worked', 'two', 'decades', ',', 'went', 'slightly', 'quaint', ',', 'top-drawer', 'stationery', 'company', 'hot', 'leather-goods', 'house', '.']
@@ -240,7 +214,6 @@ Stop words: ['Under', 'her', 'where', 'she', 'for', 'from', 'a', 'to', 'a']
 Number of stop words: 9
 Average number of stop words per sentence: 0.31
 Sentiment score: 0
-
 Sentence 28: thinks Rishi Sunak good job – ’ says .
 Total words: 18
 Filtered words: ['thinks', 'Rishi', 'Sunak', 'good', 'job', '–', '’', 'says', '.']
@@ -249,7 +222,6 @@ Stop words: ['She', 'is', 'doing', 'a', 'or', 'that', 's', 'what', 'she']
 Number of stop words: 9
 Average number of stop words per sentence: 0.5
 Sentiment score: 2
-
 Sentence 29: “ Government really wants help business , be-all end-all getting inflation control. ” mother , Lady Annabel Astor , major business mentor , whose influence extended Samantha ’ wardrobe .
 Total words: 45
 Filtered words: ['“', 'Government', 'really', 'wants', 'help', 'business', ',', 'be-all', 'end-all', 'getting', 'inflation', 'control.', '”', 'mother', ',', 'Lady', 'Annabel', 'Astor', ',', 'major', 'business', 'mentor', ',', 'whose', 'influence', 'extended', 'Samantha', '’', 'wardrobe', '.']
@@ -258,7 +230,6 @@ Stop words: ['But', 'if', 'the', 'to', 'the', 'and', 'is', 'under', 'Her', 'is',
 Number of stop words: 15
 Average number of stop words per sentence: 0.33
 Sentiment score: 2
-
 Sentence 30: “ mum wore lot floaty boho 1970s Downing Street , style icon Bianca Jagger , Studio 54 days. ” children ’ style never really able control , sighs .
 Total words: 51
 Filtered words: ['“', 'mum', 'wore', 'lot', 'floaty', 'boho', '1970s', 'Downing', 'Street', ',', 'style', 'icon', 'Bianca', 'Jagger', ',', 'Studio', '54', 'days.', '”', 'children', '’', 'style', 'never', 'really', 'able', 'control', ',', 'sighs', '.']
@@ -267,7 +238,6 @@ Stop words: ['My', 'a', 'of', 'in', 'the', 'and', 'when', 'I', 'was', 'in', 'my'
 Number of stop words: 22
 Average number of stop words per sentence: 0.43
 Sentiment score: 1
-
 Sentence 31: “ Florence went terrible pink phase insisted wearing fancy dress lot .
 Total words: 20
 Filtered words: ['“', 'Florence', 'went', 'terrible', 'pink', 'phase', 'insisted', 'wearing', 'fancy', 'dress', 'lot', '.']
@@ -276,7 +246,6 @@ Stop words: ['through', 'a', 'and', 'all', 'of', 'them', 'on', 'a']
 Number of stop words: 8
 Average number of stop words per sentence: 0.4
 Sentiment score: 0
-
 Sentence 32: One French mother school overhead wondering could let children go like .
 Total words: 19
 Filtered words: ['One', 'French', 'mother', 'school', 'overhead', 'wondering', 'could', 'let', 'children', 'go', 'like', '.']
@@ -285,7 +254,6 @@ Stop words: ['at', 'was', 'how', 'I', 'my', 'out', 'that']
 Number of stop words: 7
 Average number of stop words per sentence: 0.37
 Sentiment score: 1
-
 Sentence 33: ’ love know stopped hers. ” adds : “ ’ strict parents mind lot manners. ” ’ told ask husband children , 10 minutes , chatting .
 Total words: 57
 Filtered words: ['’', 'love', 'know', 'stopped', 'hers.', '”', 'adds', ':', '“', '’', 'strict', 'parents', 'mind', 'lot', 'manners.', '”', '’', 'told', 'ask', 'husband', 'children', ',', '10', 'minutes', ',', 'chatting', '.']
@@ -294,7 +262,6 @@ Stop words: ['I', 'd', 'to', 'how', 'she', 'She', 'then', 'We', 're', 'not', 'bu
 Number of stop words: 30
 Average number of stop words per sentence: 0.53
 Sentiment score: 1
-
 Sentence 34: ’ makes likeable – categorically robot .
 Total words: 16
 Filtered words: ['’', 'makes', 'likeable', '–', 'categorically', 'robot', '.']
@@ -303,7 +270,6 @@ Stop words: ['It', 's', 'what', 'her', 'so', 'she', 'is', 'not', 'a']
 Number of stop words: 9
 Average number of stop words per sentence: 0.56
 Sentiment score: 0
-
 Sentence 35: Annabel Jones , mother , 21 Samantha , first five children two marriages .
 Total words: 24
 Filtered words: ['Annabel', 'Jones', ',', 'mother', ',', '21', 'Samantha', ',', 'first', 'five', 'children', 'two', 'marriages', '.']
@@ -312,7 +278,6 @@ Stop words: ['her', 'was', 'only', 'when', 'she', 'had', 'the', 'of', 'her', 'fr
 Number of stop words: 10
 Average number of stop words per sentence: 0.42
 Sentiment score: 1
-
 Sentence 36: ( Sir Reginald Sheffield , Samantha ’ father , another three second wife ) .
 Total words: 19
 Filtered words: ['(', 'Sir', 'Reginald', 'Sheffield', ',', 'Samantha', '’', 'father', ',', 'another', 'three', 'second', 'wife', ')', '.']
@@ -321,7 +286,6 @@ Stop words: ['s', 'had', 'with', 'his']
 Number of stop words: 4
 Average number of stop words per sentence: 0.21
 Sentiment score: 1
-
 Sentence 37: Samantha ’ younger sister , Emily , journalist worked British Vogue decade recently edited London Evening Standard George Osborne stood role .
 Total words: 38
 Filtered words: ['Samantha', '’', 'younger', 'sister', ',', 'Emily', ',', 'journalist', 'worked', 'British', 'Vogue', 'decade', 'recently', 'edited', 'London', 'Evening', 'Standard', 'George', 'Osborne', 'stood', 'role', '.']
@@ -330,7 +294,6 @@ Stop words: ['s', 'is', 'a', 'who', 'at', 'for', 'more', 'than', 'a', 'and', 'mo
 Number of stop words: 16
 Average number of stop words per sentence: 0.42
 Sentiment score: 0
-
 Sentence 38: serial entrepreneur , Annabel co-founded Oka , hugely successful furniture company 1999 .
 Total words: 16
 Filtered words: ['serial', 'entrepreneur', ',', 'Annabel', 'co-founded', 'Oka', ',', 'hugely', 'successful', 'furniture', 'company', '1999', '.']
@@ -339,7 +302,6 @@ Stop words: ['A', 'the', 'in']
 Number of stop words: 3
 Average number of stop words per sentence: 0.19
 Sentiment score: 1
-
 Sentence 39: “ ’ know us three five children run businesses , ” observes Samantha .
 Total words: 26
 Filtered words: ['“', '’', 'know', 'us', 'three', 'five', 'children', 'run', 'businesses', ',', '”', 'observes', 'Samantha', '.']
@@ -348,7 +310,6 @@ Stop words: ['I', 'don', 't', 'what', 'she', 'did', 'to', 'but', 'of', 'her', 'o
 Number of stop words: 12
 Average number of stop words per sentence: 0.46
 Sentiment score: 1
-
 Sentence 40: Samantha Cameron - Clara Molden Despite father 8th Baronet Sutton Park ( Grade listed slice Georgian loveliness , recently used location BBC hit series Gentleman Jack ) related , mother ’ second marriage , sprawling , wealthy Astor clan , Samantha Cameron never portrayed media latter-day Marie Antoinette , unlike Carrie Johnson , chippy like Cherie Blair .
 Total words: 82
 Filtered words: ['Samantha', 'Cameron', '-', 'Clara', 'Molden', 'Despite', 'father', '8th', 'Baronet', 'Sutton', 'Park', '(', 'Grade', 'listed', 'slice', 'Georgian', 'loveliness', ',', 'recently', 'used', 'location', 'BBC', 'hit', 'series', 'Gentleman', 'Jack', ')', 'related', ',', 'mother', '’', 'second', 'marriage', ',', 'sprawling', ',', 'wealthy', 'Astor', 'clan', ',', 'Samantha', 'Cameron', 'never', 'portrayed', 'media', 'latter-day', 'Marie', 'Antoinette', ',', 'unlike', 'Carrie', 'Johnson', ',', 'chippy', 'like', 'Cherie', 'Blair', '.']
@@ -357,7 +318,6 @@ Stop words: ['her', 'being', 'the', 'of', 'a', 'I', 'of', 'most', 'as', 'a', 'in
 Number of stop words: 24
 Average number of stop words per sentence: 0.29
 Sentiment score: 1
-
 Sentence 41: get flak wearing designer outfits immediate predecessors .
 Total words: 15
 Filtered words: ['get', 'flak', 'wearing', 'designer', 'outfits', 'immediate', 'predecessors', '.']
@@ -366,7 +326,6 @@ Stop words: ['Nor', 'did', 'she', 'for', 'more', 'than', 'her']
 Number of stop words: 7
 Average number of stop words per sentence: 0.47
 Sentiment score: 1
-
 Sentence 42: justified official ambassador London Fashion Week – promoting British Fashion , media left .
 Total words: 29
 Filtered words: ['justified', 'official', 'ambassador', 'London', 'Fashion', 'Week', '–', 'promoting', 'British', 'Fashion', ',', 'media', 'left', '.']
@@ -375,7 +334,6 @@ Stop words: ['She', 'them', 'by', 'being', 'an', 'for', 'she', 'was', 'after', '
 Number of stop words: 15
 Average number of stop words per sentence: 0.52
 Sentiment score: 1
-
 Sentence 43: clothes occupy wardrobe cottage near Chipping Norton Cotswolds , formal current life , although Nancy sometimes borrows .
 Total words: 29
 Filtered words: ['clothes', 'occupy', 'wardrobe', 'cottage', 'near', 'Chipping', 'Norton', 'Cotswolds', ',', 'formal', 'current', 'life', ',', 'although', 'Nancy', 'sometimes', 'borrows', '.']
@@ -384,7 +342,6 @@ Stop words: ['The', 'now', 'a', 'in', 'their', 'in', 'the', 'too', 'for', 'her',
 Number of stop words: 11
 Average number of stop words per sentence: 0.38
 Sentiment score: 1
-
 Sentence 44: Probably posh prepared enjoy good parts , Samantha found Downing Street years positive experience , ’ overcome concerns moving children away normal lives First Family bubble .
 Total words: 45
 Filtered words: ['Probably', 'posh', 'prepared', 'enjoy', 'good', 'parts', ',', 'Samantha', 'found', 'Downing', 'Street', 'years', 'positive', 'experience', ',', '’', 'overcome', 'concerns', 'moving', 'children', 'away', 'normal', 'lives', 'First', 'Family', 'bubble', '.']
@@ -393,7 +350,6 @@ Stop words: ['because', 'she', 'is', 'and', 'to', 'the', 'the', 'a', 'once', 'sh
 Number of stop words: 18
 Average number of stop words per sentence: 0.4
 Sentiment score: 2
-
 Sentence 45: “ Living 11 Downing Street actually highlight .
 Total words: 11
 Filtered words: ['“', 'Living', '11', 'Downing', 'Street', 'actually', 'highlight', '.']
@@ -402,7 +358,6 @@ Stop words: ['in', 'was', 'a']
 Number of stop words: 3
 Average number of stop words per sentence: 0.27
 Sentiment score: 0
-
 Sentence 46: meant Dave got see lot children .
 Total words: 12
 Filtered words: ['meant', 'Dave', 'got', 'see', 'lot', 'children', '.']
@@ -411,7 +366,6 @@ Stop words: ['It', 'to', 'a', 'of', 'the']
 Number of stop words: 5
 Average number of stop words per sentence: 0.42
 Sentiment score: 0
-
 Sentence 47: would get 5 , start work , pop back breakfast work 8 .
 Total words: 23
 Filtered words: ['would', 'get', '5', ',', 'start', 'work', ',', 'pop', 'back', 'breakfast', 'work', '8', '.']
@@ -420,7 +374,6 @@ Stop words: ['He', 'up', 'at', 'then', 'for', 'and', 'be', 'at', 'again', 'by']
 Number of stop words: 10
 Average number of stop words per sentence: 0.43
 Sentiment score: 1
-
 Sentence 48: flat huge , like house within house , quiet .
 Total words: 17
 Filtered words: ['flat', 'huge', ',', 'like', 'house', 'within', 'house', ',', 'quiet', '.']
@@ -429,7 +382,6 @@ Stop words: ['The', 'there', 'is', 'a', 'a', 'and', 'so']
 Number of stop words: 7
 Average number of stop words per sentence: 0.41
 Sentiment score: 1
-
 Sentence 49: rooms beautiful .
 Total words: 5
 Filtered words: ['rooms', 'beautiful', '.']
@@ -438,7 +390,6 @@ Stop words: ['The', 'are']
 Number of stop words: 2
 Average number of stop words per sentence: 0.4
 Sentiment score: 1
-
 Sentence 50: end , thing children moaned bedrooms .
 Total words: 15
 Filtered words: ['end', ',', 'thing', 'children', 'moaned', 'bedrooms', '.']
@@ -447,7 +398,6 @@ Stop words: ['In', 'the', 'the', 'only', 'the', 'about', 'was', 'their']
 Number of stop words: 8
 Average number of stop words per sentence: 0.53
 Sentiment score: 0
-
 Sentence 51: big .
 Total words: 3
 Filtered words: ['big', '.']
@@ -456,7 +406,6 @@ Stop words: ['Too']
 Number of stop words: 1
 Average number of stop words per sentence: 0.33
 Sentiment score: 2
-
 Sentence 52: friends cosy little attics .
 Total words: 8
 Filtered words: ['friends', 'cosy', 'little', 'attics', '.']
@@ -465,7 +414,6 @@ Stop words: ['All', 'their', 'had']
 Number of stop words: 3
 Average number of stop words per sentence: 0.38
 Sentiment score: 2
-
 Sentence 53: used tell , ‘ ’ worry , ’ tiny bedrooms soon enough ’ . ” regrets time ?
 Total words: 32
 Filtered words: ['used', 'tell', ',', '‘', '’', 'worry', ',', '’', 'tiny', 'bedrooms', 'soon', 'enough', '’', '.', '”', 'regrets', 'time', '?']
@@ -474,7 +422,6 @@ Stop words: ['I', 'to', 'them', 'Don', 't', 'you', 'll', 'be', 'in', 'So', 'no',
 Number of stop words: 14
 Average number of stop words per sentence: 0.44
 Sentiment score: 0
-
 Sentence 54: “ think got wardrobe pretty right terrified public speaking .
 Total words: 17
 Filtered words: ['“', 'think', 'got', 'wardrobe', 'pretty', 'right', 'terrified', 'public', 'speaking', '.']
@@ -483,7 +430,6 @@ Stop words: ['I', 'I', 'the', 'but', 'I', 'was', 'of']
 Number of stop words: 7
 Average number of stop words per sentence: 0.41
 Sentiment score: 1
-
 Sentence 55: Michelle Obama not. ” worshipped Michelle Obama .
 Total words: 11
 Filtered words: ['Michelle', 'Obama', 'not.', '”', 'worshipped', 'Michelle', 'Obama', '.']
@@ -492,7 +438,6 @@ Stop words: ['I', 'was', 'She']
 Number of stop words: 3
 Average number of stop words per sentence: 0.27
 Sentiment score: 0
-
 Sentence 56: “ ’ charismatic naturally engage audience. ” Angela Merkel “ huge fun ” .
 Total words: 21
 Filtered words: ['“', '’', 'charismatic', 'naturally', 'engage', 'audience.', '”', 'Angela', 'Merkel', '“', 'huge', 'fun', '”', '.']
@@ -501,7 +446,6 @@ Stop words: ['She', 's', 'so', 'and', 'can', 'an', 'is']
 Number of stop words: 7
 Average number of stop words per sentence: 0.33
 Sentiment score: 2
-
 Sentence 57: Cherie Blair “ really helpful whenever asked advice ” .
 Total words: 14
 Filtered words: ['Cherie', 'Blair', '“', 'really', 'helpful', 'whenever', 'asked', 'advice', '”', '.']
@@ -510,7 +454,6 @@ Stop words: ['was', 'I', 'her', 'for']
 Number of stop words: 4
 Average number of stop words per sentence: 0.29
 Sentiment score: 1
-
 Sentence 58: Carla Bruni ?
 Total words: 3
 Filtered words: ['Carla', 'Bruni', '?']
@@ -519,7 +462,6 @@ Stop words: []
 Number of stop words: 0
 Average number of stop words per sentence: 0.0
 Sentiment score: 1
-
 Sentence 59: “ nightmare standing next ’ five months ’ pregnant , manners incredible always top brief .
 Total words: 31
 Filtered words: ['“', 'nightmare', 'standing', 'next', '’', 'five', 'months', '’', 'pregnant', ',', 'manners', 'incredible', 'always', 'top', 'brief', '.']
@@ -528,7 +470,6 @@ Stop words: ['A', 'to', 'her', 'when', 'you', 're', 'but', 'her', 'are', 'and', 
 Number of stop words: 15
 Average number of stop words per sentence: 0.48
 Sentiment score: 1
-
 Sentence 60: Also , sounds corny , hosting charity events 10 meet amazing people away spotlight. ” pauses .
 Total words: 30
 Filtered words: ['Also', ',', 'sounds', 'corny', ',', 'hosting', 'charity', 'events', '10', 'meet', 'amazing', 'people', 'away', 'spotlight.', '”', 'pauses', '.']
@@ -537,7 +478,6 @@ Stop words: ['it', 'but', 'at', 'No', 'you', 'the', 'most', 'doing', 'it', 'all'
 Number of stop words: 13
 Average number of stop words per sentence: 0.43
 Sentiment score: 1
-
 Sentence 61: “ seems like dream now. ” Cameron Michelle Obama 2015 visit - Geoff Pugh One youngest ever prime ministerial wives , 45 , dressed swirly-patterned Roksanda dress ’ hurriedly bought online event , walked Downing Street last time .
 Total words: 61
 Filtered words: ['“', 'seems', 'like', 'dream', 'now.', '”', 'Cameron', 'Michelle', 'Obama', '2015', 'visit', '-', 'Geoff', 'Pugh', 'One', 'youngest', 'ever', 'prime', 'ministerial', 'wives', ',', '45', ',', 'dressed', 'swirly-patterned', 'Roksanda', 'dress', '’', 'hurriedly', 'bought', 'online', 'event', ',', 'walked', 'Downing', 'Street', 'last', 'time', '.']
@@ -546,7 +486,6 @@ Stop words: ['It', 'all', 'a', 'and', 'during', 'a', 'of', 'the', 'she', 'was', 
 Number of stop words: 22
 Average number of stop words per sentence: 0.36
 Sentiment score: 1
-
 Sentence 62: ’ , must said , look distraught .
 Total words: 13
 Filtered words: ['’', ',', 'must', 'said', ',', 'look', 'distraught', '.']
@@ -555,7 +494,6 @@ Stop words: ['She', 'didn', 't', 'it', 'be']
 Number of stop words: 5
 Average number of stop words per sentence: 0.38
 Sentiment score: 0
-
 Sentence 63: Maybe , gone part-time creative director role Smythson ensure transition life Downing Street would smooth possible young family , looking forward stepping career ?
 Total words: 43
 Filtered words: ['Maybe', ',', 'gone', 'part-time', 'creative', 'director', 'role', 'Smythson', 'ensure', 'transition', 'life', 'Downing', 'Street', 'would', 'smooth', 'possible', 'young', 'family', ',', 'looking', 'forward', 'stepping', 'career', '?']
@@ -564,7 +502,6 @@ Stop words: ['having', 'in', 'her', 'at', 'to', 'the', 'to', 'in', 'be', 'as', '
 Number of stop words: 19
 Average number of stop words per sentence: 0.44
 Sentiment score: 1
-
 Sentence 64: transpired ’ preparing “ life outside ” still Number 11 , taking online pattern-cutting course hiring teacher help practise .
 Total words: 32
 Filtered words: ['transpired', '’', 'preparing', '“', 'life', 'outside', '”', 'still', 'Number', '11', ',', 'taking', 'online', 'pattern-cutting', 'course', 'hiring', 'teacher', 'help', 'practise', '.']
@@ -573,7 +510,6 @@ Stop words: ['It', 'she', 'd', 'been', 'for', 'while', 'in', 'an', 'and', 'a', '
 Number of stop words: 12
 Average number of stop words per sentence: 0.38
 Sentiment score: 0
-
 Sentence 65: “ whole time , Dave aware going end point , determined keep things normal possible , ” says .
 Total words: 41
 Filtered words: ['“', 'whole', 'time', ',', 'Dave', 'aware', 'going', 'end', 'point', ',', 'determined', 'keep', 'things', 'normal', 'possible', ',', '”', 'says', '.']
@@ -582,7 +518,6 @@ Stop words: ['The', 'we', 'were', 'there', 'and', 'I', 'were', 'very', 'that', '
 Number of stop words: 22
 Average number of stop words per sentence: 0.54
 Sentiment score: 0
-
 Sentence 66: “ children stayed schools , kept friends .
 Total words: 15
 Filtered words: ['“', 'children', 'stayed', 'schools', ',', 'kept', 'friends', '.']
@@ -591,7 +526,6 @@ Stop words: ['The', 'at', 'the', 'same', 'we', 'the', 'same']
 Number of stop words: 7
 Average number of stop words per sentence: 0.47
 Sentiment score: 1
-
 Sentence 67: helpful get paranoid deciding whether trust people. ” Despite jokes shepherds ’ huts golf awaydays , Camerons appeared adjusting well civvy street .
 Total words: 39
 Filtered words: ['helpful', 'get', 'paranoid', 'deciding', 'whether', 'trust', 'people.', '”', 'Despite', 'jokes', 'shepherds', '’', 'huts', 'golf', 'awaydays', ',', 'Camerons', 'appeared', 'adjusting', 'well', 'civvy', 'street', '.']
@@ -600,7 +534,6 @@ Stop words: ['That', 'was', 'because', 'you', 'can', 'or', 'not', 'you', 'can', 
 Number of stop words: 16
 Average number of stop words per sentence: 0.41
 Sentiment score: 2
-
 Sentence 68: Kensington red-brick terraced house , nowhere grand Blairs ’ Georgian pile north Hyde Park , airy stylish – black Crittall wooden floors onto juicy-looking lawn , slightly industrial shelving Vitsoe see every architect ’ home , next luxe-looking , yellow upholstered sofas “ forever ” wicker armchair bought points earned Soho House membership .
 Total words: 79
 Filtered words: ['Kensington', 'red-brick', 'terraced', 'house', ',', 'nowhere', 'grand', 'Blairs', '’', 'Georgian', 'pile', 'north', 'Hyde', 'Park', ',', 'airy', 'stylish', '–', 'black', 'Crittall', 'wooden', 'floors', 'onto', 'juicy-looking', 'lawn', ',', 'slightly', 'industrial', 'shelving', 'Vitsoe', 'see', 'every', 'architect', '’', 'home', ',', 'next', 'luxe-looking', ',', 'yellow', 'upholstered', 'sofas', '“', 'forever', '”', 'wicker', 'armchair', 'bought', 'points', 'earned', 'Soho', 'House', 'membership', '.']
@@ -609,7 +542,6 @@ Stop words: ['Their', 'while', 'as', 'as', 'the', 'just', 'off', 'is', 'and', 'a
 Number of stop words: 25
 Average number of stop words per sentence: 0.32
 Sentiment score: 1
-
 Sentence 69: ’ Lynn Chadwick abstract print – present David , rather good drawings children , including one son Arthur two surviving chickens , next David Hockney print .
 Total words: 40
 Filtered words: ['’', 'Lynn', 'Chadwick', 'abstract', 'print', '–', 'present', 'David', ',', 'rather', 'good', 'drawings', 'children', ',', 'including', 'one', 'son', 'Arthur', 'two', 'surviving', 'chickens', ',', 'next', 'David', 'Hockney', 'print', '.']
@@ -618,7 +550,6 @@ Stop words: ['There', 's', 'a', 'a', 'from', 'by', 'her', 'by', 'her', 'of', 'th
 Number of stop words: 13
 Average number of stop words per sentence: 0.33
 Sentiment score: 1
-
 Sentence 70: another shelf , ’ Matryoshka doll picture Theresa May ’ face front ( present mischievous friend ) , one mini waving Queen Elizabeth statues kneeling Winston Churchill , gold table lamp Tom Dixon designed Habitat , lots books , political novels .
 Total words: 70
 Filtered words: ['another', 'shelf', ',', '’', 'Matryoshka', 'doll', 'picture', 'Theresa', 'May', '’', 'face', 'front', '(', 'present', 'mischievous', 'friend', ')', ',', 'one', 'mini', 'waving', 'Queen', 'Elizabeth', 'statues', 'kneeling', 'Winston', 'Churchill', ',', 'gold', 'table', 'lamp', 'Tom', 'Dixon', 'designed', 'Habitat', ',', 'lots', 'books', ',', 'political', 'novels', '.']
@@ -627,7 +558,6 @@ Stop words: ['On', 'there', 's', 'a', 'with', 'a', 'of', 's', 'on', 'the', 'a', 
 Number of stop words: 28
 Average number of stop words per sentence: 0.4
 Sentiment score: 2
-
 Sentence 71: senior Camerons read voraciously – Samantha problems learning ’ master seven .
 Total words: 21
 Filtered words: ['senior', 'Camerons', 'read', 'voraciously', '–', 'Samantha', 'problems', 'learning', '’', 'master', 'seven', '.']
@@ -636,7 +566,6 @@ Stop words: ['Both', 'had', 'and', 'didn', 't', 'it', 'until', 'she', 'was']
 Number of stop words: 9
 Average number of stop words per sentence: 0.43
 Sentiment score: 1
-
 Sentence 72: spent months teaching school dyslexics , children dyslexic .
 Total words: 20
 Filtered words: ['spent', 'months', 'teaching', 'school', 'dyslexics', ',', 'children', 'dyslexic', '.']
@@ -645,7 +574,6 @@ Stop words: ['She', 'once', 'a', 'few', 'at', 'a', 'for', 'and', 'all', 'their',
 Number of stop words: 11
 Average number of stop words per sentence: 0.55
 Sentiment score: 1
-
 Sentence 73: Tellingly , finally learned read , would devour 10 books week .
 Total words: 17
 Filtered words: ['Tellingly', ',', 'finally', 'learned', 'read', ',', 'would', 'devour', '10', 'books', 'week', '.']
@@ -654,7 +582,6 @@ Stop words: ['once', 'she', 'to', 'she', 'a']
 Number of stop words: 5
 Average number of stop words per sentence: 0.29
 Sentiment score: 0
-
 Sentence 74: ’ finished Barbara Kingsolver ’ excellent Demon Copperhead .
 Total words: 13
 Filtered words: ['’', 'finished', 'Barbara', 'Kingsolver', '’', 'excellent', 'Demon', 'Copperhead', '.']
@@ -663,7 +590,6 @@ Stop words: ['She', 's', 'just', 's']
 Number of stop words: 4
 Average number of stop words per sentence: 0.31
 Sentiment score: 1
-
 Sentence 75: Hanging open-plan kitchen : David Mellor saucepans given wedding 1996 hallway , glossy black-and-white photographs children .
 Total words: 32
 Filtered words: ['Hanging', 'open-plan', 'kitchen', ':', 'David', 'Mellor', 'saucepans', 'given', 'wedding', '1996', 'hallway', ',', 'glossy', 'black-and-white', 'photographs', 'children', '.']
@@ -672,7 +598,6 @@ Stop words: ['in', 'the', 'some', 'they', 'were', 'for', 'their', 'in', 'and', '
 Number of stop words: 15
 Average number of stop words per sentence: 0.47
 Sentiment score: 0
-
 Sentence 76: home perfect compendium old , new vintage , high low .
 Total words: 17
 Filtered words: ['home', 'perfect', 'compendium', 'old', ',', 'new', 'vintage', ',', 'high', 'low', '.']
@@ -681,7 +606,6 @@ Stop words: ['Their', 'is', 'a', 'of', 'and', 'and']
 Number of stop words: 6
 Average number of stop words per sentence: 0.35
 Sentiment score: 1
-
 Sentence 77: David Cameron , transpires , loves shop Chipping Norton ’ Aldi .
 Total words: 16
 Filtered words: ['David', 'Cameron', ',', 'transpires', ',', 'loves', 'shop', 'Chipping', 'Norton', '’', 'Aldi', '.']
@@ -690,7 +614,6 @@ Stop words: ['it', 'to', 'in', 's']
 Number of stop words: 4
 Average number of stop words per sentence: 0.25
 Sentiment score: 1
-
 Sentence 78: “ ’ quite good steering away middle aisle [ plastic foot spas junk ] sometimes remind .
 Total words: 33
 Filtered words: ['“', '’', 'quite', 'good', 'steering', 'away', 'middle', 'aisle', '[', 'plastic', 'foot', 'spas', 'junk', ']', 'sometimes', 'remind', '.']
@@ -699,7 +622,6 @@ Stop words: ['He', 's', 'at', 'from', 'the', 'where', 'all', 'the', 'and', 'othe
 Number of stop words: 16
 Average number of stop words per sentence: 0.48
 Sentiment score: 1
-
 Sentence 79: favourite activity food shopping cooking kids. ” David Cameron Samantha Cameron - Ricky Vigil , meanwhile , probably browsing vintage furniture website vinterior.co .
 Total words: 33
 Filtered words: ['favourite', 'activity', 'food', 'shopping', 'cooking', 'kids.', '”', 'David', 'Cameron', 'Samantha', 'Cameron', '-', 'Ricky', 'Vigil', ',', 'meanwhile', ',', 'probably', 'browsing', 'vintage', 'furniture', 'website', 'vinterior.co', '.']
@@ -708,7 +630,6 @@ Stop words: ['His', 'is', 'and', 'with', 'the', 'and', 'Hers', 'is', 'on']
 Number of stop words: 9
 Average number of stop words per sentence: 0.27
 Sentiment score: 1
-
 Sentence 80: another life , could successful interior designer – kind finds pretty cushions .
 Total words: 21
 Filtered words: ['another', 'life', ',', 'could', 'successful', 'interior', 'designer', '–', 'kind', 'finds', 'pretty', 'cushions', '.']
@@ -717,7 +638,6 @@ Stop words: ['In', 'she', 'be', 'a', 'not', 'the', 'that', 'just']
 Number of stop words: 8
 Average number of stop words per sentence: 0.38
 Sentiment score: 2
-
 Sentence 81: obsessed mathematics design .
 Total words: 9
 Filtered words: ['obsessed', 'mathematics', 'design', '.']
@@ -726,7 +646,6 @@ Stop words: ['She', 'is', 'with', 'the', 'of']
 Number of stop words: 5
 Average number of stop words per sentence: 0.56
 Sentiment score: 1
-
 Sentence 82: ’ one measured kitchen , cereal drawer , made sure right height every known brand cereal packet .
 Total words: 33
 Filtered words: ['’', 'one', 'measured', 'kitchen', ',', 'cereal', 'drawer', ',', 'made', 'sure', 'right', 'height', 'every', 'known', 'brand', 'cereal', 'packet', '.']
@@ -735,7 +654,6 @@ Stop words: ['She', 's', 'the', 'who', 'out', 'their', 'down', 'to', 'the', 'whi
 Number of stop words: 15
 Average number of stop words per sentence: 0.45
 Sentiment score: 2
-
 Sentence 83: , ’ key insight brain works wanted start Cefinn , always said “ problem solving ” .
 Total words: 34
 Filtered words: [',', '’', 'key', 'insight', 'brain', 'works', 'wanted', 'start', 'Cefinn', ',', 'always', 'said', '“', 'problem', 'solving', '”', '.']
@@ -744,7 +662,6 @@ Stop words: ['For', 'me', 'that', 's', 'a', 'into', 'how', 'her', 'and', 'why', 
 Number of stop words: 17
 Average number of stop words per sentence: 0.5
 Sentiment score: 1
-
 Sentence 84: intelligent edit smart expensive workwear women aged 35 55 , want come across professional sleekly modern ( “ kind thing struggled find 10 ) ” , without looking corporate , label well received start .
 Total words: 57
 Filtered words: ['intelligent', 'edit', 'smart', 'expensive', 'workwear', 'women', 'aged', '35', '55', ',', 'want', 'come', 'across', 'professional', 'sleekly', 'modern', '(', '“', 'kind', 'thing', 'struggled', 'find', '10', ')', '”', ',', 'without', 'looking', 'corporate', ',', 'label', 'well', 'received', 'start', '.']
@@ -753,7 +670,6 @@ Stop words: ['With', 'its', 'of', 'but', 'not', 'too', 'for', 'to', 'who', 'to',
 Number of stop words: 22
 Average number of stop words per sentence: 0.39
 Sentiment score: 1
-
 Sentence 85: came Covid , bad anyone selling clothes , breakpoint someone selling stylish office clothes .
 Total words: 21
 Filtered words: ['came', 'Covid', ',', 'bad', 'anyone', 'selling', 'clothes', ',', 'breakpoint', 'someone', 'selling', 'stylish', 'office', 'clothes', '.']
@@ -762,7 +678,6 @@ Stop words: ['Then', 'which', 'was', 'for', 'but', 'for']
 Number of stop words: 6
 Average number of stop words per sentence: 0.29
 Sentiment score: 1
-
 Sentence 86: “ definitely put spanner original forecasts , ” says .
 Total words: 15
 Filtered words: ['“', 'definitely', 'put', 'spanner', 'original', 'forecasts', ',', '”', 'says', '.']
@@ -771,7 +686,6 @@ Stop words: ['It', 'a', 'in', 'my', 'she']
 Number of stop words: 5
 Average number of stop words per sentence: 0.33
 Sentiment score: 1
-
 Sentence 87: “ pivoted .
 Total words: 6
 Filtered words: ['“', 'pivoted', '.']
@@ -780,7 +694,6 @@ Stop words: ['But', 'then', 'we']
 Number of stop words: 3
 Average number of stop words per sentence: 0.5
 Sentiment score: 1
-
 Sentence 88: started knitwear. ” One item particular , ribbed roll-neck became huge bestseller expanded range knits accounts 27 per cent sales .
 Total words: 33
 Filtered words: ['started', 'knitwear.', '”', 'One', 'item', 'particular', ',', 'ribbed', 'roll-neck', 'became', 'huge', 'bestseller', 'expanded', 'range', 'knits', 'accounts', '27', 'per', 'cent', 'sales', '.']
@@ -789,7 +702,6 @@ Stop words: ['We', 'doing', 'more', 'in', 'a', 'a', 'and', 'their', 'of', 'now',
 Number of stop words: 12
 Average number of stop words per sentence: 0.36
 Sentiment score: 0
-
 Sentence 89: introduced casual cotton dresses hit , .
 Total words: 14
 Filtered words: ['introduced', 'casual', 'cotton', 'dresses', 'hit', ',', '.']
@@ -798,7 +710,6 @@ Stop words: ['She', 'more', 'and', 'they', 'were', 'a', 'too']
 Number of stop words: 7
 Average number of stop words per sentence: 0.5
 Sentiment score: 1
-
 Sentence 90: past year , branched special occasion items – kind pretty silk viscose dresses could wear heels wedding – Coronation .
 Total words: 36
 Filtered words: ['past', 'year', ',', 'branched', 'special', 'occasion', 'items', '–', 'kind', 'pretty', 'silk', 'viscose', 'dresses', 'could', 'wear', 'heels', 'wedding', '–', 'Coronation', '.']
@@ -807,7 +718,6 @@ Stop words: ['In', 'the', 'she', 'has', 'into', 'more', 'the', 'of', 'and', 'you
 Number of stop words: 16
 Average number of stop words per sentence: 0.44
 Sentiment score: 2
-
 Sentence 91: Camerons going .
 Total words: 5
 Filtered words: ['Camerons', 'going', '.']
@@ -816,7 +726,6 @@ Stop words: ['The', 'are']
 Number of stop words: 2
 Average number of stop words per sentence: 0.4
 Sentiment score: 0
-
 Sentence 92: “ really quite thrilled , ” says .
 Total words: 11
 Filtered words: ['“', 'really', 'quite', 'thrilled', ',', '”', 'says', '.']
@@ -825,7 +734,6 @@ Stop words: ['I', 'am', 'she']
 Number of stop words: 3
 Average number of stop words per sentence: 0.27
 Sentiment score: 0
-
 Sentence 93: “ might able see much love Westminster Abbey – much nicer St Paul ’ .
 Total words: 23
 Filtered words: ['“', 'might', 'able', 'see', 'much', 'love', 'Westminster', 'Abbey', '–', 'much', 'nicer', 'St', 'Paul', '’', '.']
@@ -834,7 +742,6 @@ Stop words: ['We', 'not', 'be', 'to', 'but', 'I', 'than', 's']
 Number of stop words: 8
 Average number of stop words per sentence: 0.35
 Sentiment score: 1
-
 Sentence 94: ’ wonderful part history. ” ’ wearing Cefinn , course , millinery friend Jess Collett .
 Total words: 29
 Filtered words: ['’', 'wonderful', 'part', 'history.', '”', '’', 'wearing', 'Cefinn', ',', 'course', ',', 'millinery', 'friend', 'Jess', 'Collett', '.']
@@ -843,7 +750,6 @@ Stop words: ['And', 'it', 's', 'to', 'be', 'of', 'She', 'll', 'be', 'of', 'and',
 Number of stop words: 13
 Average number of stop words per sentence: 0.45
 Sentiment score: 0
-
 Sentence 95: ( famously ’ wear hat Kate William ’ wedding , Anna Wintour approved , traditionalists turned purple ) .
 Total words: 29
 Filtered words: ['(', 'famously', '’', 'wear', 'hat', 'Kate', 'William', '’', 'wedding', ',', 'Anna', 'Wintour', 'approved', ',', 'traditionalists', 'turned', 'purple', ')', '.']
@@ -852,7 +758,6 @@ Stop words: ['She', 'didn', 't', 'a', 'to', 'and', 's', 'and', 'while', 'the']
 Number of stop words: 10
 Average number of stop words per sentence: 0.34
 Sentiment score: 0
-
 Sentence 96: David Cameron , Samantha Cameron , Nick Clegg Miriam Gonzalez Durantez - ANTHONY DEVLIN/AFP “ People want clothes work much harder days , ” notes .
 Total words: 31
 Filtered words: ['David', 'Cameron', ',', 'Samantha', 'Cameron', ',', 'Nick', 'Clegg', 'Miriam', 'Gonzalez', 'Durantez', '-', 'ANTHONY', 'DEVLIN/AFP', '“', 'People', 'want', 'clothes', 'work', 'much', 'harder', 'days', ',', '”', 'notes', '.']
@@ -861,7 +766,6 @@ Stop words: ['and', 'their', 'to', 'these', 'she']
 Number of stop words: 5
 Average number of stop words per sentence: 0.16
 Sentiment score: 2
-
 Sentence 97: “ sister Lucy [ Sir Reginald ’ second marriage ] , ’ 11 years younger , wears green Cefinn party dress work jacket flat boots ’ always complimented Tube. ” outfit Samantha ’ wearing meet – navy silk skirt matching blouse attached navy tank top – precisely kind dressed .
 Total words: 86
 Filtered words: ['“', 'sister', 'Lucy', '[', 'Sir', 'Reginald', '’', 'second', 'marriage', ']', ',', '’', '11', 'years', 'younger', ',', 'wears', 'green', 'Cefinn', 'party', 'dress', 'work', 'jacket', 'flat', 'boots', '’', 'always', 'complimented', 'Tube.', '”', 'outfit', 'Samantha', '’', 'wearing', 'meet', '–', 'navy', 'silk', 'skirt', 'matching', 'blouse', 'attached', 'navy', 'tank', 'top', '–', 'precisely', 'kind', 'dressed', '.']
@@ -870,7 +774,6 @@ Stop words: ['My', 'from', 's', 'who', 's', 'than', 'me', 'a', 'to', 'with', 'a'
 Number of stop words: 36
 Average number of stop words per sentence: 0.42
 Sentiment score: 1
-
 Sentence 98: ’ blinged chunky gold hoops Sezane , fashion cognoscenti ’ favourite French brand , cream Stella McCartney-esque flatform brogues found Aldo – ’ sucker shoes , says – ’ pay big money Zara Mango .
 Total words: 65
 Filtered words: ['’', 'blinged', 'chunky', 'gold', 'hoops', 'Sezane', ',', 'fashion', 'cognoscenti', '’', 'favourite', 'French', 'brand', ',', 'cream', 'Stella', 'McCartney-esque', 'flatform', 'brogues', 'found', 'Aldo', '–', '’', 'sucker', 'shoes', ',', 'says', '–', '’', 'pay', 'big', 'money', 'Zara', 'Mango', '.']
@@ -879,7 +782,6 @@ Stop words: ['She', 's', 'it', 'up', 'with', 'some', 'from', 'the', 's', 'and', 
 Number of stop words: 30
 Average number of stop words per sentence: 0.46
 Sentiment score: 1
-
 Sentence 99: Eventually plans launch shoe line see gap stylish shoes kind prices wants pay .
 Total words: 28
 Filtered words: ['Eventually', 'plans', 'launch', 'shoe', 'line', 'see', 'gap', 'stylish', 'shoes', 'kind', 'prices', 'wants', 'pay', '.']
@@ -888,7 +790,6 @@ Stop words: ['she', 'to', 'her', 'own', 'because', 'she', 'can', 'a', 'for', 'at
 Number of stop words: 14
 Average number of stop words per sentence: 0.5
 Sentiment score: 2
-
 Sentence 100: “ Ultimately ’ like Cefinn brand women come style solutions ” .
 Total words: 22
 Filtered words: ['“', 'Ultimately', '’', 'like', 'Cefinn', 'brand', 'women', 'come', 'style', 'solutions', '”', '.']
@@ -897,7 +798,6 @@ Stop words: ['I', 'd', 'to', 'be', 'a', 'where', 'can', 'for', 'all', 'their']
 Number of stop words: 10
 Average number of stop words per sentence: 0.45
 Sentiment score: 2
-
 Sentence 101: summer launching range holiday dresses .
 Total words: 11
 Filtered words: ['summer', 'launching', 'range', 'holiday', 'dresses', '.']
@@ -906,7 +806,6 @@ Stop words: ['This', 'she', 'is', 'a', 'of']
 Number of stop words: 5
 Average number of stop words per sentence: 0.45
 Sentiment score: 1
-
 Sentence 102: never seen without impeccably applied make-up ( “ terrible acne young ’ always worn make-up ” ) , plans Victoria Beckham launch beauty range .
 Total words: 46
 Filtered words: ['never', 'seen', 'without', 'impeccably', 'applied', 'make-up', '(', '“', 'terrible', 'acne', 'young', '’', 'always', 'worn', 'make-up', '”', ')', ',', 'plans', 'Victoria', 'Beckham', 'launch', 'beauty', 'range', '.']
@@ -915,7 +814,6 @@ Stop words: ['But', 'while', 'I', 'have', 'her', 'I', 'had', 'when', 'I', 'was',
 Number of stop words: 21
 Average number of stop words per sentence: 0.46
 Sentiment score: 1
-
 Sentence 103: gets huge kick seeing women wearing clothes .
 Total words: 11
 Filtered words: ['gets', 'huge', 'kick', 'seeing', 'women', 'wearing', 'clothes', '.']
@@ -924,7 +822,6 @@ Stop words: ['She', 'a', 'her']
 Number of stop words: 3
 Average number of stop words per sentence: 0.27
 Sentiment score: 1
-
 Sentence 104: Sophie Raworth , Fiona Bruce , Princess Wales , Queen Camilla , Queen Rania Jordan , Gillian Anderson , Keeley Hawes , Amy Schumer , Olivia Colman spotted Cefinn – Samantha volunteers information .
 Total words: 44
 Filtered words: ['Sophie', 'Raworth', ',', 'Fiona', 'Bruce', ',', 'Princess', 'Wales', ',', 'Queen', 'Camilla', ',', 'Queen', 'Rania', 'Jordan', ',', 'Gillian', 'Anderson', ',', 'Keeley', 'Hawes', ',', 'Amy', 'Schumer', ',', 'Olivia', 'Colman', 'spotted', 'Cefinn', '–', 'Samantha', 'volunteers', 'information', '.']
@@ -933,7 +830,6 @@ Stop words: ['the', 'of', 'of', 'have', 'all', 'been', 'in', 'not', 'that', 'thi
 Number of stop words: 10
 Average number of stop words per sentence: 0.23
 Sentiment score: 1
-
 Sentence 105: reticent blabbing wears clothes case looks grabby .
 Total words: 15
 Filtered words: ['reticent', 'blabbing', 'wears', 'clothes', 'case', 'looks', 'grabby', '.']
@@ -942,7 +838,6 @@ Stop words: ['She', 'is', 'about', 'who', 'her', 'in', 'it']
 Number of stop words: 7
 Average number of stop words per sentence: 0.47
 Sentiment score: 1
-
 Sentence 106: biggest “ get ” recently Sienna Miller , fabulously stylish Cefinn ( Max Mara Row ) Anatomy Scandal , Netflix hit fictional Tory PM whose bad behaviour member notorious drinking club Oxford catches .
 Total words: 56
 Filtered words: ['biggest', '“', 'get', '”', 'recently', 'Sienna', 'Miller', ',', 'fabulously', 'stylish', 'Cefinn', '(', 'Max', 'Mara', 'Row', ')', 'Anatomy', 'Scandal', ',', 'Netflix', 'hit', 'fictional', 'Tory', 'PM', 'whose', 'bad', 'behaviour', 'member', 'notorious', 'drinking', 'club', 'Oxford', 'catches', '.']
@@ -951,7 +846,6 @@ Stop words: ['The', 'was', 'in', 'and', 'and', 'The', 'in', 'of', 'a', 'the', 'a
 Number of stop words: 22
 Average number of stop words per sentence: 0.39
 Sentiment score: 1
-
 Sentence 107: “ Remind anyone ? ” Theresa May might ask .
 Total words: 13
 Filtered words: ['“', 'Remind', 'anyone', '?', '”', 'Theresa', 'May', 'might', 'ask', '.']
@@ -960,7 +854,6 @@ Stop words: ['you', 'of', 'as']
 Number of stop words: 3
 Average number of stop words per sentence: 0.23
 Sentiment score: 0
-
 Sentence 108: Princess Wales wearing Cefinn shirt visit Glasgow 2022 - Chris Jackson Samantha watch Sienna Miller ’ chic descent cuckolded wife hell ?
 Total words: 32
 Filtered words: ['Princess', 'Wales', 'wearing', 'Cefinn', 'shirt', 'visit', 'Glasgow', '2022', '-', 'Chris', 'Jackson', 'Samantha', 'watch', 'Sienna', 'Miller', '’', 'chic', 'descent', 'cuckolded', 'wife', 'hell', '?']
@@ -969,7 +862,6 @@ Stop words: ['The', 'of', 'a', 'on', 'a', 'to', 'in', 'Did', 's', 'into']
 Number of stop words: 10
 Average number of stop words per sentence: 0.31
 Sentiment score: 1
-
 Sentence 109: Yes , says , deftly steering conversation latest TV addiction – Fleishman Trouble , based piercing New York Times best-seller divorced middle-aged Manhattan couple .
 Total words: 35
 Filtered words: ['Yes', ',', 'says', ',', 'deftly', 'steering', 'conversation', 'latest', 'TV', 'addiction', '–', 'Fleishman', 'Trouble', ',', 'based', 'piercing', 'New', 'York', 'Times', 'best-seller', 'divorced', 'middle-aged', 'Manhattan', 'couple', '.']
@@ -978,7 +870,6 @@ Stop words: ['she', 'the', 'to', 'her', 'Is', 'in', 'on', 'the', 'about', 'a']
 Number of stop words: 10
 Average number of stop words per sentence: 0.29
 Sentiment score: 1
-
 Sentence 110: ’ smooth operator .
 Total words: 7
 Filtered words: ['’', 'smooth', 'operator', '.']
@@ -987,7 +878,6 @@ Stop words: ['She', 's', 'a']
 Number of stop words: 3
 Average number of stop words per sentence: 0.43
 Sentiment score: 2
-
 Sentence 111: jobs , ’ met many times – long Downing Street – although always seems preternaturally calm , underneath , think ’ probably quite lot agonising .
 Total words: 39
 Filtered words: ['jobs', ',', '’', 'met', 'many', 'times', '–', 'long', 'Downing', 'Street', '–', 'although', 'always', 'seems', 'preternaturally', 'calm', ',', 'underneath', ',', 'think', '’', 'probably', 'quite', 'lot', 'agonising', '.']
@@ -996,7 +886,6 @@ Stop words: ['Through', 'our', 'I', 've', 'her', 'before', 'and', 'she', 'I', 't
 Number of stop words: 13
 Average number of stop words per sentence: 0.33
 Sentiment score: 2
-
 Sentence 112: dust parents ’ divorce settled , exes new spouses became great friends .
 Total words: 20
 Filtered words: ['dust', 'parents', '’', 'divorce', 'settled', ',', 'exes', 'new', 'spouses', 'became', 'great', 'friends', '.']
@@ -1005,7 +894,6 @@ Stop words: ['Once', 'the', 'of', 'her', 'the', 'and', 'their']
 Number of stop words: 7
 Average number of stop words per sentence: 0.35
 Sentiment score: 0
-
 Sentence 113: two families would holiday together Astors ’ estate Scotland caravan children .
 Total words: 19
 Filtered words: ['two', 'families', 'would', 'holiday', 'together', 'Astors', '’', 'estate', 'Scotland', 'caravan', 'children', '.']
@@ -1014,7 +902,6 @@ Stop words: ['The', 'at', 'the', 'in', 'with', 'their', 'of']
 Number of stop words: 7
 Average number of stop words per sentence: 0.37
 Sentiment score: 1
-
 Sentence 114: “ Bringing new boyfriends back meet opinionated siblings quite test , ” says .
 Total words: 20
 Filtered words: ['“', 'Bringing', 'new', 'boyfriends', 'back', 'meet', 'opinionated', 'siblings', 'quite', 'test', ',', '”', 'says', '.']
@@ -1023,7 +910,6 @@ Stop words: ['to', 'all', 'these', 'was', 'a', 'she']
 Number of stop words: 6
 Average number of stop words per sentence: 0.3
 Sentiment score: 0
-
 Sentence 115: “ first ever boyfriend spent entire evening shaking. ” David , initially met sister Clare , passed flying colours , course .
 Total words: 30
 Filtered words: ['“', 'first', 'ever', 'boyfriend', 'spent', 'entire', 'evening', 'shaking.', '”', 'David', ',', 'initially', 'met', 'sister', 'Clare', ',', 'passed', 'flying', 'colours', ',', 'course', '.']
@@ -1032,7 +918,6 @@ Stop words: ['My', 'the', 'whom', 'she', 'through', 'his', 'with', 'of']
 Number of stop words: 8
 Average number of stop words per sentence: 0.27
 Sentiment score: 1
-
 Sentence 116: “ ’ large family too. ” love “ ferally ” cousins get together .
 Total words: 24
 Filtered words: ['“', '’', 'large', 'family', 'too.', '”', 'love', '“', 'ferally', '”', 'cousins', 'get', 'together', '.']
@@ -1041,7 +926,6 @@ Stop words: ['He', 's', 'from', 'a', 'They', 'both', 'it', 'when', 'all', 'the']
 Number of stop words: 10
 Average number of stop words per sentence: 0.42
 Sentiment score: 2
-
 Sentence 117: sounds solid wonder recipe long happy marriage .
 Total words: 17
 Filtered words: ['sounds', 'solid', 'wonder', 'recipe', 'long', 'happy', 'marriage', '.']
@@ -1050,7 +934,6 @@ Stop words: ['It', 'all', 'so', 'I', 'what', 'her', 'is', 'for', 'a']
 Number of stop words: 9
 Average number of stop words per sentence: 0.53
 Sentiment score: 1
-
 Sentence 118: “ Try remember kind respectful… ’ lucky neither us confrontational .
 Total words: 21
 Filtered words: ['“', 'Try', 'remember', 'kind', 'respectful…', '’', 'lucky', 'neither', 'us', 'confrontational', '.']
@@ -1059,7 +942,6 @@ Stop words: ['to', 'to', 'be', 'and', 'we', 're', 'in', 'that', 'of', 'is']
 Number of stop words: 10
 Average number of stop words per sentence: 0.48
 Sentiment score: 2
-
 Sentence 119: really ’ row much .
 Total words: 8
 Filtered words: ['really', '’', 'row', 'much', '.']
@@ -1068,7 +950,6 @@ Stop words: ['We', 'don', 't']
 Number of stop words: 3
 Average number of stop words per sentence: 0.38
 Sentiment score: 0
-
 Sentence 120: ’ argumentative ’ like go bed quarrel .
 Total words: 18
 Filtered words: ['’', 'argumentative', '’', 'like', 'go', 'bed', 'quarrel', '.']
@@ -1077,7 +958,6 @@ Stop words: ['I', 'm', 'but', 'I', 'don', 't', 'to', 'to', 'on', 'a']
 Number of stop words: 10
 Average number of stop words per sentence: 0.56
 Sentiment score: 1
-
 Sentence 121: think ’ one eight learn conciliatory .
 Total words: 15
 Filtered words: ['think', '’', 'one', 'eight', 'learn', 'conciliatory', '.']
@@ -1086,7 +966,6 @@ Stop words: ['I', 'when', 'you', 're', 'of', 'you', 'to', 'be']
 Number of stop words: 8
 Average number of stop words per sentence: 0.53
 Sentiment score: 1
-
 Sentence 122: observer also know make heard necessary. ” Camerons sticklers routine .
 Total words: 24
 Filtered words: ['observer', 'also', 'know', 'make', 'heard', 'necessary.', '”', 'Camerons', 'sticklers', 'routine', '.']
@@ -1095,7 +974,6 @@ Stop words: ['You', 'have', 'to', 'be', 'an', 'but', 'how', 'to', 'yourself', 'w
 Number of stop words: 13
 Average number of stop words per sentence: 0.54
 Sentiment score: 0
-
 Sentence 123: “ Without , big family , mealtimes would never happen. ” upsides one eight .
 Total words: 24
 Filtered words: ['“', 'Without', ',', 'big', 'family', ',', 'mealtimes', 'would', 'never', 'happen.', '”', 'upsides', 'one', 'eight', '.']
@@ -1104,7 +982,6 @@ Stop words: ['it', 'in', 'a', 'Those', 'are', 'the', 'of', 'being', 'of']
 Number of stop words: 9
 Average number of stop words per sentence: 0.38
 Sentiment score: 1
-
 Sentence 124: downsides , says , tend greedy .
 Total words: 14
 Filtered words: ['downsides', ',', 'says', ',', 'tend', 'greedy', '.']
@@ -1113,7 +990,6 @@ Stop words: ['The', 'she', 'are', 'that', 'you', 'to', 'be']
 Number of stop words: 7
 Average number of stop words per sentence: 0.5
 Sentiment score: 0
-
 Sentence 125: ’ never known diet .
 Total words: 12
 Filtered words: ['’', 'never', 'known', 'diet', '.']
@@ -1122,7 +998,6 @@ Stop words: ['I', 've', 'not', 'her', 'be', 'on', 'a']
 Number of stop words: 7
 Average number of stop words per sentence: 0.58
 Sentiment score: 0
-
 Sentence 126: currently 5:2 diet .
 Total words: 8
 Filtered words: ['currently', '5:2', 'diet', '.']
@@ -1131,7 +1006,6 @@ Stop words: ['She', 'is', 'on', 'the']
 Number of stop words: 4
 Average number of stop words per sentence: 0.5
 Sentiment score: 1
-
 Sentence 127: looks extremely slender , claims “ half-stone put menopause much harder shift ’ 52 .
 Total words: 27
 Filtered words: ['looks', 'extremely', 'slender', ',', 'claims', '“', 'half-stone', 'put', 'menopause', 'much', 'harder', 'shift', '’', '52', '.']
@@ -1140,7 +1014,6 @@ Stop words: ['She', 'but', 'that', 'you', 'on', 'in', 'is', 'so', 'to', 'now', '
 Number of stop words: 12
 Average number of stop words per sentence: 0.44
 Sentiment score: 1
-
 Sentence 128: Picking people ’ plates probably ’ help. ” looks slim , says , ’ flattering cut Cefinn ’ clothes .
 Total words: 35
 Filtered words: ['Picking', 'people', '’', 'plates', 'probably', '’', 'help.', '”', 'looks', 'slim', ',', 'says', ',', '’', 'flattering', 'cut', 'Cefinn', '’', 'clothes', '.']
@@ -1149,7 +1022,6 @@ Stop words: ['off', 'other', 's', 'doesn', 't', 'If', 'she', 'she', 'it', 's', '
 Number of stop words: 15
 Average number of stop words per sentence: 0.43
 Sentiment score: 1
-
 Sentence 129: Neat segue .
 Total words: 3
 Filtered words: ['Neat', 'segue', '.']
@@ -1158,7 +1030,6 @@ Stop words: []
 Number of stop words: 0
 Average number of stop words per sentence: 0.0
 Sentiment score: 0
-
 Sentence 130: laboured ages silhouettes – Cefinn ’ return rate trousers far lower industry average sales increased 51 per cent past 12 months .
 Total words: 38
 Filtered words: ['laboured', 'ages', 'silhouettes', '–', 'Cefinn', '’', 'return', 'rate', 'trousers', 'far', 'lower', 'industry', 'average', 'sales', 'increased', '51', 'per', 'cent', 'past', '12', 'months', '.']
@@ -1167,7 +1038,6 @@ Stop words: ['She', 'for', 'over', 'the', 's', 'for', 'is', 'than', 'the', 'and'
 Number of stop words: 16
 Average number of stop words per sentence: 0.42
 Sentiment score: 2
-
 Sentence 131: “ ’ proper designer , ” shoe designer Rupert Sanderson told .
 Total words: 18
 Filtered words: ['“', '’', 'proper', 'designer', ',', '”', 'shoe', 'designer', 'Rupert', 'Sanderson', 'told', '.']
@@ -1176,7 +1046,6 @@ Stop words: ['She', 's', 'a', 'the', 'once', 'me']
 Number of stop words: 6
 Average number of stop words per sentence: 0.33
 Sentiment score: 0
-
 Sentence 132: “ slaves finishes make difference. ” Dresses blouses always exactly right fastening ’ gape anywhere .
 Total words: 28
 Filtered words: ['“', 'slaves', 'finishes', 'make', 'difference.', '”', 'Dresses', 'blouses', 'always', 'exactly', 'right', 'fastening', '’', 'gape', 'anywhere', '.']
@@ -1185,7 +1054,6 @@ Stop words: ['She', 'over', 'the', 'that', 'the', 'and', 'have', 'the', 'so', 't
 Number of stop words: 12
 Average number of stop words per sentence: 0.43
 Sentiment score: 0
-
 Sentence 133: knows precisely much button adds cost , would rather spend lots different contrasting linings .
 Total words: 25
 Filtered words: ['knows', 'precisely', 'much', 'button', 'adds', 'cost', ',', 'would', 'rather', 'spend', 'lots', 'different', 'contrasting', 'linings', '.']
@@ -1194,7 +1062,6 @@ Stop words: ['She', 'how', 'each', 'to', 'the', 'but', 'on', 'them', 'than', 'of
 Number of stop words: 10
 Average number of stop words per sentence: 0.4
 Sentiment score: 2
-
 Sentence 134: team test-drive everything repeatedly almost always uses black navy piping makes sure ’ black navy pattern finding shoes go simple .
 Total words: 40
 Filtered words: ['team', 'test-drive', 'everything', 'repeatedly', 'almost', 'always', 'uses', 'black', 'navy', 'piping', 'makes', 'sure', '’', 'black', 'navy', 'pattern', 'finding', 'shoes', 'go', 'simple', '.']
@@ -1203,7 +1070,6 @@ Stop words: ['She', 'and', 'her', 'and', 'she', 'or', 'or', 'there', 's', 'some'
 Number of stop words: 19
 Average number of stop words per sentence: 0.47
 Sentiment score: 1
-
 Sentence 135: Last year , Cefinn posted loss £166,000 – fall previous year sales increased £3.8 million .
 Total words: 25
 Filtered words: ['Last', 'year', ',', 'Cefinn', 'posted', 'loss', '£166,000', '–', 'fall', 'previous', 'year', 'sales', 'increased', '£3.8', 'million', '.']
@@ -1212,7 +1078,6 @@ Stop words: ['a', 'of', 'a', 'from', 'the', 'on', 'that', 'had', 'to']
 Number of stop words: 9
 Average number of stop words per sentence: 0.36
 Sentiment score: 1
-
 Sentence 136: Building fashion brands long game .
 Total words: 8
 Filtered words: ['Building', 'fashion', 'brands', 'long', 'game', '.']
@@ -1221,7 +1086,6 @@ Stop words: ['is', 'a']
 Number of stop words: 2
 Average number of stop words per sentence: 0.25
 Sentiment score: 0
-
 Sentence 137: “ spend lot time developing designs really start make money scale up. ” first five months 2023 , sales running 25 per cent ahead period last year – seems exciting getting carried away .
 Total words: 59
 Filtered words: ['“', 'spend', 'lot', 'time', 'developing', 'designs', 'really', 'start', 'make', 'money', 'scale', 'up.', '”', 'first', 'five', 'months', '2023', ',', 'sales', 'running', '25', 'per', 'cent', 'ahead', 'period', 'last', 'year', '–', 'seems', 'exciting', 'getting', 'carried', 'away', '.']
@@ -1230,7 +1094,6 @@ Stop words: ['You', 'have', 'to', 'a', 'of', 'your', 'and', 'you', 'only', 'to',
 Number of stop words: 25
 Average number of stop words per sentence: 0.42
 Sentiment score: 1
-
 Sentence 138: “ best advice anyone ever gave break things small , doable actions , ” says .
 Total words: 23
 Filtered words: ['“', 'best', 'advice', 'anyone', 'ever', 'gave', 'break', 'things', 'small', ',', 'doable', 'actions', ',', '”', 'says', '.']
@@ -1239,7 +1102,6 @@ Stop words: ['The', 'me', 'is', 'to', 'down', 'into', 'she']
 Number of stop words: 7
 Average number of stop words per sentence: 0.3
 Sentiment score: 0
-
 Sentence 139: “ Thinking far ahead intimidating .
 Total words: 9
 Filtered words: ['“', 'Thinking', 'far', 'ahead', 'intimidating', '.']
@@ -1248,7 +1110,6 @@ Stop words: ['too', 'can', 'be']
 Number of stop words: 3
 Average number of stop words per sentence: 0.33
 Sentiment score: 2
-
 Sentence 140: always find five reasons something , sometimes ’ got go . ”
 Total words: 24
 Filtered words: ['always', 'find', 'five', 'reasons', 'something', ',', 'sometimes', '’', 'got', 'go', '.', '”']
@@ -1257,7 +1118,6 @@ Stop words: ['You', 'can', 'not', 'to', 'do', 'but', 'you', 've', 'just', 'to', 
 Number of stop words: 12
 Average number of stop words per sentence: 0.5
 Sentiment score: 2
-
 Total number of words: 3722
 Total number of stop words: 1470
 Maximum number of stop words per sentence: 36
@@ -1309,4 +1169,10 @@ Approximate grade level equivalent: 15
 
 Perplexity (how well the LDA model predicts the corpus) of the article: -4.537956701083616
 Coherence (how coherent the topics are) of the article: 0.609044880691305
+
+Max tree depth: 15
+Words at max depth: wakes, received
+Average tree length: 4.98
+Maximum tree length: 15
+Minimum tree length: 1
 
