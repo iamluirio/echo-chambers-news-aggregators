@@ -6,6 +6,7 @@ Stop words: ['after', 'is', 'being', 'of', 'are', 'for', 'more', 'from', 'the', 
 Number of stop words: 15
 Average number of stop words per sentence: 0.39
 Sentiment score: 0
+
 Sentence 2: Lawmakers Capitol Hill calling Biden administration held accountable `` blocking '' Congress public learning Biden family members ’ business deals China .
 Total words: 35
 Filtered words: ['Lawmakers', 'Capitol', 'Hill', 'calling', 'Biden', 'administration', 'held', 'accountable', '``', 'blocking', "''", 'Congress', 'public', 'learning', 'Biden', 'family', 'members', '’', 'business', 'deals', 'China', '.']
@@ -14,6 +15,7 @@ Stop words: ['on', 'are', 'for', 'the', 'to', 'be', 'for', 'and', 'the', 'from',
 Number of stop words: 13
 Average number of stop words per sentence: 0.37
 Sentiment score: 0
+
 Sentence 3: congressional outcries come whistleblower within Internal Revenue Service alleges investigation Hunter Biden mishandled Biden administration .
 Total words: 26
 Filtered words: ['congressional', 'outcries', 'come', 'whistleblower', 'within', 'Internal', 'Revenue', 'Service', 'alleges', 'investigation', 'Hunter', 'Biden', 'mishandled', 'Biden', 'administration', '.']
@@ -22,6 +24,7 @@ Stop words: ['The', 'as', 'a', 'the', 'an', 'into', 'is', 'being', 'by', 'the']
 Number of stop words: 10
 Average number of stop words per sentence: 0.38
 Sentiment score: 1
+
 Sentence 4: whistleblower also alleges `` clear conflicts interest '' investigation .
 Total words: 14
 Filtered words: ['whistleblower', 'also', 'alleges', '``', 'clear', 'conflicts', 'interest', "''", 'investigation', '.']
@@ -30,6 +33,7 @@ Stop words: ['The', 'of', 'in', 'the']
 Number of stop words: 4
 Average number of stop words per sentence: 0.29
 Sentiment score: 0
+
 Sentence 5: `` ’ deeply concerning Biden Administration may obstructing justice blocking efforts charge Hunter Biden tax violations , '' House Committee Oversight Accountability Chairman James Comer told Fox News Wednesday .
 Total words: 41
 Filtered words: ['``', '’', 'deeply', 'concerning', 'Biden', 'Administration', 'may', 'obstructing', 'justice', 'blocking', 'efforts', 'charge', 'Hunter', 'Biden', 'tax', 'violations', ',', "''", 'House', 'Committee', 'Oversight', 'Accountability', 'Chairman', 'James', 'Comer', 'told', 'Fox', 'News', 'Wednesday', '.']
@@ -38,6 +42,7 @@ Stop words: ['It', 's', 'that', 'the', 'be', 'by', 'to', 'for', 'on', 'and', 'on
 Number of stop words: 11
 Average number of stop words per sentence: 0.27
 Sentiment score: 1
+
 Sentence 6: Comer , R-Ky. , also said `` deceptive , shady business schemes '' allowed Bidens make `` millions foreign adversaries like China . ''
 Total words: 28
 Filtered words: ['Comer', ',', 'R-Ky.', ',', 'also', 'said', '``', 'deceptive', ',', 'shady', 'business', 'schemes', "''", 'allowed', 'Bidens', 'make', '``', 'millions', 'foreign', 'adversaries', 'like', 'China', '.', "''"]
@@ -46,6 +51,7 @@ Stop words: ['have', 'the', 'to', 'from']
 Number of stop words: 4
 Average number of stop words per sentence: 0.14
 Sentiment score: 1
+
 Sentence 7: HUNTER BIDEN INVESTIGATION MISHANDLED , 'CLEAR CONFLICTS INTEREST ' : IRS WHISTLEBLOWER '' House Committee Oversight Accountability following Bidens ’ tangled web complex corporate financial records .
 Total words: 37
 Filtered words: ['HUNTER', 'BIDEN', 'INVESTIGATION', 'MISHANDLED', ',', "'CLEAR", 'CONFLICTS', 'INTEREST', "'", ':', 'IRS', 'WHISTLEBLOWER', "''", 'House', 'Committee', 'Oversight', 'Accountability', 'following', 'Bidens', '’', 'tangled', 'web', 'complex', 'corporate', 'financial', 'records', '.']
@@ -54,6 +60,7 @@ Stop words: ['BEING', 'OF', 'The', 'on', 'and', 'has', 'been', 'the', 'of', 'and
 Number of stop words: 10
 Average number of stop words per sentence: 0.27
 Sentiment score: 1
+
 Sentence 8: ’ clear investigation Hunter members Biden family engaged deceptive , shady business schemes avoid scrutiny made millions foreign adversaries like China , '' said .
 Total words: 40
 Filtered words: ['’', 'clear', 'investigation', 'Hunter', 'members', 'Biden', 'family', 'engaged', 'deceptive', ',', 'shady', 'business', 'schemes', 'avoid', 'scrutiny', 'made', 'millions', 'foreign', 'adversaries', 'like', 'China', ',', "''", 'said', '.']
@@ -62,6 +69,7 @@ Stop words: ['It', 's', 'from', 'our', 'that', 'and', 'other', 'of', 'the', 'in'
 Number of stop words: 15
 Average number of stop words per sentence: 0.38
 Sentiment score: 1
+
 Sentence 9: `` ’ wondering along heck DOJ IRS .
 Total words: 19
 Filtered words: ['``', '’', 'wondering', 'along', 'heck', 'DOJ', 'IRS', '.']
@@ -70,6 +78,7 @@ Stop words: ['We', 've', 'been', 'all', 'where', 'the', 'the', 'and', 'the', 'ha
 Number of stop words: 11
 Average number of stop words per sentence: 0.58
 Sentiment score: 1
+
 Sentence 10: appears Biden Administration may working overtime prevent Bidens facing consequences . ''
 Total words: 21
 Filtered words: ['appears', 'Biden', 'Administration', 'may', 'working', 'overtime', 'prevent', 'Bidens', 'facing', 'consequences', '.', "''"]
@@ -78,6 +87,7 @@ Stop words: ['Now', 'it', 'the', 'have', 'been', 'to', 'the', 'from', 'any']
 Number of stop words: 9
 Average number of stop words per sentence: 0.43
 Sentiment score: 1
+
 Sentence 11: Comer added , `` House Oversight Committee work hold accountable anyone Biden Administration may covering criminal activity .
 Total words: 27
 Filtered words: ['Comer', 'added', ',', '``', 'House', 'Oversight', 'Committee', 'work', 'hold', 'accountable', 'anyone', 'Biden', 'Administration', 'may', 'covering', 'criminal', 'activity', '.']
@@ -86,6 +96,7 @@ Stop words: ['The', 'will', 'to', 'in', 'the', 'who', 'be', 'up', 'this']
 Number of stop words: 9
 Average number of stop words per sentence: 0.33
 Sentiment score: 0
+
 Sentence 12: Oversight Committee also continue pursue investigation Biden family ’ business schemes determine President Biden national security compromised .
 Total words: 30
 Filtered words: ['Oversight', 'Committee', 'also', 'continue', 'pursue', 'investigation', 'Biden', 'family', '’', 'business', 'schemes', 'determine', 'President', 'Biden', 'national', 'security', 'compromised', '.']
@@ -94,6 +105,7 @@ Stop words: ['The', 'will', 'to', 'our', 'into', 'the', 's', 'to', 'if', 'and', 
 Number of stop words: 12
 Average number of stop words per sentence: 0.4
 Sentiment score: 1
+
 Sentence 13: Americans demand answers , transparency , accountability . ''
 Total words: 10
 Filtered words: ['Americans', 'demand', 'answers', ',', 'transparency', ',', 'accountability', '.', "''"]
@@ -102,6 +114,7 @@ Stop words: ['and']
 Number of stop words: 1
 Average number of stop words per sentence: 0.1
 Sentiment score: 1
+
 Sentence 14: President Biden ’ son Hunter federal investigation since 2018 .
 Total words: 14
 Filtered words: ['President', 'Biden', '’', 'son', 'Hunter', 'federal', 'investigation', 'since', '2018', '.']
@@ -110,6 +123,7 @@ Stop words: ['s', 'has', 'been', 'under']
 Number of stop words: 4
 Average number of stop words per sentence: 0.29
 Sentiment score: 1
+
 Sentence 15: investigation concerns presence suspicious activity reports ( SARs ) regarding suspicious foreign transactions .
 Total words: 17
 Filtered words: ['investigation', 'concerns', 'presence', 'suspicious', 'activity', 'reports', '(', 'SARs', ')', 'regarding', 'suspicious', 'foreign', 'transactions', '.']
@@ -118,6 +132,7 @@ Stop words: ['The', 'the', 'of']
 Number of stop words: 3
 Average number of stop words per sentence: 0.18
 Sentiment score: 1
+
 Sentence 16: led Delaware U.S. Attorney David Weiss .
 Total words: 11
 Filtered words: ['led', 'Delaware', 'U.S.', 'Attorney', 'David', 'Weiss', '.']
@@ -126,6 +141,7 @@ Stop words: ['It', 'is', 'being', 'by']
 Number of stop words: 4
 Average number of stop words per sentence: 0.36
 Sentiment score: 1
+
 Sentence 17: Across Congress , Sen. Ted Cruz Wednesday called Treasury Secretary Janet Yellen publicly release SARs found among Biden family ’ tax records .
 Total words: 29
 Filtered words: ['Across', 'Congress', ',', 'Sen.', 'Ted', 'Cruz', 'Wednesday', 'called', 'Treasury', 'Secretary', 'Janet', 'Yellen', 'publicly', 'release', 'SARs', 'found', 'among', 'Biden', 'family', '’', 'tax', 'records', '.']
@@ -134,6 +150,7 @@ Stop words: ['on', 'for', 'to', 'the', 'the', 's']
 Number of stop words: 6
 Average number of stop words per sentence: 0.21
 Sentiment score: 1
+
 Sentence 18: `` ’ national security reason keep private , '' Cruz , R-Texas , said episode podcast .
 Total words: 26
 Filtered words: ['``', '’', 'national', 'security', 'reason', 'keep', 'private', ',', "''", 'Cruz', ',', 'R-Texas', ',', 'said', 'episode', 'podcast', '.']
@@ -142,6 +159,7 @@ Stop words: ['There', 's', 'no', 'to', 'them', 'during', 'an', 'of', 'his']
 Number of stop words: 9
 Average number of stop words per sentence: 0.35
 Sentiment score: 1
+
 Sentence 19: `` ’ reason whatsoever want part political cover-up . ''
 Total words: 21
 Filtered words: ['``', '’', 'reason', 'whatsoever', 'want', 'part', 'political', 'cover-up', '.', "''"]
@@ -150,6 +168,7 @@ Stop words: ['There', 's', 'no', 'other', 'than', 'if', 'you', 'to', 'be', 'of',
 Number of stop words: 11
 Average number of stop words per sentence: 0.52
 Sentiment score: 1
+
 Sentence 20: SIX ADDITIONAL BIDEN FAMILY MEMBERS ‘ MAY BENEFITED ’ HUNTER BUSINESS DEALINGS SARs alone indicate wrongdoing criminal activity could indicator behavior .
 Total words: 32
 Filtered words: ['SIX', 'ADDITIONAL', 'BIDEN', 'FAMILY', 'MEMBERS', '‘', 'MAY', 'BENEFITED', '’', 'HUNTER', 'BUSINESS', 'DEALINGS', 'SARs', 'alone', 'indicate', 'wrongdoing', 'criminal', 'activity', 'could', 'indicator', 'behavior', '.']
@@ -158,6 +177,7 @@ Stop words: ['HAVE', 'FROM', 'do', 'not', 'or', 'but', 'be', 'an', 'of', 'such']
 Number of stop words: 10
 Average number of stop words per sentence: 0.31
 Sentiment score: 1
+
 Sentence 21: `` U.S. Department Treasury needs release every single suspicious activity report Biden family , '' Cruz said Wednesday .
 Total words: 25
 Filtered words: ['``', 'U.S.', 'Department', 'Treasury', 'needs', 'release', 'every', 'single', 'suspicious', 'activity', 'report', 'Biden', 'family', ',', "''", 'Cruz', 'said', 'Wednesday', '.']
@@ -166,6 +186,7 @@ Stop words: ['The', 'of', 'to', 'on', 'the', 'on']
 Number of stop words: 6
 Average number of stop words per sentence: 0.24
 Sentiment score: 0
+
 Sentence 22: `` Janet Yellen , choice : either actively covering potential evidence corruption releasing every one American people . ''
 Total words: 31
 Filtered words: ['``', 'Janet', 'Yellen', ',', 'choice', ':', 'either', 'actively', 'covering', 'potential', 'evidence', 'corruption', 'releasing', 'every', 'one', 'American', 'people', '.', "''"]
@@ -174,6 +195,7 @@ Stop words: ['you', 'have', 'a', 'You', 'are', 'up', 'of', 'or', 'of', 'them', '
 Number of stop words: 12
 Average number of stop words per sentence: 0.39
 Sentiment score: 1
+
 Sentence 23: According Cruz , American public privy learning whether presidential family guilty fraud abuses office — innocent .
 Total words: 32
 Filtered words: ['According', 'Cruz', ',', 'American', 'public', 'privy', 'learning', 'whether', 'presidential', 'family', 'guilty', 'fraud', 'abuses', 'office', '—', 'innocent', '.']
@@ -182,6 +204,7 @@ Stop words: ['to', 'the', 'should', 'be', 'to', 'the', 'is', 'of', 'or', 'other'
 Number of stop words: 15
 Average number of stop words per sentence: 0.47
 Sentiment score: 1
+
 Sentence 24: BIDEN FAMILY RECEIVED $ 1M HUNTER ASSOCIATE 2017 CHINA WIRE : HOUSE OVERSIGHT Texas Republican said Biden administration `` let American people decide '' criminal activity conducted .
 Total words: 38
 Filtered words: ['BIDEN', 'FAMILY', 'RECEIVED', '$', '1M', 'HUNTER', 'ASSOCIATE', '2017', 'CHINA', 'WIRE', ':', 'HOUSE', 'OVERSIGHT', 'Texas', 'Republican', 'said', 'Biden', 'administration', '``', 'let', 'American', 'people', 'decide', "''", 'criminal', 'activity', 'conducted', '.']
@@ -190,6 +213,7 @@ Stop words: ['MORE', 'THAN', 'FROM', 'AFTER', 'The', 'the', 'should', 'the', 'if
 Number of stop words: 10
 Average number of stop words per sentence: 0.26
 Sentiment score: 1
+
 Sentence 25: added , `` benign , release reports . ''
 Total words: 14
 Filtered words: ['added', ',', '``', 'benign', ',', 'release', 'reports', '.', "''"]
@@ -198,6 +222,7 @@ Stop words: ['He', 'If', 'this', 'is', 'the']
 Number of stop words: 5
 Average number of stop words per sentence: 0.36
 Sentiment score: 0
+
 Sentence 26: `` Secretary Yellen , release every single suspicious activity report Biden family , '' Cruz said .
 Total words: 19
 Filtered words: ['``', 'Secretary', 'Yellen', ',', 'release', 'every', 'single', 'suspicious', 'activity', 'report', 'Biden', 'family', ',', "''", 'Cruz', 'said', '.']
@@ -206,6 +231,7 @@ Stop words: ['on', 'the']
 Number of stop words: 2
 Average number of stop words per sentence: 0.11
 Sentiment score: 0
+
 Sentence 27: continued .
 Total words: 3
 Filtered words: ['continued', '.']
@@ -214,6 +240,7 @@ Stop words: ['He']
 Number of stop words: 1
 Average number of stop words per sentence: 0.33
 Sentiment score: 0
+
 Sentence 28: `` ’ release reports , complicit cover-up . ''
 Total words: 18
 Filtered words: ['``', '’', 'release', 'reports', ',', 'complicit', 'cover-up', '.', "''"]
@@ -222,6 +249,7 @@ Stop words: ['If', 'she', 'doesn', 't', 'those', 'she', 'is', 'in', 'the']
 Number of stop words: 9
 Average number of stop words per sentence: 0.5
 Sentiment score: 1
+
 Sentence 29: letter dated April 19 , 2023 , attorney Mark D. Lytle told members Congress client overseeing `` ongoing sensitive investigation high-profile , controversial subject since early 2020 would like make protected whistleblower disclosures Congress . ''
 Total words: 52
 Filtered words: ['letter', 'dated', 'April', '19', ',', '2023', ',', 'attorney', 'Mark', 'D.', 'Lytle', 'told', 'members', 'Congress', 'client', 'overseeing', '``', 'ongoing', 'sensitive', 'investigation', 'high-profile', ',', 'controversial', 'subject', 'since', 'early', '2020', 'would', 'like', 'make', 'protected', 'whistleblower', 'disclosures', 'Congress', '.', "''"]
@@ -230,6 +258,7 @@ Stop words: ['In', 'a', 'of', 'that', 'a', 'of', 'his', 'has', 'been', 'the', 'a
 Number of stop words: 16
 Average number of stop words per sentence: 0.31
 Sentiment score: 1
+
 Sentence 30: client allegedly aware facts case `` contradict sworn testimony Congress senior political appointee . ''
 Total words: 26
 Filtered words: ['client', 'allegedly', 'aware', 'facts', 'case', '``', 'contradict', 'sworn', 'testimony', 'Congress', 'senior', 'political', 'appointee', '.', "''"]
@@ -238,6 +267,7 @@ Stop words: ['And', 'that', 'the', 'is', 'of', 'of', 'the', 'that', 'to', 'by', 
 Number of stop words: 11
 Average number of stop words per sentence: 0.42
 Sentiment score: 1
+
 Sentence 31: CLICK GET FOX NEWS APP Lytle works Washington , D.C. , -based law firm Nixon Peabody LLP .
 Total words: 23
 Filtered words: ['CLICK', 'GET', 'FOX', 'NEWS', 'APP', 'Lytle', 'works', 'Washington', ',', 'D.C.', ',', '-based', 'law', 'firm', 'Nixon', 'Peabody', 'LLP', '.']
@@ -246,6 +276,7 @@ Stop words: ['HERE', 'TO', 'THE', 'for', 'the']
 Number of stop words: 5
 Average number of stop words per sentence: 0.22
 Sentiment score: 1
+
 Sentence 32: Neither Hunter Biden member family charged crime relating SARs .
 Total words: 20
 Filtered words: ['Neither', 'Hunter', 'Biden', 'member', 'family', 'charged', 'crime', 'relating', 'SARs', '.']
@@ -254,6 +285,7 @@ Stop words: ['nor', 'any', 'of', 'his', 'has', 'been', 'with', 'a', 'to', 'the']
 Number of stop words: 10
 Average number of stop words per sentence: 0.5
 Sentiment score: 1
+
 Sentence 33: Fox News ' Patrick Ward , Greg Wehner contributed report .
 Total words: 13
 Filtered words: ['Fox', 'News', "'", 'Patrick', 'Ward', ',', 'Greg', 'Wehner', 'contributed', 'report', '.']
@@ -262,6 +294,7 @@ Stop words: ['to', 'this']
 Number of stop words: 2
 Average number of stop words per sentence: 0.15
 Sentiment score: 1
+
 Total number of words: 830
 Total number of stop words: 275
 Maximum number of stop words per sentence: 16
