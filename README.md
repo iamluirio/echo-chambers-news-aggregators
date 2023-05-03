@@ -22,6 +22,7 @@
       1. 6 graphs: 2 about politics trend, 4 about macro and micro trend.
     - [Positional User Analysis](https://github.com/ptrespidi/echo_chambers_intership/blob/main/Code%20analysis/Analysis/positionalUser_analysis.ipynb): Analysis carried out on 3 days, about position of a particular topic in the three different days, and compared each other.
       1. 4 graphs: 2 about to User 1 - User 6, 2 about User 7 - User 10 (respectively, for each student).
+    - Text Analytics Analysis: Analysis about the position of the main topic for each user, carried out on 3 days, and about the number of tabs for the top 10 articles in the related articles for each (political) user.
   - News Media Aggregators API:
     - [News Media Aggregators](https://github.com/ptrespidi/echo_chambers_intership/blob/main/Code%20analysis/News%20Media%20Aggregators%20API/newsMediaAggregators.ipynb): NewsAPI to retrieve the top headlines from various news sources based on a user's email address.
     - [Yahoo News Aggregators APIs](https://github.com/ptrespidi/echo_chambers_intership/blob/main/Code%20analysis/News%20Media%20Aggregators%20API/yahooNewsAggregator.ipynb): APIs for accessing their news content, and to have documentation on how to use OAuth2 for authentication and authorization on Yahoo APIs.
