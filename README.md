@@ -33,8 +33,8 @@
         2. Tokenization of words.
         3. Stop word removal.
         4. Pre process a text.
+        5. Stemming Analysis.
       - [Sentiment Analysis](https://github.com/ptrespidi/echo_chambers_intership/blob/main/Code%20analysis/NLP/Single%20modules/sentiment_analysis.ipynb): 
-        1. Stemming Analysis.
         2. Sentiment Analysis using the Stanza Library.
         3. Sentiment Analysis using Vader Library.
         4. Subjectivity analysis using MPQA.
