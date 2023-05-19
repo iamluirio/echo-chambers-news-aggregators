@@ -33,12 +33,12 @@
         2. Tokenization of words.
         3. Stop word removal.
         4. Pre process a text.
+        5. Stemming Analysis.
       - [Sentiment Analysis](https://github.com/ptrespidi/echo_chambers_intership/blob/main/Code%20analysis/NLP/Single%20modules/sentiment_analysis.ipynb): 
-        1. Stemming Analysis.
-        2. Sentiment Analysis using the Stanza Library.
-        3. Sentiment Analysis using Vader Library.
-        4. Subjectivity analysis using MPQA.
-        5. Sentiment analysis using SentiWordNet.
+        1. Sentiment Analysis using the Stanza Library.
+        2. Sentiment Analysis using Vader Library.
+        3. Subjectivity analysis using MPQA.
+        4. Sentiment analysis using SentiWordNet.
       - subjclueslen1-HLTEMNLP05.tff: required for implementing the MPQA analysis. It contains the MPQA lexicon and preprocess; it can be easily looked up the polarity score of each word in the lexicon. 
       - [Gensim-LDA](https://github.com/ptrespidi/echo_chambers_intership/blob/main/Code%20analysis/NLP/Single%20modules/Gensim-LDA.ipynb): Technique to extract the hidden topics from large volumes of text.
         1. Removing emails, newline characters and punctuations.
