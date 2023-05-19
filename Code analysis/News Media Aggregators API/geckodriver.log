@@ -4128,3 +4128,34 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error:
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 1683559092475	Marionette	INFO	Stopped listening on port 33915
+1683809570826	geckodriver	INFO	Listening on 127.0.0.1:51743
+1683809571323	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "51887" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletEtywM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1683809573049	Marionette	INFO	Marionette enabled
+1683809573061	Marionette	INFO	Listening on port 46695
+Read port: 46695
+WebDriver BiDi listening on ws://127.0.0.1:51887
+1683809573423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51887/devtools/browser/ca5c9ed9-2d99-4db7-bf25-ec1455f22d62
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.yahoo.com."
+JavaScript warning: https://s.yimg.com/wm/mbr/9eeb22d855649a98e97d82693a29cf02a29bfc0c/bundle.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s.yimg.com/wm/mbr/9eeb22d855649a98e97d82693a29cf02a29bfc0c/bundle.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/ix/talon-1.0.40.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/ix/talon-1.0.40.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aka-cdn.adtechus.com/media/moat/adtechbrands092348fjlsmdhlwsl239fh3df/moatad.js#moatClientLevel1=5113&moatClientLevel2=374058&moatClientLevel3=0&moatClientLevel4=5043043&zMoatMaster=11115292&zMoatFlight=11118502&zMoatBanner=26888948&zURL=https&zMoatPlacementId=5043043&zMoatAdId=11118502&zMoatCreative=0&zMoatBannerID=2&zMoatCustomVisp=50&zMoatCustomVist=1000&zMoatIsAdvisGoal=0&zMoatEventUrl=https://5.ras.yahoo.com/adcount|2.0|5113.1|5043043|0|5112|AdId=11118502;BnId=2;ct=2011872879;st=7779;adcid=1;itime=809580345;reqtype=5;guid=b7hrhbhi5pp98;;impref=1683809580101793641;imprefseq=7605369375308820;imprefts=1683809580;adclntid=1004;spaceid=794200018;adposition=RICH;lmsid=;revshare=;pvid=WEfFhTEwLjKzx3FcZFzlKAAqMmEwMQAAAAB36eor;sectionid=;kvsecure%2Ddarla=4%2D11%2D1%7Cysd%7C2;kvsecure=true;kvmn=y963896142;kvy%2Dbucket=mbr%2Dpush%2Dupsell%2Dcontrol%2Cmbr%2Denbl%2Dcommchnl%2Drev%2Dtrap%2Dsess%2Dext%2Cmbr%2Dapp%2Dpassword%2Dclassifier%2Ctpa%2Dredirect%2Duri%2Dchange%2Cmbr%2Dreg%2Dsession%2Cmbr%2Dmfa%2Denrolment%2Dmc%2Dtest;kvpgcolo=ir2;kvssp=ssp;kvadtc%5Fdvmktname=unknown;kvadtc%5Fdvosplt=linux;kvadtc%5Fdvbrand=mozilla;kvadtc%5Fdvtype=desktop;kvadtc%5Fdvmodel=firefox%5F%2D%5Flinux;kvrepo%5Fdvosplt=linux;kvadtc%5Fdvosversion=UNKNOWN;kvadtc%5Fcrbrand=vodafone:vodafone%5Fde;kvadtc%5Fcrmcc=262;kvadtc%5Fcrmnc=02:04:09;kvadtc%5Fcrcountry=de;gdpr=1;euconsent=CPrmeAAPrmeAAAOACBITDDCoAP_AAEfAACiQJTtd_H__bX9v-f7_6ft0eY1f9_r77uQzDhfNk-4F3L_W_LwX_2E7NF36tq4KmR4Eu1LBIUNtHNnUDVmxaokVrzHsak2cpTNKJ-BkkHMZe2dYGF5um5tjeQKZ5_p_d3f52T_9_dv-39z33913v3dd_-_12PjdU5_9H_v_fRfb8_Ib9_7-_8v8_9_rk2_eX_______7__--CTYBJhq3EAXYljgTaBhFAiBGFYSEUCgAgoBhaICABwcFOysAn1hEgBQCgCMCIEOAKMCAQAAAQBIRABIEWCAAAEQCAAEACARCAAgYBBQAWAgEAAIBoGKIUAAgSECREREKYEBECQQEtlQglBdIaYQBVlgBQCI2CgARAACKwABAWDgGCJASsWCBJiDaIABgBQCiVCtQSemgBhoAMAAQSnEQAYAAglOKgAwABBKcA;&zMoatSize=5112&zMoatSubNetID=1&zMoatisSelected=0&zMoatadServer=us-pg.ras.yahoo.com&zMoatadVisServer=&zMoatSamplingRate=5&zMoatliveTestCookie=&zMoatRefSeqId=UwDAMsQBbAA&zMoatImpRefTs=1683809580&zMoatAlias=y963896142&zMoatVert=&zMoatBannerInfo=498042655, line 265: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 11103, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11103, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11103, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11103, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11103, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11103, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11103, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11103, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1683809592728	Marionette	INFO	Stopped listening on port 46695
