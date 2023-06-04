@@ -1,2 +1,0 @@
-Stanza Average of sentiment score for all sentences,Stanza Maximum sentiment score,Stanza Minimum sentiment score,Stanza Standard deviation,Vader average scores,Vader maximum scores,Vader minimum scores,Vader standard deviation scores,MPQA average scores,MPQA maximum scores,MPQA minimum scores,MPQA standard deviation scores,Sentiwordnet score
-0.9793103448275862,2,0,0.5200022104285469,[0.05211189 0.82848252 0.1053986 ],[0.555 1.    0.474],[0. 0. 0.],[0.1017012 0.1801082 0.1283816],0.26359832635983266,1,-1,0.7097447989682425,0.032994417862838916
