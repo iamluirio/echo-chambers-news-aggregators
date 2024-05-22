@@ -4,11 +4,11 @@
 
 [Google Drive directory](https://drive.google.com/drive/folders/1RNXtjfaj7-E0-XlfuzSfTpAKPmExop3F/ "Project Directory") of the project.
 
-- Data collection: creation of several accounts, in order to automatically study how different News Media Aggregators provide different type of news to those accounts that differ in terms of combination of factors.
-- state-of-art study about bias in news media aggregations.
-- Definition of metrics about bias in news media aggregations.
-- Identification of bias in news media aggregations.
-- Identifications and descriptions of Echo Chambers through qualitative and quantitative techniques.
+The advent of social media and availability of news media platforms online has drastically transformed the news consumption behavior. Nowadays, the majority of the population tends to receive the daily news feeds online rather than the printed offline newspapers. The transformation is marked by a 24/7 news
+cycle, diverse news sources beyond traditional outlets, customization and personalization through algorithms, increased interactivity and engagement on social media, incorporation of multimedia content for a richer experience, global reach facilitating access to international news, challenges posed by information overload, shifts in revenue models for news organizations, and the consequent impact on traditional print media with some outlets transitioning
+to digital formats.
+These impertinent changes in news consumption demand news media sources to understand the pulse of the readers and adapt according to the
+trends; while personalization offers benefits, it also raises challenges, such as the risk of creating information bubbles or **echo chambers**. Existing research works define an echo chamber as an isolated virtual room or environment where the users’ beliefs and interests are reinforced by repeated exposure to information that aligns with user’s specific interests. Therefore, strategic manipulation and selective exposure in news recommen- dation coupled with user’s confirmation bias can amplify the inherent biases, lead to ideological segregation and polarization in society.
 
 ### Git repository 
 
