@@ -2,7 +2,7 @@
 <div align="left">
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-<img width='100' height='50's rc="https://github.com/user-attachments/assets/f7c3d995-385e-471d-97e3-b0c2d6f50b68" />
+<img width='100' height='50' src="https://github.com/user-attachments/assets/f7c3d995-385e-471d-97e3-b0c2d6f50b68" />
 
 </div>
 
