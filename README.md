@@ -1,9 +1,10 @@
 # Study of Echo Chambers in News Media Aggregators
-<div align="left">
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-<img width='80' height='28' src="https://github.com/user-attachments/assets/10c333d5-bf2a-43ff-9911-8bc067868045" />
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
+<img width='80' height='28' src="https://github.com/user-attachments/assets/10c333d5-bf2a-43ff-9911-8bc067868045" />
+<img width='80' height='28' src="https://github.com/user-attachments/assets/b030a107-85a6-4a57-a9ca-93b2f633a961" />
+
 
 </div>
 
