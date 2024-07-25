@@ -3,6 +3,7 @@
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
 <img width='80' height='28' src="https://github.com/user-attachments/assets/10c333d5-bf2a-43ff-9911-8bc067868045" />
+<img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
 
 </div>
 
