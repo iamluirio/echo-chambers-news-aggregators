@@ -13,6 +13,17 @@ The advent of social media and availability of news media platforms online has d
 
 There are several research works which focus on understanding and identifying echo chambers in different platforms, such as, blogs [[Gilbert et al., 2009]](https://ieeexplore.ieee.org/document/4755503), forums [[Edwards, 2013]](https://philpapers.org/rec/EDWHDP) and social media platforms [[Zannettou et al., 2018]](https://arxiv.org/abs/1802.05287#:~:text=In%20August%202016%2C%20a%20new,suspended%20from%20other%20social%20networks.). However, these existing recent research works focus on identifying echo chambers on different social media platforms and there is no research work that focuses on echo chamber in news media aggregators. **Existing works on social media platforms are not directly applicable for news media aggregators as there is no social relationship among users and users have only information about the news articles recommended to them**. In this study, we propose different measures that can quantitatively and qualitatively study characterization of **echo chambers in news media aggregators across different users**.
 
+## :ledger: Index
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Morphing Process](#morphing-process)
+  - [Identifying the Facial Landmarks](#identifying-the-facial-landmarks)
+  - [Delaunay Triangulation](#delaunay-triangulation)
+  - [Calculating Linear Interpolation for Morphed Image](#calculating-linear-interpolation-for-morphed-image)
+  - [Getting Delaunay Indexes and Reshaping](#getting-delaunay-indexes-and-reshaping)
+  - [Morphing Triangles and Images](#morphing-triangles-and-images)
+  - [Results](#results)
+
 ## Git repository 
 - [Automated Collecting Data System](https://github.com/ptrespidi/echo_chambers_intership/tree/main/Automated%20Collecting%20Data%20System): Collecting news for our study prove to be a time-intensive process, particularly when simulating the daily routines of multiple users engaging with diverse news articles. One significant time-consuming aspect is the meticulous attention to detail in simulating the entire user experience. We started creating an automated system for collecting news; we identify Selenium as a powerful open-source framework for automating web browsers. This system facilitate the simulation of user interactions
 with news articles, automating tasks such as clicking buttons, navigating pages, and extracting data. Our system exploit **Selenium** library to simulate user login, providing a username and password corresponding to one of the simulated users. This allow us to seamlessly automate the process of accessing news articles significantly streamlining the data collection process for future iterations of our research.
