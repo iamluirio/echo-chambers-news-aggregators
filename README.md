@@ -42,14 +42,14 @@ When a user is assigned to a particular political party, it means **they not onl
 | _U<sub>n</sub>_          | It refers to the n-th user from USA.          |
 | _I<sub>n</sub>_          | It refers to the n-th user from India.        |
 | _N<sub>n</sub>_          | It refers to the n-th new user (used only for one specific analysis).
-                                                    
+                                                                           |
 | _rep_                    | Republican Party.                             |
 | _dem_                    | Democratic Party.                             |
-| _unbiased_ / _neu_       | Neutral user. It means that he does not read news regarding the favoring of a particular political party.                                              |
+| _unbiased_ / _neu_       | Neutral user. It means that he does not read news regarding the favoring of a particular political party.    |                                          
 | _macro_                  | Majority topic assigned to the user.          |
 | _micro_                  | Minority topic assigned to the user.          |
 | _others_                 | News which are neither macro nor micro.       |
-| _Home_                   | It refers to the Google News articles' homepage.       
+| _Home_                   | It refers to the Google News articles' homepage. |      
                                                                   
 
 ## Usage
