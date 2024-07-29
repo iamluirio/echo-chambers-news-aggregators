@@ -18,8 +18,8 @@ There are several research works which focus on understanding and identifying ec
 
 ## Preliminary Information
 Below, we give some preliminary information about the study elements that we used for our research, so that if the user wants to replicate the tools used, he must know how to use them, and which input objects to use.
-- News Media Aggregator: 
-
+- **News Media Aggregator**: A _news media aggregator_ is a digital platform or service that collects and compiles news articles, updates, and content from various sources across the internet into a single location. These aggregators use algorithms to organize and present the information to users based on their preferences and interests. In this study, we underscore the significance of providing users with a personalized space that automatically populates with news articles relevant to their interests; by examining the content selection and presentation practices of news aggregators, we aim to uncover any patterns of imbalance or favoritism towards specific viewpoints, ideologies, or sources.
+  
 ## :ledger: Index
 - [Usage](#usage)
 - [Project Structure](#project-structure)
@@ -39,5 +39,5 @@ git clone https://github.com/ptrespidi/echo-chambers-news-aggregators.git
 
 We show the code to be readily utilized for testing purposes, allowing you to explore the presence of echo chambers based on our analysis within a defined text-containing system. This setup also enables you to experiment with the tools we employed throughout our study; this will aid in replicating our methodology and verifying the robustness of our findings in your own investigations.
 
-## Preliminary Information
+
 
