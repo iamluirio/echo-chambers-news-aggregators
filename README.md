@@ -23,7 +23,7 @@ Below, we give some preliminary information about the study elements that we use
 of the articles, looking at both how they’re written and what they’re about.
 - **Political Biases in News Media**: Political topic news are presented every day by any newspaper and any ag- gregation site: they inform citizens about the actions and decisions of their governments, helping them make informed choices during elections and hold their leaders accountable for their actions. Political bias in news articles can contribute to the formation of echo chambers: when news consistently present information from a particular political perspective, they reinforce the beliefs of their audience while potentially ignoring or downplaying alternative viewpoints.
 
-To study real life users news consumption behavior without any inherent bias, we carefully design our simulation such that we have users with different news topical interests who belong to different locations.
+To study real life users news consumption behavior without any inherent bias, we carefully design our simulation such that we have users with different news topical interests who belong to different locations. For our experiments, we conduct user profile creation task from **USA and India** countries. To ensure a comprehensive representation of user demographics and preferences, we divide the user creation process among the team members working on the project; this approach allows us to capture diverse perspectives and insights from individuals hailing from distinct cultural backgrounds and geographical regions.
   
 ## :ledger: Index
 - [Usage](#usage)
