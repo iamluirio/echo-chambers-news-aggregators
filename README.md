@@ -74,6 +74,7 @@ We opt for a specific day and replicate this type of analysis across several day
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/6b03e860-8b09-4e8d-b3a8-1def906a4f7a" style="width: 100%;" />
+    <p><em>Figure 1: Visualizing the Ratio of News Recommended to Politic Users as Macro and belong to USA.</em></p>
 </div>
 
 
