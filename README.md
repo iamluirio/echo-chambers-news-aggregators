@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
 <img src="https://img.shields.io/badge/NLTK-grey?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/NLTK-grey?style=for-the-badge&logo=selenium&logoColor=green" />
+<img src="https://img.shields.io/badge/Selenium-grey?style=for-the-badge&logo=selenium&logoColor=green" />
 
 
 
