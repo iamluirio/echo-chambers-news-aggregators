@@ -23,18 +23,7 @@ of the articles, looking at both how they’re written and what they’re about.
 To study real life users news consumption behavior without any inherent bias, we carefully design our simulation such that we have users with different news topical interests who belong to different locations. For our experiments, we conduct user profile creation task from **USA and India** countries. To ensure a comprehensive representation of user demographics and preferences, we divide the user creation process among the team members working on the project; this approach allows us to capture diverse perspectives and insights from individuals hailing from distinct cultural backgrounds and geographical regions.
 
 Existing research works on echo chambers in social media platforms have highlighted that the echo chambers characterization can vary on the basis of the user’s political leaning. Therefore, we consider users with three different types of political leaning: **Republican political leaning, Democratic political leaning and Neutral political leaning, for USA**. Subsequently, **for India, we consider the political leaning as Government leaning, Opposition leaning and Neutral political leaning**.
-  
-## :ledger: Index
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Morphing Process](#morphing-process)
-  - [Identifying the Facial Landmarks](#identifying-the-facial-landmarks)
-  - [Delaunay Triangulation](#delaunay-triangulation)
-  - [Calculating Linear Interpolation for Morphed Image](#calculating-linear-interpolation-for-morphed-image)
-  - [Getting Delaunay Indexes and Reshaping](#getting-delaunay-indexes-and-reshaping)
-  - [Morphing Triangles and Images](#morphing-triangles-and-images)
-  - [Results](#results)
- 
+
 ## Usage
 ```
 git clone https://github.com/ptrespidi/echo-chambers-news-aggregators.git
