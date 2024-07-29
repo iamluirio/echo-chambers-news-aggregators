@@ -14,6 +14,10 @@ The advent of social media and availability of news media platforms online has d
 
 There are several research works which focus on understanding and identifying echo chambers in different platforms, such as, blogs [[Gilbert et al., 2009]](https://ieeexplore.ieee.org/document/4755503), forums [[Edwards, 2013]](https://philpapers.org/rec/EDWHDP) and social media platforms [[Zannettou et al., 2018]](https://arxiv.org/abs/1802.05287#:~:text=In%20August%202016%2C%20a%20new,suspended%20from%20other%20social%20networks.). However, these existing recent research works focus on identifying echo chambers on different social media platforms and there is no research work that focuses on echo chamber in news media aggregators. **Existing works on social media platforms are not directly applicable for news media aggregators as there is no social relationship among users and users have only information about the news articles recommended to them**. In this study, we propose different measures that can quantitatively and qualitatively study characterization of **echo chambers in news media aggregators across different users**.
 
+## Preliminary Information
+Below, we give some preliminary information about the study elements that we used for our research, so that if the user wants to replicate the tools used, he must know how to use them, and which input objects to use.
+- News Media Aggregator: 
+
 ## :ledger: Index
 - [Usage](#usage)
 - [Project Structure](#project-structure)
