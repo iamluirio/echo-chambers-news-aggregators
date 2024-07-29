@@ -29,7 +29,7 @@ To study real life users news consumption behavior without any inherent bias, we
 
 We assign each user two main news topics. The first topic, called **majority topic**, is the one that **the user is most interested in**. This means that **they read more news articles about this topic compared to the second assigned topic**. On the other hand, the second assigned topic is referred to as the **minority topic**. Even though users read news about both topics every day, they read fewer articles about the minority topic compared to the majority one. Therefore, we consider users with three different types of political leaning: **Republican political leaning, Democratic political leaning and Neutral political leaning, for USA**. Subsequently, **for India, we consider the political leaning as Government leaning, Opposition leaning and Neutral political leaning**[^important3] . For non-political topics, we consider different news topic interests, such as, **Sports, Entertainment, Technology, World and Business**. Although there can be other news topics, we select these topics on the basis of the popularity of the topics in Google News platform.
 
-When a user is assigned to a particular political party, it means they not only read news related to that specific party, but also news that favors that. This ensures that the user is exposed solely to news content aligned with their political affiliation, thus creating a personalized history consisting exclusively of news favorable to that specific party. This approach is used for each assigned topic.
+When a user is assigned to a particular political party, it means **they not only read news related to that specific party, but also news that favors that**. This ensures that the user is exposed solely to news content aligned with their political affiliation, thus creating a personalized history consisting exclusively of news favorable to that specific party. This approach is used for each assigned topic.
 
 [^important1]: <small>Our selection of a particular news media aggregator for this analysis is not intended as a personal critique or an assertion of bias on the part of the aggregator. Our goal is not to demonstrate or confirm any predisposition towards a specific political party, nor to suggest a preference for certain topics from one newspaper over another. The choice of this aggregator is purely based on its prominence and widespread daily use among the majority of users. This ensures that our study is relevant and reflective of the general news consumption habits of a large audience.</small>
 
@@ -41,10 +41,16 @@ When a user is assigned to a particular political party, it means they not only 
 |--------------------------|-----------------------------------------------|
 | _U<sub>n</sub>_          | It refers to the n-th user from USA.          |
 | _I<sub>n</sub>_          | It refers to the n-th user from India.        |
+| _N<sub>n</sub>_          | It refers to the n-th new user (used only for 
+one specific analysis).                                                    |
 | _rep_                    | Republican Party.                             |
 | _dem_                    | Democratic Party.                             |
-| _unbiased_               | Neutral user. It means that he does not read news regarding the favoring of a particular political party.                                              |
-| Vector Space Dimension   | 32, 64                                        |
+| _unbiased_ / _neu_       | Neutral user. It means that he does not read news regarding the favoring of a particular political party.                                              |
+| _macro_                  | Majority topic assigned to the user.          |
+| _micro_                  | Minority topic assigned to the user.          |
+| _others_                 | News which are neither macro nor micro.       |
+| _Home_                   | It refers to the Google News articles' 
+homepage.                                                                  |
 
 ## Usage
 ```
