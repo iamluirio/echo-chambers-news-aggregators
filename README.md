@@ -6,6 +6,7 @@
 <img src="https://img.shields.io/badge/nltk-grey?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/selenium-grey?style=for-the-badge&logo=selenium&logoColor=green" />
 <img src="https://img.shields.io/badge/spacy-grey?style=for-the-badge&logo=spacy&logoColor=lightblue" />
+<img src="https://img.shields.io/badge/numpy-grey?style=for-the-badge&logo=numpy&logoColor=blue" />
 
 
 
