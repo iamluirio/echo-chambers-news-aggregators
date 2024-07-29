@@ -37,6 +37,15 @@ When a user is assigned to a particular political party, it means they not only 
 
 [^important3]: <small>The team members involved in this project are students who are pursuing or have completed a bachelor's or master's degree in Computer Science. Their ability to identify potential biases within news articles, particularly in relation to political parties, has been developed through preliminary training focused on the key aspects of US and Indian politics. Moreover, the project leader brings substantial expertise to the team, having engaged in numerous studies related to the analysis of fake news and bias, including those of a political nature. This combination of academic background ensures a well-rounded and informed approach to the evaluation of news media content in this study.</small>
 
+| Acronym                  | Explanation                                   |
+|--------------------------|-----------------------------------------------|
+| _U<sub>n</sub>_            | It refers to United States users or country.  |
+| Epochs                   | 5, 10                                         |
+| Batch Sizes              | 64, 128                                       |
+| Activation Functions     | sigmoid, relu, tanh                           |
+| Neurons in Output Layer  | 64, 128                                       |
+| Vector Space Dimension   | 32, 64                                        |
+
 ## Usage
 ```
 git clone https://github.com/iamluirio/echo-chambers-news-aggregators.git
