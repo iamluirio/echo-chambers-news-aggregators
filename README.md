@@ -5,6 +5,12 @@
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
 <img src="https://img.shields.io/badge/with%20a%20logo-grey?style=for-the-badge&logo=nlp" />
 
+<!-- Badge di Shields.io + immagine personalizzata -->
+<a href="https://tua-destinazione.com">
+  <img src="https://img.shields.io/badge/NLP-Sentiment%20Analysis-blue" alt="NLP Sentiment Analysis Badge"/>
+  <img src="https://github.com/user-attachments/assets/2771937f-e959-46f2-a03d-cd899b887efc" alt="Custom Badge" style="height: 20px;"/>
+</a>
+
 
 
 </div>
