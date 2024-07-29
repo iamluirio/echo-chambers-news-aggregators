@@ -3,9 +3,9 @@
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
-<img height='28' src="https://img.shields.io/badge/NLP-Sentiment%20Analysis-blue" />
-<img height='28' src="https://img.shields.io/badge/NLP-Text%20Analytics-blue" />
-<img height='28' src="https://img.shields.io/badge/NLP-Text%20Preprocessing-blue" />
+<img src="https://img.shields.io/badge/with%20a%20logo-grey?style=for-the-badge&logo=javascript" />
+
+
 
 </div>
 
