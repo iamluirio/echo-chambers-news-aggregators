@@ -72,9 +72,13 @@ We study the distribution of news articles recommended to a user based on their 
 
 We opt for a specific day and replicate this type of analysis across several days. Our focus center on the top 20 news articles featured in the For You section of each user. This approach allow us to systematically assess and compare the evolution of news content over the selected timeframe. Our observations indicate that the news recommendation varies on the basis of the topics a user follows as macro and micro topic.
 
+For example, ```REP = [3, 1, 2, 2] ```  means that, for the specific day of analysis, _U<sub>1</sub>_ got three news articles about republican party, _U<sub>2</sub>_ one news article about republican party, and so on.
+
+For example, for 
+
 ```python
 # Set data for the plot
-REP = [3, 1, 2, 2]
+REP = [3, 1, 2, 2]     
 DEM = [6, 5, 8, 4]
 UNB = [0, 0, 3, 7]
 MIC = [2, 5, 1, 3]
