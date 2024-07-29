@@ -23,7 +23,7 @@ For a 360° overview of the project in detail, I recommend the reader to read my
 of the articles, looking at both how they’re written and what they’re about.
 - **Political Biases in News Media**: Political topic news are presented every day by any newspaper and any aggregation site: they inform citizens about the actions and decisions of their governments, helping them make informed choices during elections and hold their leaders accountable for their actions. Political bias in news articles can contribute to the formation of echo chambers: when news consistently present information from a particular political perspective, they reinforce the beliefs of their audience while potentially ignoring or downplaying alternative viewpoints. 
 
-For our type of study, we chose to apply the search tools and indexes to news articles obtained from **Google News**[^important1] news media aggregator. 
+For our type of study, we chose to apply the search tools and indexes to news articles obtained from **Google News**[^important1] news media aggregator. In particular, we refer to the evolution of the **ForYou section**: the personal area dedicated to the user that evolves over time based on his interests.
 
 To study real life users news consumption behavior without any inherent bias, we carefully design our simulation such that we have users with different news topical interests who belong to different locations. For our experiments, we conduct user profile creation task from **USA and India**[^important2] countries.
 
@@ -44,5 +44,12 @@ git clone https://github.com/iamluirio/echo-chambers-news-aggregators.git
 
 We show the code to be readily utilized for testing purposes, allowing you to explore the presence of echo chambers based on our analysis within a defined text-containing system. This setup also enables you to experiment with the tools we employed throughout our study; this will aid in replicating our methodology and verifying the robustness of our findings in your own investigations.
 
+## Insights and Data Patterns
+In this section, we face a typology of of analysis that carefully track how the news content changes over time. Our focus is on understanding how Google News evolves, including changes in topics shown in the For You section, and how news articles are arranged.
 
+### Homophily between News Recomendation and News Consumption
+Homophily is a concept that has been used to represent the tendency of individuals to form relationship with another individual who has similar interests. Several existing research works have proposed the utilization of homophily between users to understand the formation of echo chambers in social networks. 
 
+However, as previously mentioned, there is no explicit relationship among users in news media aggregators. Therefore, in this section, we propose three different forms of homophily in news recommendation on the basis of the news consumption behavior.
+
+#### Homophily in Frequency
