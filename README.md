@@ -53,3 +53,47 @@ Homophily is a concept that has been used to represent the tendency of individua
 However, as previously mentioned, there is no explicit relationship among users in news media aggregators. Therefore, in this section, we propose three different forms of homophily in news recommendation on the basis of the news consumption behavior.
 
 #### Homophily in Frequency
+We study the distribution of news articles recommended to a user based on their news consumption behavior. We study the number of news articles that are recommended to an user on a particular day that belongs to the user’s macro topic, micro topic and news which are neither macro nor micro (we refer to these as others). Usually, the nuts belong to the others section, naming the Others section, to political news (even for users who do not follow political topics), and news belonging to the Google News Homepage, i.e. popular and global news.
+
+We opt for a specific day and replicate this type of analysis across several days. Our focus center on the top 20 news articles featured in the For You section of each user. This approach allow us to systematically assess and compare the evolution of news content over the selected timeframe. Our observations indicate that the news recommendation varies on the basis of the topics a user follows as macro and micro topic.
+
+```python
+# Set data for the plot
+REP = [3, 1, 2, 2]
+DEM = [6, 5, 8, 4]
+UNB = [0, 0, 3, 7]
+MIC = [2, 5, 1, 3]
+OTH = [9, 9, 6, 4]
+x = np.arange(len(REP))  # x-axis values
+
+# Set bar width
+bar_width = 0.15
+
+# Create the plot
+fig, ax = plt.subplots(figsize=(12, 8))  # set the figure size to 12x8
+colormap = plt.get_cmap('Blues')  # Choose the colormap
+colors = [colormap(i) for i in np.linspace(0.2, 1, 5)][::-1]  # Generate 5 colors from the colormap starting at 0.2 and reverse the order
+
+ax.bar(x - 2.0 * bar_width, REP, bar_width, label='rep', color=colors[0])
+ax.bar(x - 1.0 * bar_width, DEM, bar_width, label='dem', color=colors[1])
+ax.bar(x, UNB, bar_width, label='unbiased', color=colors[2])
+ax.bar(x + 1.0 * bar_width, MIC, bar_width, label='micro', color=colors[3])
+ax.bar(x + 2.0 * bar_width, OTH, bar_width, label='others', color=colors[4])
+
+# Set the x-axis labels and ticks
+ax.set_xticks(x)
+ax.set_xticklabels(['U1', 'U2', 'U3', 'U4'], fontsize=16)  # Set x-axis label font size
+ax.set_xlabel('Users', fontsize=20)
+
+# Set y-axis label and font size
+ax.set_ylabel('Num of News Articles', fontsize=20)
+
+# Increase the y-axis tick labels font size
+ax.tick_params(axis='y', labelsize=16)
+
+# Add a legend and title
+ax.legend(loc='upper right', fontsize=12)  # Adjust legend location to upper right
+
+# Show the plot
+plt.show()
+```
