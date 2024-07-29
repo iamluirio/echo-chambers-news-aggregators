@@ -20,14 +20,14 @@ Below, we give some preliminary information about the study elements that we use
 of the articles, looking at both how they’re written and what they’re about.
 - **Political Biases in News Media**: Political topic news are presented every day by any newspaper and any aggregation site: they inform citizens about the actions and decisions of their governments, helping them make informed choices during elections and hold their leaders accountable for their actions. Political bias in news articles can contribute to the formation of echo chambers: when news consistently present information from a particular political perspective, they reinforce the beliefs of their audience while potentially ignoring or downplaying alternative viewpoints. 
 
-For our type of study, we chose to apply the search tools and indexes to news articles obtained from **Google News**[^nota-importante] news media aggregator. 
+For our type of study, we chose to apply the search tools and indexes to news articles obtained from **Google News**[^important] news media aggregator. 
 
 To study real life users news consumption behavior without any inherent bias, we carefully design our simulation such that we have users with different news topical interests who belong to different locations. For our experiments, we conduct user profile creation task from **USA and India** countries. To ensure a comprehensive representation of user demographics and preferences, we divide the user creation process among the team members working on the project; this approach allows us to capture diverse perspectives and insights from individuals hailing from distinct cultural backgrounds and geographical regions.
 
 Therefore, we consider users with three different types of political leaning: **Republican political leaning, Democratic political leaning and Neutral political leaning, for USA**. Subsequently, **for India, we consider the political leaning as Government leaning, Opposition leaning and Neutral political leaning**. For non-political topics, we consider different news topic interests, such as, **Sports, Entertainment, Technology, World and Business**. Although there can
 be other news topics, we select these topics on the basis of the popularity of the topics in Google News platform.
 
-[^nota-importante]: <small>Questa è una nota importante che spiega ulteriori dettagli sulla funzione. Puoi aggiungere più informazioni qui.</small>
+[^important]: <small>Our selection of a particular news media aggregator for this analysis is not intended as a personal critique or an assertion of bias on the part of the aggregator. Our goal is not to demonstrate or confirm any predisposition towards a specific political party, nor to suggest a preference for certain topics from one newspaper over another. The choice of this aggregator is purely based on its prominence and widespread daily use among the majority of users. This ensures that our study is relevant and reflective of the general news consumption habits of a large audience.</small>
 
 ## Usage
 ```
