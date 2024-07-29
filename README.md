@@ -7,6 +7,9 @@
 <img src="https://img.shields.io/badge/spacy-grey?style=for-the-badge&logo=spacy&logoColor=lightblue" />
 <img src="https://img.shields.io/badge/numpy-grey?style=for-the-badge&logo=numpy&logoColor=blue" />
 <img src="https://img.shields.io/badge/selenium-grey?style=for-the-badge&logo=selenium&logoColor=green" />
+<img height='28' src="https://github.com/user-attachments/assets/cedbd308-fd4e-4cbc-91eb-d5992999c33f" />
+
+
 
 
 
