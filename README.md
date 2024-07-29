@@ -39,8 +39,8 @@ When a user is assigned to a particular political party, it means they not only 
 
 | Acronym                  | Explanation                                   |
 |--------------------------|-----------------------------------------------|
-| _U<sub>n</sub>_            | It refers to United States users or country.  |
-| Epochs                   | 5, 10                                         |
+| _U<sub>n</sub>_          | It refers to the n-th user from USA.          |
+| _I<sub>n</sub>_          | It refers to the n-th user from India.        |
 | Batch Sizes              | 64, 128                                       |
 | Activation Functions     | sigmoid, relu, tanh                           |
 | Neurons in Output Layer  | 64, 128                                       |
