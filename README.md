@@ -72,49 +72,6 @@ We study the distribution of news articles recommended to a user based on their 
 
 We opt for a specific day and replicate this type of analysis across several days. Our focus center on the top 20 news articles featured in the For You section of each user. This approach allow us to systematically assess and compare the evolution of news content over the selected timeframe. Our observations indicate that the news recommendation varies on the basis of the topics a user follows as macro and micro topic.
 
-For example, ```REP = [3, 1, 2, 2]```  means that, for the specific day of analysis, _U<sub>1</sub>_ got three news articles about republican party in his For You page, _U<sub>2</sub>_ one news article about republican party, and so on.
-
-```python
-# Set data for the plot
-REP = [3, 1, 2, 2]     
-DEM = [6, 5, 8, 4]
-UNB = [0, 0, 3, 7]
-MIC = [2, 5, 1, 3]
-OTH = [9, 9, 6, 4]
-x = np.arange(len(REP))  # x-axis values
-
-# Set bar width
-bar_width = 0.15
-
-# Create the plot
-fig, ax = plt.subplots(figsize=(12, 8))  # set the figure size to 12x8
-colormap = plt.get_cmap('Blues')  # Choose the colormap
-colors = [colormap(i) for i in np.linspace(0.2, 1, 5)][::-1]  # Generate 5 colors from the colormap starting at 0.2 and reverse the order
-
-ax.bar(x - 2.0 * bar_width, REP, bar_width, label='rep', color=colors[0])
-ax.bar(x - 1.0 * bar_width, DEM, bar_width, label='dem', color=colors[1])
-ax.bar(x, UNB, bar_width, label='unbiased', color=colors[2])
-ax.bar(x + 1.0 * bar_width, MIC, bar_width, label='micro', color=colors[3])
-ax.bar(x + 2.0 * bar_width, OTH, bar_width, label='others', color=colors[4])
-
-# Set the x-axis labels and ticks
-ax.set_xticks(x)
-ax.set_xticklabels(['U1', 'U2', 'U3', 'U4'], fontsize=16)  # Set x-axis label font size
-ax.set_xlabel('Users', fontsize=20)
-
-# Set y-axis label and font size
-ax.set_ylabel('Num of News Articles', fontsize=20)
-
-# Increase the y-axis tick labels font size
-ax.tick_params(axis='y', labelsize=16)
-
-# Add a legend and title
-ax.legend(loc='upper right', fontsize=12)  # Adjust legend location to upper right
-
-# Show the plot
-plt.show()
-```
-
 <div align="center">
     <img src="https://github.com/user-attachments/assets/6b03e860-8b09-4e8d-b3a8-1def906a4f7a" style="width: 100%;" />
 </div>
