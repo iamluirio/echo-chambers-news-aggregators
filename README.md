@@ -39,7 +39,7 @@ When a user is assigned to a particular political party, it means they not only 
 
 ## Usage
 ```
-git clone https://github.com/ptrespidi/echo-chambers-news-aggregators.git
+git clone https://github.com/iamluirio/echo-chambers-news-aggregators.git
 ```
 
 We show the code to be readily utilized for testing purposes, allowing you to explore the presence of echo chambers based on our analysis within a defined text-containing system. This setup also enables you to experiment with the tools we employed throughout our study; this will aid in replicating our methodology and verifying the robustness of our findings in your own investigations.
