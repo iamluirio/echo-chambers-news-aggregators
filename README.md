@@ -29,6 +29,12 @@ There are several research works which focus on understanding and identifying ec
   - [Getting Delaunay Indexes and Reshaping](#getting-delaunay-indexes-and-reshaping)
   - [Morphing Triangles and Images](#morphing-triangles-and-images)
   - [Results](#results)
+ 
+## Usage
+```
+git clone https://github.com/ptrespidi/echo-chambers-news-aggregators.git
+```
+
 
 ## Git repository 
 - [Automated Collecting Data System](https://github.com/ptrespidi/echo_chambers_intership/tree/main/Automated%20Collecting%20Data%20System): Collecting news for our study prove to be a time-intensive process, particularly when simulating the daily routines of multiple users engaging with diverse news articles. One significant time-consuming aspect is the meticulous attention to detail in simulating the entire user experience. We started creating an automated system for collecting news; we identify Selenium as a powerful open-source framework for automating web browsers. This system facilitate the simulation of user interactions
