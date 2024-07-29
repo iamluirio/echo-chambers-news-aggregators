@@ -72,7 +72,7 @@ We study the distribution of news articles recommended to a user based on their 
 
 We opt for a specific day and replicate this type of analysis across several days. Our focus center on the top 20 news articles featured in the For You section of each user. This approach allow us to systematically assess and compare the evolution of news content over the selected timeframe. Our observations indicate that the news recommendation varies on the basis of the topics a user follows as macro and micro topic.
 
-For example, ```REP = [3, 1, 2, 2] ```  means that, for the specific day of analysis, _U<sub>1</sub>_ got three news articles about republican party, _U<sub>2</sub>_ one news article about republican party, and so on.
+For example, ```REP = [3, 1, 2, 2]```  means that, for the specific day of analysis, _U<sub>1</sub>_ got three news articles about republican party, _U<sub>2</sub>_ one news article about republican party, and so on.
 
 For example, for 
 
@@ -116,3 +116,8 @@ ax.legend(loc='upper right', fontsize=12)  # Adjust legend location to upper rig
 # Show the plot
 plt.show()
 ```
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/6b03e860-8b09-4e8d-b3a8-1def906a4f7a" />
+</div>
+
