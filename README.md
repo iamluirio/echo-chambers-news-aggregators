@@ -71,9 +71,11 @@ We study **the distribution of news articles recommended to a user based on thei
 We opt for a specific day and replicate this type of analysis across several days. Our focus center on the top 20 news articles featured in the For You section of each user. This approach allow us to systematically assess and compare the evolution of news content over the selected timeframe. Our observations indicate that the news recommendation varies on the basis of the topics a user follows as macro and micro topic.
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/6b03e860-8b09-4e8d-b3a8-1def906a4f7a" style="width: 100%;" />
+    <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/user-attachments/assets/6b03e860-8b09-4e8d-b3a8-1def906a4f7a" style="width: 45%; margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/96da1851-08c5-4c6f-84b7-2aa0cf557dc8" style="width: 45%;" />
+    </div>
     <p><em>Figure 1: Visualizing the Ratio of News Recommended to Politic Users as Macro and belong to USA.</em></p>
 </div>
-
 
 
