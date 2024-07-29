@@ -49,9 +49,7 @@ When a user is assigned to a particular political party, it means **they not onl
 | _micro_                  | Minority topic assigned to the user.          |
 | _others_                 | News which are neither macro nor micro.       |
 | _Home_                   | It refers to the Google News articles' homepage. |
-    
-                                                                  
-
+                                                            
 ## Usage
 ```
 git clone https://github.com/iamluirio/echo-chambers-news-aggregators.git
@@ -63,12 +61,12 @@ We show the code to be readily utilized for testing purposes, allowing you to ex
 In this section, we face a typology of of analysis that carefully track how the news content changes over time. Our focus is on understanding how Google News evolves, including changes in topics shown in the For You section, and how news articles are arranged.
 
 ### Homophily between News Recomendation and News Consumption
-Homophily is a concept that has been used to represent the tendency of individuals to form relationship with another individual who has similar interests. Several existing research works have proposed the utilization of homophily between users to understand the formation of echo chambers in social networks. 
+**Homophily** is a concept that has been used to represent **the tendency of individuals to form relationship with another individual who has similar interests**. Several existing research works have proposed the utilization of homophily between users to understand the formation of echo chambers in social networks. 
 
-However, as previously mentioned, there is no explicit relationship among users in news media aggregators. Therefore, in this section, we propose three different forms of homophily in news recommendation on the basis of the news consumption behavior.
+However, as previously mentioned, **there is no explicit relationship among users in news media aggregators**. Therefore, in this section, **we propose three different forms of homophily in news recommendation on the basis of the news consumption behavior**.
 
 #### Homophily in Frequency
-We study the distribution of news articles recommended to a user based on their news consumption behavior. We study the number of news articles that are recommended to an user on a particular day that belongs to the user’s macro topic, micro topic and news which are neither macro nor micro (we refer to these as others). Usually, the nuts belong to the others section, naming the Others section, to political news (even for users who do not follow political topics), and news belonging to the Google News Homepage, i.e. popular and global news.
+We study **the distribution of news articles recommended to a user based on their news consumption behavior**. We study **the number of news articles that are recommended to an user on a particular day that belongs to the user’s macro topic, micro topic and others**. Usually, the nuts belong to the others section, to political news (even for users who do not follow political topics), and news belonging to the Google News Homepage, i.e. popular and global news.
 
 We opt for a specific day and replicate this type of analysis across several days. Our focus center on the top 20 news articles featured in the For You section of each user. This approach allow us to systematically assess and compare the evolution of news content over the selected timeframe. Our observations indicate that the news recommendation varies on the basis of the topics a user follows as macro and micro topic.
 
