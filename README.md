@@ -8,11 +8,6 @@
 <img src="https://img.shields.io/badge/numpy-grey?style=for-the-badge&logo=numpy&logoColor=blue" />
 <img src="https://img.shields.io/badge/selenium-grey?style=for-the-badge&logo=selenium&logoColor=green" />
 <img height='28' src="https://github.com/user-attachments/assets/cedbd308-fd4e-4cbc-91eb-d5992999c33f" />
-
-
-
-
-
 </div>
 
 The advent of social media and availability of news media platforms online has drastically transformed the news consumption behavior. Nowadays, the majority of the population tends to receive the daily news feeds online rather than the printed offline newspapers. These impertinent changes in news consumption demand news media sources to understand the pulse of the readers and adapt according to the trends; while personalization offers benefits, it also raises challenges, such as the risk of creating information bubbles or **_echo chambers_**. Existing research works define an *echo chamber* as an isolated virtual room or environment where the users’ beliefs and interests are reinforced by repeated exposure to information that aligns with user’s specific interests. 
@@ -35,6 +30,8 @@ There are several research works which focus on understanding and identifying ec
 git clone https://github.com/ptrespidi/echo-chambers-news-aggregators.git
 ```
 
+
+We show the code to be readily utilized for testing purposes, allowing you to explore the presence of echo chambers based on our analysis within a defined text-containing system. This setup also enables you to experiment with the tools we employed throughout our study. We provide a detailed figure illustrating the dataset we constructed from scratch, along with the specific timeframe during which the news articles were retrieved. This will aid in replicating our methodology and verifying the robustness of our findings in your own investigations.
 
 ## Git repository 
 - [Automated Collecting Data System](https://github.com/ptrespidi/echo_chambers_intership/tree/main/Automated%20Collecting%20Data%20System): Collecting news for our study prove to be a time-intensive process, particularly when simulating the daily routines of multiple users engaging with diverse news articles. One significant time-consuming aspect is the meticulous attention to detail in simulating the entire user experience. We started creating an automated system for collecting news; we identify Selenium as a powerful open-source framework for automating web browsers. This system facilitate the simulation of user interactions
