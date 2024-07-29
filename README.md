@@ -72,7 +72,7 @@ We opt for a specific day and replicate this type of analysis across several day
 
 <div align="center">
     <div style="display: flex; justify-content: center;">
-        <img src="https://github.com/user-attachments/assets/6b03e860-8b09-4e8d-b3a8-1def906a4f7a" style="width: 50%; margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/6b03e860-8b09-4e8d-b3a8-1def906a4f7a" style="width: 50%; margin-right: 5px;" />
         <img src="https://github.com/user-attachments/assets/96da1851-08c5-4c6f-84b7-2aa0cf557dc8" style="width: 50%;" />
     </div>
     <p><em>Figure 1: Visualizing the Ratio of News Recommended to Politic Users as Macro and belong to USA.</em></p>
