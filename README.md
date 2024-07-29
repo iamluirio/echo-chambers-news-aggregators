@@ -115,5 +115,9 @@ ax.legend(loc='upper right', fontsize=12)  # Adjust legend location to upper rig
 plt.show()
 ```
 
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/6b03e860-8b09-4e8d-b3a8-1def906a4f7a" style="width: 100%;/>
+</div>
+
 
 
