@@ -3,7 +3,7 @@
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
-<img src="https://img.shields.io/badge/with%20a%20logo-grey?style=for-the-badge&logo=nlp?logo=https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40kelsklane%2Fthe-natural-language-toolkit-what-is-it-8ca335dce6a9&psig=AOvVaw1JlMMyTfRsw3dq2HTPjAr5&ust=1722330539120000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjsmrHzy4cDFQAAAAAdAAAAABAE" />
+<img src="https://img.shields.io/badge/with%20a%20logo-grey?style=for-the-badge&logo=nlp" />
 
 
 
