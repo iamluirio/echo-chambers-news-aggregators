@@ -41,9 +41,9 @@ When a user is assigned to a particular political party, it means they not only 
 |--------------------------|-----------------------------------------------|
 | _U<sub>n</sub>_          | It refers to the n-th user from USA.          |
 | _I<sub>n</sub>_          | It refers to the n-th user from India.        |
-| Batch Sizes              | 64, 128                                       |
-| Activation Functions     | sigmoid, relu, tanh                           |
-| Neurons in Output Layer  | 64, 128                                       |
+| _rep_                    | Republican Party.                             |
+| _dem_                    | Democratic Party.                             |
+| _unbiased_               | Neutral user. It means that he does not read news regarding the favoring of a particular political party.                                              |
 | Vector Space Dimension   | 32, 64                                        |
 
 ## Usage
