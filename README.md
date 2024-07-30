@@ -158,9 +158,9 @@ For example, on any particular day, we calculate the number of news articles rec
 
 <div align="center">
     <div style="display: flex; justify-content: center;">
-        <img src="https://github.com/user-attachments/assets/624830df-5a98-48a0-b764-40a08c6c4ce7" style="width: 45%; margin-right: 10px;" />
-        <img src="https://github.com/user-attachments/assets/df737a68-66c2-43c9-96fa-60bb793dcb74" style="width: 45%;" />
-        <img src="https://github.com/user-attachments/assets/551c338f-b4be-4f90-806c-4e3b9bd50e67" style="width: 45%;" />
+        <img src="https://github.com/user-attachments/assets/624830df-5a98-48a0-b764-40a08c6c4ce7" style="width: 30%; margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/df737a68-66c2-43c9-96fa-60bb793dcb74" style="width: 30%;" />
+        <img src="https://github.com/user-attachments/assets/551c338f-b4be-4f90-806c-4e3b9bd50e67" style="width: 30%;" />
     </div>
     <p><em>Figure 5: User Viewpoint Representativeness Score for USA and India, respectively.</em></p>
 </div>
