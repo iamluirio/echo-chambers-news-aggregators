@@ -180,6 +180,7 @@ We consider the macro news topic of _N<sub>1</sub>_ as Entertainment, _N<sub>2</
     <p><em>Figure 7: New Users’ News Temporal Evolution.</em></p>
 </div>
 
+Our observations indicate that it takes more number of days for an user with specific political leaning to get a majority of its news feed aligned to that specific political leaning than an user who reads Entertainment or Sports based news. This is logically attributed to the need for a sufficiently large number of news articles. The algorithm must discern not only the user’s interest in political topics (which is relatively straightforward to differentiate from other topics) but also determine the specific political party alignment of the user. In contrast, users interested in Sports or Entertainment-related news find their preferences recognized more swiftly, as these topics are more easily distinguishable.
 
 
 
