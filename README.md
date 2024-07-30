@@ -112,6 +112,17 @@ An user has high positional homophily in news recommendation if the news article
 
 Our observations indicate that irrespective of the macro news topic, the position of the first news ranges between 1-3 mostly. Additionally, we observe that for an user, the position of their macro news topic rarely appears beyond position 3 in the Google News page. This further highlights that the news recommended to different users are ranked differently on any day irrespective of the news events of that day and is dependent only on the user’s news topic choice and political leaning.
 
+### User Similarity Analysis
+Until now, our analyses have mainly focused on individual users and how their interests were influenced by the news they read. Now, **we want to compare them to see how similar they are**. This approach helps us retrieve patterns and trends that go beyond just one user. By looking at all these different factors, we hope to get a better understanding of how news changes during time. 
 
+To study the variance in news recommendation among users quantitatively, we study 3 different measures, namely, **_User Viewpoint Similarity Index_**, **_User Viewpoint Representation Index_** and **_User Stance Index_**. Through these metrics and observations, we intend to capture how the news recommendation is similar between a pair of users on the basis of their macro, micro news topic and political leaning.
 
+#### User Viewpoint Similarity Index
+For this type of analysis, **we compare similarity in the news recommended between a pair of users on the basis of the topics of the news**. We consider the topics as a combination of all the possible macro and micro news topics.
 
+Suppose we approach the situation from the perspective of users from India; the first example we report concerns the situation of the topics according to the point of view of users from India, i.e., pro- Government, pro-Opposition, Neutral, Sports, Entertainment, Technology, World and Business, for a total of 8 topics. Therefore, **for an user _I<sub>j</sub>_ , _Topic Distribution_ is a vector of size 8 where each position of the vector represents each topic, and the value is the frequency of the news articles recommended to _I<sub>j</sub>_ on that topic**. 
+
+Suppose we take two users: user _I<sub>1</sub>_ which is pro-Government and with interests to Sports news, and user _I<sub>2</sub>_ which is also pro-Government and interested on Entertainment news. Our earlier checks tell us that Sports
+and Politics news usually get a good spot in the ranking. That’s a hint that Google News thinks these topics matter on a larger scale. Now, following our plan, **we’d expect a topic distribution vector with high news frequency at the top (for pro-Government, let’s say position 1) and another spike further down the line (let’s call that Sport at position 4)**. Same way for user 2.
+
+**We calculate _User Viewpoint Similarity Index_** between two users _I<sub>1</sub>_ and _I<sub>2</sub>_ , **as the _weighted cosine similarity_ between Topic Distribution  _I<sub>1</sub>_ and Topic Distribution  _I<sub>2</sub>_**. We repeat this for all pair of users to construct the complete matrix.
