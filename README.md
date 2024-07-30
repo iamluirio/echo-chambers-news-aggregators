@@ -110,6 +110,7 @@ An user has high positional homophily in news recommendation if the news article
     <p><em>Figure 3: Positional Homophily in News Recommendation.</em></p>
 </div>
 
+Our observations indicate that irrespective of the macro news topic, the position of the first news ranges between 1-3 mostly. Additionally, we observe that for an user, the position of their macro news topic rarely appears beyond position 3 in the Google News page. This further highlights that the news recommended to different users are ranked differently on any day irrespective of the news events of that day and is dependent only on the user’s news topic choice and political leaning.
 
 
 
