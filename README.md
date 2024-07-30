@@ -126,3 +126,12 @@ Suppose we take two users: user _I<sub>1</sub>_ which is pro-Government and with
 and Politics news usually get a good spot in the ranking. That’s a hint that Google News thinks these topics matter on a larger scale. Now, following our plan, **we’d expect a topic distribution vector with high news frequency at the top (for pro-Government, let’s say position 1) and another spike further down the line (let’s call that Sport at position 4)**. Same way for user 2.
 
 **We calculate _User Viewpoint Similarity Index_** between two users _I<sub>1</sub>_ and _I<sub>2</sub>_ , **as the _weighted cosine similarity_ between Topic Distribution  _I<sub>1</sub>_ and Topic Distribution  _I<sub>2</sub>_**. We repeat this for all pair of users to construct the complete matrix.
+
+<div align="center">
+    <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/user-attachments/assets/596ea260-26b4-492e-9aa1-fcf5fad17318" style="width: 45%; margin-right: 10px;" />
+    </div>
+    <p><em>Figure 3: Positional Homophily in News Recommendation.</em></p>
+</div>
+
+
