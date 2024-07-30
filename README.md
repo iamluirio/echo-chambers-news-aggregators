@@ -78,4 +78,18 @@ We opt for a specific day and replicate this type of analysis across several day
     <p><em>Figure 1: Visualizing the Ratio of News Recommended to Politic Users as Macro and belong to USA.</em></p>
 </div>
 
+#### Temporal Homophily in News Recommendation
+From our previous experiment, we can conclude that the news recommended to an user is based on the user’s news topics of choice and leaning and the news recommended varies across users on the basis of the topic.
+
+Currently, we study whether **the observed uniformity in news recommendation is maintained temporally**. For our experiments, we consider a week and **calculate frequency of news articles recommended to an user with respect to a particular news topic**. For example, for the news topic politics, we calculate the number of news articles related to pro-Government recommended to an user who has politics as major news topic. We repeat this subsequently for pro- Government and pro-Opposition leaning for users from India, pro-Republican and pro-Democratic for users from USA, respectively.
+
+<div align="center">
+    <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/user-attachments/assets/86047e26-10ce-4d5a-ab63-df75d9f2da8c" style="width: 45%; margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/1129d6ae-db0e-407b-8106-cc0887d4e2a1" style="width: 45%;" />
+    </div>
+    <p><em>Figure 2: Pro-Government Temporal Pattern (left) and Pro-Opposition Temporal Pattern (right). </em></p>
+</div>
+
+
 
