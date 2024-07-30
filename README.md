@@ -1,4 +1,6 @@
 # Study of Echo Chambers in News Media Aggregators
+Roshni Chakraborty, Ananya Bajaj*, Ananya Purkait*, Pier Luigi Trespidi*, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo 55Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023), 22 pages. https://doi.org/10.1145/3595181
+
 <div align="left">
 
 <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
