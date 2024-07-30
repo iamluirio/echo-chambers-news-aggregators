@@ -182,6 +182,11 @@ We consider the macro news topic of _N<sub>1</sub>_ as Entertainment, _N<sub>2</
 
 Our observations indicate that it takes more number of days for an user with specific political leaning to get a majority of its news feed aligned to that specific political leaning than an user who reads Entertainment or Sports based news. This is logically attributed to the need for a sufficiently large number of news articles. The algorithm must discern not only the user’s interest in political topics (which is relatively straightforward to differentiate from other topics) but also determine the specific political party alignment of the user. In contrast, users interested in Sports or Entertainment-related news find their preferences recognized more swiftly, as these topics are more easily distinguishable.
 
+### Case Study: Susceptibility to Propaganda News
+In this section, we delve into examining whether there exists a correlation between the user’s chosen news topics and their susceptibility to being recommended news with propaganda. 
 
+Propaganda, in the context of news articles, refers to the dissemination of biased or misleading information intended to shape public opinion or promote a particular agenda. It often involves the use of persuasive techniques to influence individuals’ beliefs or attitudes, rather than presenting objective and unbiased reporting. Our analysis aims to uncover whether users who engage with specific news topics, especially those related to politics, might encounter a higher likelihood of receiving news articles with propagandistic elements. 
+
+We follow Morio et al. [[Morio et al., 2020]](https://aclanthology.org/2020.semeval-1.228/) to detect whether a news article has propaganda or not. Morio et al. [[Morio et al., 2020]](https://aclanthology.org/2020.semeval-1.228/) proposes **a transformer based model which utilizes the sentence embedding coupled with named entity and pos embedding to detect whether a sentence has propaganda or not and consider a news article has propaganda if any of the sentences is propagandastic in nature**.
 
 
