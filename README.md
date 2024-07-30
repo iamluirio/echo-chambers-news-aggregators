@@ -143,9 +143,10 @@ We calculate _User Viewpoint Representativeness Index_ as **the KL-divergence be
 
 <div align="center">
     <div style="display: flex; justify-content: center;">
-        <img src="https://github.com/user-attachments/assets/8bf703f4-5298-49de-b819-cc59900f81c7" style="width: 45%; margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/80a6754f-bc17-43c8-ac71-d2ba38e24c19" style="width: 45%; margin-right: 10px;" />
         <img src="https://github.com/user-attachments/assets/6fdf4e59-2d06-4544-9ac7-822e1fc8ef9f" style="width: 45%;" />
     </div>
-    <p><em>Figure 3: Positional Homophily in News Recommendation.</em></p>
+    <p><em>Figure 5: User Viewpoint Representativeness Score for USA and India, respectively.</em></p>
 </div>
+
 
