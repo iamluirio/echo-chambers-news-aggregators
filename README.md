@@ -162,8 +162,25 @@ For example, on any particular day, we calculate the number of news articles rec
         <img src="https://github.com/user-attachments/assets/df737a68-66c2-43c9-96fa-60bb793dcb74" style="width: 30%;" />
         <img src="https://github.com/user-attachments/assets/551c338f-b4be-4f90-806c-4e3b9bd50e67" style="width: 30%;" />
     </div>
-    <p><em>Figure 5: User Viewpoint Representativeness Score for USA and India, respectively.</em></p>
+    <p><em>Figure 6: User Stance Index for USA.</em></p>
 </div>
+
+Our observations indicate that users are recommended news that match with their preferred political leaning irrespective of location. Additionally, we observe that Google News recommends democratic news and neutral political news rather than republican news to an user with no political leaning or news reading behavior.
+
+### New Users in Echo Chambers
+In order to understand this timeline of generic news recommendation to specifically tuned news recommendation, we perform an experiment where **we create a batch of 6 new users (_N<sub>1</sub>_ to _N<sub>6</sub>_), of different news topic choices, and simulate how their news recommendation behavior changes daily**. 
+
+We consider the macro news topic of _N<sub>1</sub>_ as Entertainment, _N<sub>2</sub>_ as Sports, _N<sub>3</sub>_ as Technology, _N<sub>4</sub>_ as pro-Government leaning, _N<sub>5</sub>_ as pro-Opposition leaning and _N<sub>6</sub>_ has Neutral political leaning.
+
+<div align="center">
+    <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/user-attachments/assets/e83b6a83-b7ed-45e8-add7-47528cea3e50" style="width: 45%; margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/91152cc7-328c-4012-856f-8f11c73f683c" style="width: 45%;" />
+    </div>
+    <p><em>Figure 7: New Users’ News Temporal Evolution.</em></p>
+</div>
+
+
 
 
 
