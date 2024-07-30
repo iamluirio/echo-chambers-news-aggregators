@@ -96,6 +96,21 @@ Currently, we study whether **the observed uniformity in news recommendation is 
     <p><em>Figure 2: Pro-Government Temporal Pattern (left) and Pro-Opposition Temporal Pattern (right). </em></p>
 </div>
 
-Our observations indicate that the number of news articles recommended to an user which belongs to her macro news topic is much higher than any other news topic irrespective of the day of the week, date or location of the user. We observe similar behavior irrespective of the macro news topic being political or non-political. However, for users with pro-Republican political leaning, they are either recommended news which cover republican news or pro-Democratic view point. We observe this similar pattern through different experiments for pro-Republican users. A majority (at least 70%) of the news articles recommended to an user are related to a particular political leaning of their choice and it varies immensely both on the news event and framing of the same news for users with different political leaning even on the same day. We observe similar behavior for users with pro-Democratic political leaning in USA. For user with macro news topic as non political, we observe similar irrespective behavior of the macro news topic, an user gets recommended mostly the news which is their macro news topic, whether it is Sports, Entertainment, Business or Technology.
+Our observations indicate that the number of news articles recommended to an user which belongs to her macro news topic is much higher than any other news topic irrespective of the day of the week, date or location of the user. We observe similar behavior irrespective of the macro news topic being political or non-political. However, for users with pro-Republican political leaning, they are either recommended news which cover republican news or pro-Democratic view point. We observe this similar pattern through different experiments for pro-Republican users.
+
+#### Positional Homophily in News Recommendation
+As Google News ranks the news articles based on relevance to the user, we explore the positional homophily in news recommendation for an user, i.e., we study the first position of any news article that belong to the user’s macro news topic.
+An user has high positional homophily in news recommendation if the news articles which match her macro news topic is ranked early in her news feed. For our experiment, we repeat this for all the users of both USA and India for 5 days, respectively.
+
+<div align="center">
+    <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/user-attachments/assets/a80b4dbd-195f-4e4e-9374-4a1cf3b1a681" style="width: 45%; margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/f0403a02-ddca-4d5d-8062-5ed94c6adc8d" style="width: 45%;" />
+    </div>
+    <p><em>Figure 3: Positional Homophily in News Recommendation.</em></p>
+</div>
+
+
+
 
 
