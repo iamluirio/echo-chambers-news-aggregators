@@ -139,7 +139,7 @@ Our observations indicate that _User Viewpoint Similarity Index_ is higher if th
 #### User Viewpoint Representativeness Score
 We use _**User Viewpoint Representativeness Score to understand the level of specificity in news recommendation for an user, and how it varies than the news articles published that day**_.
 
-We calculate _User Viewpoint Representativeness Index_ as **the KL-divergence between Topic Distribution (_I<sub>1</sub>_) and Topic Distribution (_I<sub>H</sub>_), where Topic Distribution (_I<sub>1</sub>_) and Topic Distribution (_I<sub>H</sub>_) represents the distribution of the news articles with respect to different topics for _I<sub>1</sub>_ and news published that day (Homepage of Google News), respectively**. The **Kullback-Leibler (KL) divergence, also known as relative entropy, is a measure of how one probability distribution diverges from a second, expected probability distribution**.
+We calculate _User Viewpoint Representativeness Index_ as **the KL-divergence between Topic Distribution (_I<sub>1</sub>_) and Topic Distribution (_I<sub>H</sub>_), where Topic Distribution (_I<sub>1</sub>_) and Topic Distribution (_I<sub>H</sub>_) represents the distribution of the news articles with respect to different topics for _I<sub>1</sub>_ and news published that day (Homepage of Google News), respectively**. **The Kullback-Leibler (KL) divergence, also known as relative entropy, is a measure of how one probability distribution diverges from a second, expected probability distribution**.
 
 <div align="center">
     <div style="display: flex; justify-content: center;">
@@ -148,5 +148,22 @@ We calculate _User Viewpoint Representativeness Index_ as **the KL-divergence be
     </div>
     <p><em>Figure 5: User Viewpoint Representativeness Score for USA and India, respectively.</em></p>
 </div>
+
+**The Jensen-Shannon Divergence (JSD)** is a measure of **similarity between two probability distributions**. It is derived from the Kullback-Leibler. Our observations indicate that the most of the users have very low _User Viewpoint Representativeness Score_, i.e., very high KL divergence score around 0.4 to 0.7.
+
+#### User Stance Index
+For user political leaning based Viewpoint Analysis, we study **the fraction of news articles recommended to an user for a particular political leaning on a day**. This provides us with an understanding of **variance in the recommended news across different users based on their news preferences and political leaning**.
+
+For example, on any particular day, we calculate the number of news articles recommended to an user with respect to a particular political leaning. Therefore, suppose, for political leaning as Republican, we calculate the number of news articles with Republican political leaning recommended to an user.
+
+<div align="center">
+    <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/user-attachments/assets/624830df-5a98-48a0-b764-40a08c6c4ce7" style="width: 45%; margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/df737a68-66c2-43c9-96fa-60bb793dcb74" style="width: 45%;" />
+        <img src="https://github.com/user-attachments/assets/551c338f-b4be-4f90-806c-4e3b9bd50e67" style="width: 45%;" />
+    </div>
+    <p><em>Figure 5: User Viewpoint Representativeness Score for USA and India, respectively.</em></p>
+</div>
+
 
 
