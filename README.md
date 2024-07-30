@@ -129,9 +129,9 @@ and Politics news usually get a good spot in the ranking. That’s a hint that G
 
 <div align="center">
     <div style="display: flex; justify-content: center;">
-        <img src="https://github.com/user-attachments/assets/596ea260-26b4-492e-9aa1-fcf5fad17318" style="width: 45%; margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/596ea260-26b4-492e-9aa1-fcf5fad17318" style="width: 70%; margin-right: 10px;" />
     </div>
-    <p><em>Figure 3: Positional Homophily in News Recommendation.</em></p>
+    <p><em>Figure 4: User Viewpoint Similarity Index Matrix.</em></p>
 </div>
 
 
