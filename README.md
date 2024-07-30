@@ -134,4 +134,7 @@ and Politics news usually get a good spot in the ranking. That’s a hint that G
     <p><em>Figure 4: User Viewpoint Similarity Index Matrix.</em></p>
 </div>
 
+Our observations indicate that _User Viewpoint Similarity Index_ is higher if the users have same macro news choices, such as, _I<sub>1</sub>_ and _I<sub>2</sub>_ have a similarity score of 0.43. We can also see that user _I<sub>3</sub>_ and _I<sub>4</sub>_ have a similarity score of 0.38, whereas it varies significantly if the users like political news but with different stance. Additionally, we observe that Entertainment is a very popular news topic worldwide and has huge number of recommended news which affects User Viewpoint Similarity Index.
 
+#### User Viewpoint Representativeness Score
+We use User Viewpoint Representativeness Score to understand the level of specificity in news recommendation for an user, and how it varies than the news articles published that day.
