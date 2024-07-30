@@ -137,4 +137,15 @@ and Politics news usually get a good spot in the ranking. That’s a hint that G
 Our observations indicate that _User Viewpoint Similarity Index_ is higher if the users have same macro news choices, such as, _I<sub>1</sub>_ and _I<sub>2</sub>_ have a similarity score of 0.43. We can also see that user _I<sub>3</sub>_ and _I<sub>4</sub>_ have a similarity score of 0.38, whereas it varies significantly if the users like political news but with different stance. Additionally, we observe that Entertainment is a very popular news topic worldwide and has huge number of recommended news which affects User Viewpoint Similarity Index.
 
 #### User Viewpoint Representativeness Score
-We use User Viewpoint Representativeness Score to understand the level of specificity in news recommendation for an user, and how it varies than the news articles published that day.
+We use _**User Viewpoint Representativeness Score to understand the level of specificity in news recommendation for an user, and how it varies than the news articles published that day**_.
+
+We calculate _User Viewpoint Representativeness Index_ as **the KL-divergence between Topic Distribution (_I<sub>1</sub>_) and Topic Distribution (_I<sub>H</sub>_), where Topic Distribution (_I<sub>1</sub>_) and Topic Distribution (_I<sub>H</sub>_) represents the distribution of the news articles with respect to different topics for _I<sub>1</sub>_ and news published that day (Homepage of Google News), respectively**. The **Kullback-Leibler (KL) divergence, also known as relative entropy, is a measure of how one probability distribution diverges from a second, expected probability distribution**.
+
+<div align="center">
+    <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/user-attachments/assets/8bf703f4-5298-49de-b819-cc59900f81c7" style="width: 45%; margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/6fdf4e59-2d06-4544-9ac7-822e1fc8ef9f" style="width: 45%;" />
+    </div>
+    <p><em>Figure 3: Positional Homophily in News Recommendation.</em></p>
+</div>
+
