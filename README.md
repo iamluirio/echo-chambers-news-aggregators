@@ -189,4 +189,8 @@ Propaganda, in the context of news articles, refers to the dissemination of bias
 
 We follow Morio et al. [[Morio et al., 2020]](https://aclanthology.org/2020.semeval-1.228/) to detect whether a news article has propaganda or not. Morio et al. [[Morio et al., 2020]](https://aclanthology.org/2020.semeval-1.228/) proposes **a transformer based model which utilizes the sentence embedding coupled with named entity and pos embedding to detect whether a sentence has propaganda or not and consider a news article has propaganda if any of the sentences is propagandastic in nature**.
 
+Let's take an example: "Also, as this is an unprecedented moment in papal history, perhaps the unprecedented step of recalling Benedict XVI to the Chair of St. Peter should also be considered sooner rather than later, before this crisis gets any more out -of- control than it already is". This provided text does have a propagandistic nature.  The text uses strong emotional language like "unprecedented moment," "crisis," and "out-of-control" to evoke a sense of urgency and fear; it suggests a specific course of action—recalling Benedict XVI to the Chair of St. Peter. Also, it describe the situation as a "crisis" and "out-of-control" can be seen as an exaggeration, which is a common technique in propaganda to stress the importance of the issue and the proposed solution.
+
+
+
 
