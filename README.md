@@ -227,3 +227,41 @@ tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
 ```
 
 This code block loads a pre-trained tokenizer for the **Bert model**. The BERT tokenizer is a tool used to preprocess text for **BERT (Bidirectional Encoder Representations from Transformers)**; the BERT tokenizer is a preprocessing tool designed for **transforming raw text into a format that the BERT model can work with**. It uses advanced techniques such as **WordPiece tokenization to break text into smaller units (tokens)**, including subwords and characters, rather than just simple word splits. **Each token is mapped to an index in a predefined vocabulary built from a vast corpus, ensuring that the model understands a wide range of language patterns**. Additionally, **the tokenizer incorporates special tokens like [CLS] for classification tasks** (we will see its use shortly).
+
+**DistilBERT** is a smaller, faster version of the BERT.
+
+```python
+final_model = RandomForestClassifier()
+
+embedding_list = []
+label_list = []
+
+batch_size = 32
+total_samples = len(X_train)
+```
+
+The classification model we use for our analysis is **the RandomForestClassifier**. The RandomForestClassifier is a machine learning algorithm used for classification tasks. It belongs to the family of **ensemble methods**, specifically based on the concept of **"bagging" (Bootstrap Aggregating)**: it builds a collection of decision trees during training and merges their outputs to make a final prediction. The idea is that combining the predictions of multiple trees improves overall performance and robustness compared to a single decision tree; each tree in the forest is trained on a random subset of the training data, which is sampled with replacement (bootstrap sampling). Each tree is also trained using a random subset of features for each split, which introduces further diversity among the trees.
+
+We initialize the embeddings and label lists and populate them consequently. Data is processed in a 32 samples group per time.
+
+```python
+train_batch = X_train.values.tolist()[start_idx:end_idx]
+tokenized_batch = tokenizer(train_batch, padding=True, truncation=True, return_tensors="pt")
+```
+
+The batch is tokenized using the pre-trained distilbert model, ensuring that the sequences are all the same length and truncating those that are too long.
+
+```python
+hidden_batch = model(**tokenized_batch)
+cls_batch = hidden_batch.last_hidden_state[:, 0, :]
+```
+
+It runs the model on the tokenized batch, and extracts **the embeddings**. Embeddings are **high-dimensional numerical representations of text, which capture the semantic meaning of words or sentences**. They are processed by machine learning models for tasks such as classification, regression, etc. because clearly **AI models require numerical data input, and raw data is not compatible**. 
+
+```hidden_batch``` is the output of the distilbert model which includes **the last layer hidden representation for all tokens in the sequence**. In particular, **the CLS token** is used as **the representation of the entire sequence** (BERT is designed to capture the aggregate meaning of the entire input sequence): the CLS token representation is a summary of the entire sequence.
+
+There is no need to convert labels into embeddings, because they are already numeric values, and mostly binary. We repeat the same operation for the test set. 
+
+
+
+
