@@ -194,13 +194,13 @@ Let's take an example: "Also, as this is an unprecedented moment in papal histor
 In the subsequent section on text preprocessing, we will detail the methodology employed to extract text from news articles sourced from Google News. For the present discussion, it is sufficient to acknowledge that we have obtained the raw text of these articles, which serves as the basis for our propaganda analysis. Using this raw text, **we will apply a classifier designed to assess and verify, with a specified level of accuracy, whether the articles contain elements of propaganda**.
 
 ```python
-excel_file = pd.read_excel('Day 3 - 9th Nov/User10.xlsx')
-
-dfs = []
-for url in excel_file.iloc[:, 0]:  # Assuming the URLs are in the first column
-    article_text = save_article_text(url)
-    sentences = sent_tokenize(article_text)
-    df = pd.DataFrame(sentences, columns=['sent'])
-    dfs.append(df)
+data = pd.read_csv('output.csv')
 ```
+
+the ```output.csv``` file is structured as follows:
+
+| Testo                                                                                              | Etichetta |
+|----------------------------------------------------------------------------------------------------|-----------|
+| Former Apostolic Nuncio to the United States Accuses Pope of McCarrick Cover-up, Calls on Francis to Resign | 0         |
+| In this tragic moment for the Church in various parts of the world — the United States, Chile, Honduras, Australia, etc. | 1         |
 
