@@ -311,6 +311,13 @@ The texts of the articles contained in ```dataset["sent"]``` are tokenized and p
 
 Finally, the predicted labels are saved in ```dataset["labels"]```. Let's take a look into the values for any user:
 
+<div align="center">
+    <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/user-attachments/assets/e8fe7d6e-2ca1-4f71-9440-1a9169887578" style="width: 45%;" />
+    </div>
+    <p><em>Figure 8: News Recommendation with respect to Macro Topic for Users from India.</em></p>
+</div>
+
 
 
 
