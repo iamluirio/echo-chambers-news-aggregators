@@ -262,6 +262,20 @@ It runs the model on the tokenized batch, and extracts **the embeddings**. Embed
 
 There is no need to convert labels into embeddings, because they are already numeric values, and mostly binary. We repeat the same operation for the test set. 
 
+```python
+data_test = pd.read_csv('Data/test_embeddings_and_labels.csv')
+data_train = pd.read_csv('Data/embeddings_and_labels.csv')
 
+data_train['embeddings'] = data_train['embeddings'].apply(lambda x: ast.literal_eval(x))
+data_test['embeddings'] = data_test['embeddings'].apply(lambda x: ast.literal_eval(x))
+
+X = data_train['embeddings'].to_list()
+y = data_train['labels'].to_list()
+
+X_test = data_test['embeddings'].to_list()
+y_test = data_test['labels'].to_list()
+
+final_model.fit(X, y)
+```
 
 
