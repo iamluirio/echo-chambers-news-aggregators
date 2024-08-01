@@ -325,3 +325,5 @@ ensures prevention of propaganda based news recommendation to users and specific
 
 <sub>Roshni Chakraborty, Ananya Bajaj, Ananya Purkait, Pier Luigi Trespidi, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
 
+<sub>Authors’ addresses: Roshni Chakraborty, University of Tartu, Tartu, Estonia, roshni.chakraborty@ut.ee; Ananya Bajaj*, Indian Institute of Technology Goa, Goa, India, ananya.bajaj.20033@iitgoa.ac.in; Ananya Purkait*, Indian Institute of Technology Goa, Goa, India, ananya.purkait.21033@iitgoa.ac.in; Pier Luigi Trespidi*, Department of Mathematical, Physical and Computer Sciences, University of Parma, Parma, Italy, pierluigi.trespidi@studenti.unipr.it; Tarika Gupta, Indian Institute of Technology Goa, Goa, India, tarika.gupta.20042@iitgoa.ac.in; Flavio Bertini, Department of Mathematical, Physical and Computer Sciences, University of Parma, Parma, Italy , flavio.bertini@unipr.it; Rajesh Sharma, University of Tartu, Tartu, Estonia, rajesh.sharma@ut.ee.</sub>
+
