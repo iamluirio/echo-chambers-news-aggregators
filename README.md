@@ -221,3 +221,9 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 ```
 
 We split the dataset into training set and test set. Our goal is to predict whether future text blocks will contain propaganda, so whether future labels will be 0 or 1. **We assign X (input) to embeddings and y (output) to labels, and build a training set consisting of 80% of the original dataset, and a test set of 20% of the original dataset**.
+
+```python
+tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+```
+
+This code block loads a pre-trained tokenizer for the **Bert model**. The BERT tokenizer is a tool used to preprocess text for **BERT (Bidirectional Encoder Representations from Transformers)**; the BERT tokenizer is a preprocessing tool designed for **transforming raw text into a format that the BERT model can work with**. It uses advanced techniques such as **WordPiece tokenization to break text into smaller units (tokens)**, including subwords and characters, rather than just simple word splits. **Each token is mapped to an index in a predefined vocabulary built from a vast corpus, ensuring that the model understands a wide range of language patterns**. Additionally, **the tokenizer incorporates special tokens like [CLS] for classification tasks** (we will see its use shortly).
