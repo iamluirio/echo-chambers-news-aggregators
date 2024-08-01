@@ -281,7 +281,7 @@ final_model.fit(X, y)
 
 The function converts columns of embeddings from a string representation to a list of numbers: often, when embeddings are saved to a csv file, they are often converted to strings for ease of saving. In order to use them in a template, they must be in a numeric format. 
 
-Finally, the RandomForestClassifier model is trained with the input data and corresponding labels.
+Finally, **the RandomForestClassifier model is trained with the input data and corresponding labels**.
 
 ```python
 y_pred = final_model.predict(X_test)
@@ -295,6 +295,17 @@ F1 Score: 0.7199243090481391
 ```
 
 The model correctly classified 76% of the examples in the test set, and an F1 score of 0.72 indicates that the model balances precision and recall well.
+
+Now, we generate the embeddings for the dfs (that is, **we generate the embeddings starting from the text of news articles**).
+
+```python
+tokenized_data = tokenizer(dataset["sent"].values.tolist(), padding = True, truncation = True, return_tensors="pt")
+hidden_data = model(**tokenized_data) #dim : [batch_size(nr_sentences), tokens, emb_dim]
+cls_data = hidden_data.last_hidden_state[:,0,:]
+
+y_data = final_model.predict(x_data)
+dataset['labels'] = y_data
+```
 
 
 
