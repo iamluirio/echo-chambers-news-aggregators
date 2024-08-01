@@ -4,6 +4,7 @@
 <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/transformers-FF6F00?style=for-the-badge&huggingface&logoColor=yellow" />
 <img src="https://img.shields.io/badge/nltk-grey?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/spacy-grey?style=for-the-badge&logo=spacy&logoColor=lightblue" />
 <img src="https://img.shields.io/badge/selenium-grey?style=for-the-badge&logo=selenium&logoColor=green" />
@@ -293,7 +294,7 @@ Accuracy: 0.7614471452798192
 F1 Score: 0.7199243090481391
 ```
 
-The model correctly classified 76% of the examples in the test set, and an F1 score of 0.71 indicates that the model balances precision and recall well.
+The model correctly classified 76% of the examples in the test set, and an F1 score of 0.72 indicates that the model balances precision and recall well.
 
 
 
