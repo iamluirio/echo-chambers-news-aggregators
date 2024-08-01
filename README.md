@@ -199,7 +199,7 @@ data = pd.read_csv('output.csv')
 
 the ```output.csv``` file is structured as follows:
 
-| Testo                                                                                              | Etichetta |
+| embeddings                                                                                         | label |
 |----------------------------------------------------------------------------------------------------|-----------|
 | Former Apostolic Nuncio to the United States Accuses Pope of McCarrick Cover-up, Calls on Francis to Resign | 0         |
 | In this tragic moment for the Church in various parts of the world — the United States, Chile, Honduras, Australia, etc. | 1         |
@@ -207,5 +207,5 @@ the ```output.csv``` file is structured as follows:
 | I am thinking in particular of the United States of America , where I was sent as Apostolic Nuncio by Pope Benedict XVI on October 19 , 2011 , the memorial feast of the First North American Martyrs | 0         |
 | The Bishops of the United States are called , and I with them , to follow the example of these first martyrs who brought the Gospel to the lands of America , to be credible witnesses of the immeasurable love of Christ , the Way , the Truth and the Life | 0         |
 
-
+The file is an example of csv containing, in the left column called ```embeddings```, examples of text containing, if the element is propaganda, in the column corresponding to the same row ```label``` the value 1. If the text is not propaganda material, then label will contain 0.
 
