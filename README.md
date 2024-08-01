@@ -278,4 +278,22 @@ y_test = data_test['labels'].to_list()
 final_model.fit(X, y)
 ```
 
+The function converts columns of embeddings from a string representation to a list of numbers: often, when embeddings are saved to a csv file, they are often converted to strings for ease of saving. In order to use them in a template, they must be in a numeric format. 
+
+Finally, the RandomForestClassifier model is trained with the input data and corresponding labels.
+
+```python
+y_pred = final_model.predict(X_test)
+
+accuracy = accuracy_score(y_test, y_pred)
+f1 = f1_score(y_test, y_pred, average='weighted')
+```
+```
+Accuracy: 0.7614471452798192
+F1 Score: 0.7199243090481391
+```
+
+The model correctly classified 76% of the examples in the test set, and an F1 score of 0.71 indicates that the model balances precision and recall well.
+
+
 
