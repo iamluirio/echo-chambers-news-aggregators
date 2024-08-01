@@ -199,6 +199,10 @@ data = pd.read_csv('output.csv')
 
 the ```output.csv``` file is structured as follows:
 
+```python
+data.head()
+```
+
 | embeddings                                                                                         | label |
 |----------------------------------------------------------------------------------------------------|-----------|
 | Former Apostolic Nuncio to the United States Accuses Pope of McCarrick Cover-up, Calls on Francis to Resign | 0         |
@@ -209,3 +213,4 @@ the ```output.csv``` file is structured as follows:
 
 The file is an example of csv containing, in the left column called ```embeddings```, examples of text containing, if the element is propaganda, in the column corresponding to the same row ```label``` the value 1. If the text is not propaganda material, then label will contain 0.
 
+We use this file as a dataset to train the classification model for news articles.
