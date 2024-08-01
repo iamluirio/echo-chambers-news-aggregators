@@ -323,5 +323,5 @@ We observe that political news has higher likelihood to have propaganda and furt
 This study further indicates that this can be of huge concern and requires users to be aware of their news feed and susceptibility. It also highlights the requirement to develop news recommender approaches for Google News which specifically
 ensures prevention of propaganda based news recommendation to users and specifically, to users with a political leaning as they are more susceptible than their counterparts.
 
-<sub>Roshni Chakraborty, Ananya Bajaj*, Ananya Purkait*, Pier Luigi Trespidi*, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo 55Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
+<sub>Roshni Chakraborty, Ananya Bajaj, Ananya Purkait, Pier Luigi Trespidi, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
 
