@@ -307,5 +307,10 @@ y_data = final_model.predict(x_data)
 dataset['labels'] = y_data
 ```
 
+The texts of the articles contained in ```dataset["sent"]``` are tokenized and passed to the tokenizer of the distilbert model. the CLS layer containing a summary of the entire sequence is extracted, and the model is used to predict the labels based on the previous embeddings.
+
+Finally, the predicted labels are saved in ```dataset["labels"]```. Let's take a look into the values for any user:
+
+
 
 
