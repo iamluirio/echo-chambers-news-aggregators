@@ -203,4 +203,9 @@ the ```output.csv``` file is structured as follows:
 |----------------------------------------------------------------------------------------------------|-----------|
 | Former Apostolic Nuncio to the United States Accuses Pope of McCarrick Cover-up, Calls on Francis to Resign | 0         |
 | In this tragic moment for the Church in various parts of the world — the United States, Chile, Honduras, Australia, etc. | 1         |
+| — bishops have a very grave responsibility | 1         |
+| I am thinking in particular of the United States of America , where I was sent as Apostolic Nuncio by Pope Benedict XVI on October 19 , 2011 , the memorial feast of the First North American Martyrs | 0         |
+| The Bishops of the United States are called , and I with them , to follow the example of these first martyrs who brought the Gospel to the lands of America , to be credible witnesses of the immeasurable love of Christ , the Way , the Truth and the Life | 0         |
+
+
 
