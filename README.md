@@ -191,6 +191,15 @@ We follow Morio et al. [[Morio et al., 2020]](https://aclanthology.org/2020.seme
 
 Let's take an example: "Also, as this is an unprecedented moment in papal history, perhaps the unprecedented step of recalling Benedict XVI to the Chair of St. Peter should also be considered sooner rather than later, before this crisis gets any more out -of- control than it already is". This provided text does have a propagandistic nature.  The text uses strong emotional language like "unprecedented moment," "crisis," and "out-of-control" to evoke a sense of urgency and fear; it suggests a specific course of action—recalling Benedict XVI to the Chair of St. Peter. Also, it describe the situation as a "crisis" and "out-of-control" can be seen as an exaggeration, which is a common technique in propaganda to stress the importance of the issue and the proposed solution.
 
+In the subsequent section on text preprocessing, we will detail the methodology employed to extract text from news articles sourced from Google News. For the present discussion, it is sufficient to acknowledge that we have obtained the raw text of these articles, which serves as the basis for our propaganda analysis. Using this raw text, **we will apply a classifier designed to assess and verify, with a specified level of accuracy, whether the articles contain elements of propaganda**.
 
+excel_file = pd.read_excel('Day 3 - 9th Nov/User10.xlsx')
+
+dfs = []
+for url in excel_file.iloc[:, 0]:  # Assuming the URLs are in the first column
+    article_text = save_article_text(url)
+    sentences = sent_tokenize(article_text)
+    df = pd.DataFrame(sentences, columns=['sent'])
+    dfs.append(df)
 
 
