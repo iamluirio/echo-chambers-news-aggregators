@@ -211,6 +211,13 @@ data.head()
 | I am thinking in particular of the United States of America , where I was sent as Apostolic Nuncio by Pope Benedict XVI on October 19 , 2011 , the memorial feast of the First North American Martyrs | 0         |
 | The Bishops of the United States are called , and I with them , to follow the example of these first martyrs who brought the Gospel to the lands of America , to be credible witnesses of the immeasurable love of Christ , the Way , the Truth and the Life | 0         |
 
-The file is an example of csv containing, in the left column called ```embeddings```, examples of text containing, if the element is propaganda, in the column corresponding to the same row ```label``` the value 1. If the text is not propaganda material, then label will contain 0.
+The file is an example of csv containing, **in the left column called ```embeddings```, examples of text** containing, **if the element is propaganda, in the column corresponding to the same row ```label``` the value 1**. **If the text is not propaganda material, then label will contain 0**.
 
 We use this file as a dataset to train the classification model for news articles.
+
+```python
+X, y = data['embedding'], data['label']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+```
+
+We split the dataset into training set and test set. Our goal is to predict whether future text blocks will contain propaganda, so whether future labels will be 0 or 1. **We assign X (input) to embeddings and y (output) to labels, and build a training set consisting of 80% of the original dataset, and a test set of 20% of the original dataset**.
