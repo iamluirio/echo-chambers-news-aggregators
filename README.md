@@ -318,6 +318,9 @@ Finally, the predicted labels are saved in ```dataset["labels"]```. Let's take a
     <p><em>Figure 8: News Recommendation with respect to Macro Topic for Users from India.</em></p>
 </div>
 
+We observe that political news has higher likelihood to have propaganda and furthermore, our previous experiments confirm that the users are recommended news on the basis of their macro news topic, we can conclude that users with macro news topic with a specific politics leaning has higher likelihood to be recommended propaganda news. 
 
+This study further indicates that this can be of huge concern and requires users to be aware of their news feed and susceptibility. It also highlights the requirement to develop news recommender approaches for Google News which specifically
+ensures prevention of propaganda based news recommendation to users and specifically, to users with a political leaning as they are more susceptible than their counterparts.
 
 
