@@ -420,9 +420,49 @@ Stop words identified: ['after', 'is', 'being', 'of', 'are', 'for', 'more', 'fro
 Number of stop words identified: 15
 ```
 
+#### Stemming Analysis
+**Stemming** helps in standardizing words and reducing them to a common root, making it easier to analyse and process text data. **It involves removing prefixes or suffixes from words to obtain the root form**, even if the resulting stem may not be a valid word. 
 
+```python
+# Create a Porter stemmer object
+stemmer = PorterStemmer()
 
+words = word_tokenize(article)
 
+# Perform stemming on each word using the Porter stemmer
+stemmed_words = [stemmer.stem(word) for word in words]
+
+# Combine the stemmed words back into a single string
+output_text = ' '.join(stemmed_words)
+
+# Write the output text to a new file
+# with open('output.txt', 'w') as f:
+#    f.write(output_text)
+
+print(output_text)
+```
+```
+republican respond after ir whistleblow say hunter biden investig is be mishandl member of congress are call for more transpar from the biden administr after an ir whistleblow said an investig into hunter biden is be mishandl .
+```
+
+#### Lemmatization
+Unlike stemming, **lemmatization** considers **the context of the word and aims to transform it into a valid word lemma**.
+
+```python
+# Tokenize the input string
+tokens = nltk.word_tokenize(output_text)
+
+# Define the stop words to be removed
+stop_words = set(stopwords.words('english'))
+
+# Remove stop words
+filtered_tokens = [word for word in tokens if word.lower() not in stop_words]
+
+print(filtered_tokens)
+```
+```
+['republican', 'respond', 'ir', 'whistleblow', 'say', 'hunter', 'biden', 'investig', 'mishandl', 'member', 'congress', 'call', 'transpar', 'biden', 'administr', 'ir', 'whistleblow', 'said', 'investig', 'hunter', 'biden', 'mishandl', '.', 'lawmak', 'capitol', 'hill', 'call', 'biden', 'administr', 'held', 'account', '``', 'block', '``', 'congress', 'public', 'learn', 'biden', 'famili', 'member', '’', 'busi', 'deal', 'china', '.', 'congression', 'outcri', 'come', 'whistleblow', 'within', 'intern', 'revenu', 'servic', 'alleg', 'investig', 'hunter', 'biden', 'mishandl', 'biden', 'administr', '.'
+```
 
 
 
