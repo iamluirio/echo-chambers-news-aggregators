@@ -468,12 +468,13 @@ print(filtered_tokens)
 In this section, we leverage NLP text preprocessing techniques to comprehensively analyse the articles presented to the user. **Text Analytics**, a subset of NLP studies, **involves the automated extraction of valuable insights and patterns from unstructured text data**. Its primary objective is to transform textual information into a structured format that can be subjected to various analyses. 
 
 #### Sentiment Analysis
-The primary goal of Senti-
-ment Analysis is to categorize the expressed opinions in the text as positive, negative, or neutral, providing valuable insights into the subjective viewpoints of individuals. 
+The primary goal of **Sentiment Analysis** is **to categorize the expressed opinions in the text as positive, negative, or neutral, providing valuable insights into the subjective viewpoints of individuals**. 
 
-In the context of social media, Sentiment Analysis can be employed to assess how users feel about a particular brand, product launch, or social issue. By evaluating the sentiments expressed in customer reviews, companies can gain actionable insights to improve their products, services, or overall customer experience.
+In the context of social media, Sentiment Analysis **can be employed to assess how users feel about a particular brand, product launch, or social issue**. By evaluating the sentiments expressed in customer reviews, companies can gain actionable insights to improve their products, services, or overall customer experience.
 
-
+```python
+nlp = stanza.Pipeline(lang='en', processors='tokenize,sentiment', tokenize_no_ssplit=False, max_split_size_mb=16)
+```
 
 <sub>Roshni Chakraborty, Ananya Bajaj, Ananya Purkait, Pier Luigi Trespidi, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
 
