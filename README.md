@@ -1,4 +1,4 @@
-# Study of Echo Chambers in News Media Aggregators
+![image](https://github.com/user-attachments/assets/9a16a7cb-b0b7-4254-9c73-cbbcdc7b5956)# Study of Echo Chambers in News Media Aggregators
 <div align="left">
 
 <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
@@ -327,7 +327,7 @@ Until now, we explored the evolutionary trend of news, starting from an empty po
 
 In this section, we examine **the tone used within the article, analyse the use of words and adjectives, dissect individual components of sentences, and scrutinize the overall composition of sentences**. Through these analyses, **we generate different scores to determine whether an article is inclined towards or against a particular topic it addresses**.
 
-### Text Extraction
+### Extracting Urls from Dataset
 In essence, we create a dataset containing news articles repository clicks along with their respective links. These links serve as the entry points to the actual news articles.
 
 In the process of preparing the textual content for subsequent analyses, our initial step involves **the extraction and preprocessing of the article text**. By copying links from Google News, being a news aggregator, before actually entering the news site, the user first enters the aggregator site, which consequently takes the user to the original news site. And this hyperlink refers to the link that leads to the real news. 
@@ -344,6 +344,39 @@ By giving only the news aggregator link seen before as input, it's impossible fo
     response = requests.get(url, headers=headers)
     response.raise_for_status()
 ```
+
+With ```requests``` library, we can interact with web services, **retrieve data from URLs, and perform various HTTP operations**. With a get request, passing the Google News article as a parameter,**we are able to obtain the original URL via a get request**.
+
+### Extracting Urls from Dataset
+The extraction process encompassed retrieving essential components of the article, including **the title, subtitle (if present), description (if present) and the text of the article**. The description, in this context, refers to the paragraph typically positioned after the subtitle but before the main text.
+
+```python
+# Extract the title, subtitle, description, and main text
+    title_element = soup.find('title')
+    title = title_element.text.strip() if title_element else ""
+
+    subtitle_element = soup.find('meta', attrs={'name': 'description'})
+    subtitle = subtitle_element['content'].strip() if subtitle_element and 'content' in subtitle_element.attrs else ""
+
+    description_element = soup.find('meta', attrs={'name': 'og:description'})
+    description = description_element['content'].strip() if description_element and 'content' in description_element.attrs else ""
+```
+
+We also find the main text elements based on **the HTML structure** of the page:
+
+ ```python
+    main_text_elements = soup.find_all('p')
+    main_text = "\n\n".join([element.text.strip() for element in main_text_elements if element.text.strip()])
+
+    # Set the subtitle to the description if it is empty
+    if not subtitle:
+        subtitle = description.strip()
+
+    # Concatenate the extracted strings
+    article_text = f"{title}\n\n{subtitle}\n\n{main_text}"
+```
+
+We combine the final text as a unique string to be analysed.
 
 
 
