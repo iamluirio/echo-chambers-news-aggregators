@@ -378,6 +378,46 @@ We also find the main text elements based on **the HTML structure** of the page:
 
 We combine the final text as a unique string to be analysed.
 
+### Text Pre-processing Overview
+It involves a series of analyses aimed **at refining raw text data, transforming it from unstructured text strings into analyzable objects**.
+
+This process begins with cleaning the text, which entails removing irrelevant elements such as punctuation, special characters, and stopwords. After cleaning, the text undergoes **tokenization, breaking it down into individual words or tokens**:
+
+```python
+# Tokenize the text into sentences
+sentences = sent_tokenize(article)
+
+# Print out each sentence
+for sentence in sentences:
+    print(sentence)
+```
+```
+Republicans respond after IRS whistleblower says Hunter Biden investigation is being mishandled
+
+Members of Congress are calling for more transparency from the Biden administration after an IRS whistleblower said an investigation into Hunter Biden is being mishandled.
+```
+
+Once we split the different sentences, and within the sentences obtained the individual tokens corresponding to each word and punctuation mark, we continue by applying **a stop word removal operation**.
+
+It consists in a crucial step that involves the elimination of common words, known as stop words, from a given text.
+
+```python
+for i, sentence in enumerate(sentences):
+    # Tokenize the sentence into words
+    words = word_tokenize(sentence)
+    
+    # Identify the stop words in the sentence
+    stop_words = set(nltk.corpus.stopwords.words('english'))
+    filtered_words = [word for word in words if word.lower() not in stop_words]
+    stop_words_found = [word for word in words if word.lower() in stop_words]
+```
+
+
+
+
+
+
+
 
 
 <sub>Roshni Chakraborty, Ananya Bajaj, Ananya Purkait, Pier Luigi Trespidi, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
