@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9a16a7cb-b0b7-4254-9c73-cbbcdc7b5956)# Study of Echo Chambers in News Media Aggregators
+# Study of Echo Chambers in News Media Aggregators
 <div align="left">
 
 <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
