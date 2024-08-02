@@ -320,8 +320,32 @@ Finally, the predicted labels are saved in ```dataset["labels"]```. Let's take a
 
 We observe that political news has higher likelihood to have propaganda and furthermore, our previous experiments confirm that the users are recommended news on the basis of their macro news topic, we can conclude that users with macro news topic with a specific politics leaning has higher likelihood to be recommended propaganda news. 
 
-This study further indicates that this can be of huge concern and requires users to be aware of their news feed and susceptibility. It also highlights the requirement to develop news recommender approaches for Google News which specifically
-ensures prevention of propaganda based news recommendation to users and specifically, to users with a political leaning as they are more susceptible than their counterparts.
+This study further indicates that this can be of huge concern and requires users to be aware of their news feed and susceptibility. It also highlights the requirement to develop news recommender approaches for Google News which specifically ensures prevention of propaganda based news recommendation to users and specifically, to users with a political leaning as they are more susceptible than their counterparts.
+
+## Content Analysis and Retrieval
+Until now, we explored the evolutionary trend of news, starting from an empty pool of news and gradually building a dataset containing a collection of news for each user.
+
+In this section, we examine **the tone used within the article, analyse the use of words and adjectives, dissect individual components of sentences, and scrutinize the overall composition of sentences**. Through these analyses, **we generate different scores to determine whether an article is inclined towards or against a particular topic it addresses**.
+
+### Text Extraction
+In essence, we create a dataset containing news articles repository clicks along with their respective links. These links serve as the entry points to the actual news articles.
+
+In the process of preparing the textual content for subsequent analyses, our initial step involves **the extraction and preprocessing of the article text**. By copying links from Google News, being a news aggregator, before actually entering the news site, the user first enters the aggregator site, which consequently takes the user to the original news site. And this hyperlink refers to the link that leads to the real news. 
+
+By giving only the news aggregator link seen before as input, it's impossible for the system to automatically access the original article. First, **we need to extract the real link from the Google News repository**:
+
+```python
+# Set headers to mimic a web browser
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+    }
+
+    # Send a GET request to the URL with headers
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
+```
+
+
 
 <sub>Roshni Chakraborty, Ananya Bajaj, Ananya Purkait, Pier Luigi Trespidi, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
 
