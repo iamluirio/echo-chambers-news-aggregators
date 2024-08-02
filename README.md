@@ -411,6 +411,14 @@ for i, sentence in enumerate(sentences):
     filtered_words = [word for word in words if word.lower() not in stop_words]
     stop_words_found = [word for word in words if word.lower() in stop_words]
 ```
+```
+Sentence  1
+Total words: 38
+Filtered words: ['Republicans', 'respond', 'IRS', 'whistleblower', 'says', 'Hunter', 'Biden', 'investigation', 'mishandled', 'Members', 'Congress', 'calling', 'transparency', 'Biden', 'administration', 'IRS', 'whistleblower', 'said', 'investigation', 'Hunter', 'Biden', 'mishandled', '.']
+Number of filtered words: 23
+Stop words identified: ['after', 'is', 'being', 'of', 'are', 'for', 'more', 'from', 'the', 'after', 'an', 'an', 'into', 'is', 'being']
+Number of stop words identified: 15
+```
 
 
 
