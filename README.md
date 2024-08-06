@@ -594,12 +594,101 @@ For this, we study **the frequency of words, frequency of stop words and frequen
 Our observations indicate that there is no relationship between frequency of words and frequency of adjectives with the macro and micro news topic, i.e., most of the news articles are similar in length except few outliers which does not give any significant relationship or correlation. Additionally, we don’t find an user has higher likelihood to be recommended news articles with larger number of adjectives on the basis of the macro and micro news topic.
 
 #### Topic Modeling
+**Topic Modeling** is technique **to extract the hidden topics from large volumes of text**. It is a probabilistic model which contain information about the text; finding good topics depends on the quality of text processing, the choice of the topic modeling algorithm, the number of topics specified in the algorithm.
 
+We exploit **Gensim LDA algorithm for topic extraction**: it considers each document as a collection of topics and each topic as collection of keywords. Once we provide the algorithm with number of topics all it does is to rearrange the topic distribution within documents and key word distribution within the topics to obtain good composition of topic-keyword distribution.
 
+```python
+bigrams = list(nltk.bigrams(filtered_tokens))
+trigrams = list(nltk.trigrams(filtered_tokens))
 
+# Print the results
+print("Bigrams:")
+print(bigrams)
+print("Trigrams:")
+print(trigrams)
+```
+```
+Bigrams:
+[('Republicans', 'respond'), ('respond', 'IRS'), ('IRS', 'whistleblower'), ('whistleblower', 'says'), ('says', 'Hunter'), ('Hunter', 'Biden') [...]
 
+Trigrams:
+[('Republicans', 'respond', 'IRS'), ('respond', 'IRS', 'whistleblower'), ('IRS', 'whistleblower', 'says'), ('whistleblower', 'says', 'Hunter'), ('says', 'Hunter', 'Biden') [...]
+```
 
+A **bigram model** is a language model that uses a history of one preceding word to predict the next word. It is a type of n-gram model, where n is the number of words in the history. A **trigram model**, on the other hand, uses a history of two preceding words to predict the next word.
 
+By incorporating more context into the model, they are able to better capture **the meaning of the text** and make more accurate predictions.
+
+```python
+# Create Dictionary 
+id2word = corpora.Dictionary(lemmatized_bigrams)  
+
+# Create Corpus 
+texts = lemmatized_bigrams
+
+corpus = [id2word.doc2bow(text) for text in texts]
+
+print(corpus)
+```
+```
+[[(0, 1), (1, 1)], [(1, 1), (2, 1)], [(2, 1), (3, 1)], [(3, 1), (4, 1)], [(4, 1), (5, 1)], [(5, 1), (6, 1)], [(6, 1), (7, 1)], [(7, 1)
+```
+
+This code prepares the data for topic modeling with LDA by creating a dictionary of all unique words in the corpus and a corpus object with bag-of-words representations of the documents. 
+
+Each tuple in the output represents a bigram that has been transformed into a two-element tuple. The first element of each tuple is the ID of the corresponding bigram in the dictionary (id2word) and the second element is the count of how many times that bigram appears in the input text. For example, the first tuple (0, 1) represents the bigram ('Republicans', 'respond'), where Republicans has ID 0 in the dictionary, and respond has ID 1. The number 1 indicates that this bigram appears once in your text corpus.
+
+```python
+lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus,
+                                           id2word=id2word,
+                                           num_topics=20, 
+                                           random_state=100,
+                                           update_every=1,
+                                           chunksize=100,
+                                           passes=10,
+                                           alpha='auto',
+                                           per_word_topics=True)
+```
+
+This code creates and trains an LDA model using the Gensim library to identify 20 topics from a given corpus of text documents. The model is configured with specific parameters to control aspects like randomness, update frequency, chunk size, number of training passes, and the alpha parameter, which influences the distribution of topics per document. The ```per_word_topics``` parameter allows the model to return information about word distributions within topics.
+
+```python
+pprint(lda_model.print_topics())
+doc_lda = lda_model[corpus]
+```
+```
+[(0,
+  '0.004*"Biden" + 0.004*"mishandled" + 0.004*"Department" + 0.004*"either" + '
+  '0.004*"choice" + 0.004*"single" + 0.004*"every" + 0.004*"need" + '
+  '0.004*"potential" + 0.004*"behavior"'),
+ (1,
+  '0.239*"whistleblower" + 0.130*"learning" + 0.038*"held" + 0.020*"come" + '
+  '0.020*"Hill" + 0.002*"whether" + 0.002*"privy" + 0.002*"protected" + '
+  '0.002*"disclosure" + 0.002*"scheme"'), [...]
+```
+
+Each topic is combination of keywords and each keyword contributes a certain weightage to the topic. Keywords for each topic and weightage of each keyword using ```lda_model.print_topics()```.
+
+We now calculate **Model Perplexity and Coherence**: Coherence is a measure of **how coherent the topics are**. Higher coherence scores indicate more coherent topics. CoherenceModel is a class in Gensim that computes the coherence of a topic model.
+
+At the other hand, Perplexity is a measure of **how well the LDA model predicts the corpus**. Lower perplexity scores indicate better predictions.
+
+```python
+# Compute Perplexity
+print('\nPerplexity: ', lda_model.log_perplexity(corpus))  
+# a measure of how good the model is. lower the better.
+
+# Compute Coherence Score
+coherence_model_lda = CoherenceModel(model=lda_model, texts = lemmatized_bigrams, dictionary=id2word, coherence='c_v')
+coherence_lda = coherence_model_lda.get_coherence()
+print('\nCoherence Score: ', coherence_lda)
+```
+```
+Perplexity:  -21.178629464587097
+
+Coherence Score:  0.739709594537693
+```
 
 
 
