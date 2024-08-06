@@ -511,6 +511,97 @@ The pipeline consists of models ranging from tokenizing raw text to performing s
     <p><em>Figure 9: Sentiment Score for Users from India</em></p>
 </div>
 
+Our observations indicate that a news article has generally more than number of positive sentences followed by neutral sentences with very few negative sentences. Therefore, given _k_ number of news articles recommended to an user, there is a high probability that the sentiment score of the majority of _k_  news articles is higher than 0.5 due to the presence of positive sentences followed by few news articles which have score less than 0.5.
+
+#### Readability Analysis
+**Readability Analysis** is the evaluation of how easily a piece of text can be understood by readers. It involves assessing various linguistic and structural features of the text to determine its readability level. For our analysis, we exploit 8 different readability metrics, **including Flesch Kincaid Grade Level** and **Gunning Fog**, but for our final analysis we considered keeping only 5 for our final considerations.
+
+```python
+f = r.flesch()
+
+print("Flesch Reading Ease Score |     Classification     ")
+print("-------------------------|------------------------")
+print("         0-29             | Very Difficult          ")
+print("         30-49            | Difficult               ")
+print("         50-59            | Fairly Difficult        ")
+print("         60-69            | Standard                ")
+print("         70-79            | Fairly Easy             ")
+print("         80-89            | Easy                    ")
+print("         90-100           | Very Easy               ")
+
+print()
+print()
+# Print the readability score, ease value, and estimated reading levels
+print("The Flesch Reading Ease score of the article is:", f.score)
+print("The article is classified as:", f.ease)
+```
+```
+Flesch Reading Ease Score |     Classification     
+-------------------------|------------------------
+         0-29             | Very Difficult          
+         30-49            | Difficult               
+         50-59            | Fairly Difficult        
+         60-69            | Standard                
+         70-79            | Fairly Easy             
+         80-89            | Easy                    
+         90-100           | Very Easy               
+
+
+The Flesch Reading Ease score of the article is: 33.18228541964146
+The article is classified as: difficult
+```
+
+Therefore, we conclude that the readability scores of an user has no pattern among users irrespective of their macro, micro news topic, location and the readability metric.
+
+#### Part-Of-Speech (POS) Tagging
+**The Part-Of-Speech (POS) Tagging** is a process in NLP that involves labeling each word in a text corpus with its corresponding part of speech, such as noun, verb, adjective, etc.
+
+```python
+sentences = sent_tokenize(article)
+
+total_adjectives = 0
+total_words = 0
+
+for sent in sentences:
+    words = word_tokenize(sent)
+    tagged_words = pos_tag(words)
+    num_adjectives = len([word for word, tag in tagged_words if tag.startswith('JJ')])
+    total_adjectives += num_adjectives
+    total_words += len(words)
+
+avg_adjectives = total_adjectives / total_words
+
+print(f"Total words: {total_words}")
+print(f"Total adjectives: {total_adjectives}")
+print(f"Average number of adjectives in the article: {avg_adjectives:.2f} in this article.")
+```
+```
+Total words: 830
+Total adjectives: 61
+Average number of adjectives in the article: 0.07 in this article.
+```
+
+For this, we study **the frequency of words, frequency of stop words and frequency of adjectives**, respectively for each recommended news article.
+
+<div align="center">
+    <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/user-attachments/assets/5857c2fe-6f28-492b-80f7-bc76e6047d25" style="width: 45%;"margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/1d4bb883-fec2-43d0-80cf-8f986836ad68" style="width: 45%;" />
+    </div>
+    <p><em>Figure 10: Average Dependency Tree Length</em></p>
+</div>
+
+Our observations indicate that there is no relationship between frequency of words and frequency of adjectives with the macro and micro news topic, i.e., most of the news articles are similar in length except few outliers which does not give any significant relationship or correlation. Additionally, we don’t find an user has higher likelihood to be recommended news articles with larger number of adjectives on the basis of the macro and micro news topic.
+
+#### Topic Modeling
+
+
+
+
+
+
+
+
 
 <sub>Roshni Chakraborty, Ananya Bajaj, Ananya Purkait, Pier Luigi Trespidi, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
 
