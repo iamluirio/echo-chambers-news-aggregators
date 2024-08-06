@@ -493,11 +493,11 @@ def get_sentiment_scores(text, nlp):
             'sd': statistics.stdev(sentiment_scores),
             'minimum': min(sentiment_scores)
         }
-```
-```python
+
 sentiment_scores = get_sentiment_scores(article, nlp)
 print(sentiment_scores)
-
+```
+```
 {'average': 0.7804878048780488, 'maximum': 1, 'sd': 0.4190581774617469, 'minimum': 0}
 ```
 
