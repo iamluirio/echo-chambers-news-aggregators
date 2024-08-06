@@ -690,6 +690,17 @@ Perplexity:  -21.178629464587097
 Coherence Score:  0.739709594537693
 ```
 
+<div align="center">
+    <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/user-attachments/assets/62548d23-b5fa-4f23-b5d4-a0c7abcc25c0" style="width: 45%;"margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/c7a9e2d9-2946-43be-9456-1bb97eb29d04" style="width: 45%;" />
+    </div>
+    <p><em>Figure 11: Number of Topics in a News Article</em></p>
+</div>
+
+
+
+
 
 
 <sub>Roshni Chakraborty, Ananya Bajaj, Ananya Purkait, Pier Luigi Trespidi, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
