@@ -501,6 +501,18 @@ print(sentiment_scores)
 {'average': 0.7804878048780488, 'maximum': 1, 'sd': 0.4190581774617469, 'minimum': 0}
 ```
 
+The pipeline consists of models ranging from tokenizing raw text to performing syntactic analysis on the entire sentence. The design is devised keeping the diversity of human languages in mind by data-driven models that learn the differences between languages. Besides, the components of Stanza are highly modular and reuses basic model architectures, when possible, for compactness.
+
+![image]()
+![image]()
+
+<div align="center">
+    <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/user-attachments/assets/5438b812-0e97-4da5-8b28-687f6f3da6f8" style="width: 45%;" />
+        <img src="https://github.com/user-attachments/assets/167765d3-b7e5-488c-a710-eecc2a1776ee" style="width: 45%;" />
+    </div>
+    <p><em>Figure 9: Sentiment Score for Users from India</em></p>
+</div>
 
 
 <sub>Roshni Chakraborty, Ananya Bajaj, Ananya Purkait, Pier Luigi Trespidi, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
