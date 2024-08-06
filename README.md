@@ -776,14 +776,16 @@ Sentence 1: length 9
 
 In the context of news media aggregators, such as online platforms and social media networks, algorithms curate and prioritize content based on user-specific data, including past behaviors, interactions, and demographic information.
 
-#### 
-For a day of analysisy, and for each user from both the USA and India, we take note of how many news about a particular topic Google News returned to that particular user. To do this, we build two matrices: the first m<sub>1</sub> x n<sub>1</sub> matrix, with m<sub>1</sub> rows as many as the topics of users from the USA, and n<sub>1</sub> columns as many as the users from USA plus a column dedicated to the Home section (the usefulness of the additional column will be explained in the next rows), and a second matrix m<sub>2</sub> x n<sub>2</sub> , with m<sub>2</sub> rows as many as the topics of users from India, and n<sub>2</sub> columns as many as there are users from India plus a column dedicated to the Home section. 
+For a day of analysis, and for each user from both the USA and India, we take note of how many news about a particular topic Google News returned to that particular user. To do this, we build two matrices: the first m<sub>1</sub> x n<sub>1</sub> matrix, with m<sub>1</sub> rows as many as the topics of users from the USA, and n<sub>1</sub> columns as many as the users from USA plus a column dedicated to the Home section (the usefulness of the additional column will be explained in the next rows), and a second matrix m<sub>2</sub> x n<sub>2</sub> , with m<sub>2</sub> rows as many as the topics of users from India, and n<sub>2</sub> columns as many as there are users from India plus a column dedicated to the Home section. 
 
 The sum of each column is equal to 10: for each user, we take note of how many news articles up to a maximum of 10 were presented by Google News to the users. In this way, we can define the numbers in the cell as the number of news articles presented to user _i_ (with _i_ ranging from U<sub>1</sub> to U<sub>m</sub>) belonging to topic j (with j ranging from T<sub>1</sub> to T<sub>n</sub>). The first three topics of matrix 1 are, respectively, Repub- lican Party, Democratic Party and Neutral Party. The first three topics of matrix 2 are, respectively, pro-Government Party, pro-Opposition Party and Neutral Party. The last column represents the Home column, i.e. the number of news articles belonging to a particular topic present on the Google News Homepage.
 
+#### Average News Document Stance
+The experiment is based on these two matrices, from which we obtain two potential indices for the study on Filter Bubbles. The first is called **Average News Document Stance**: this index represents **the average position of the news viewed by users based on the various topics considered**. This index is calculated for each user and for each topic of interest. It’s calculated for each user as a weighted average of the scores relating to the various topics.
 
+The first three rows of the matrix are extracted, which represent the topics of interest for the users (Republican Party, Democratic Party and Neutral Party for users from USA, pro-Government Party, pro-Opposition Party and Neutral for users from India), iterating through the columns of the matrix and for each user, we create a dictionary which contains the scores relating to the various topics. For each topic, the relative score for the user is calculated by dividing the number of news articles related of that topic viewed by the user by the number of total news article viewed by the user across all topics.
 
-
+#### Entropy User Score
 
 
 
