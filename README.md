@@ -476,6 +476,33 @@ In the context of social media, Sentiment Analysis **can be employed to assess h
 nlp = stanza.Pipeline(lang='en', processors='tokenize,sentiment', tokenize_no_ssplit=False, max_split_size_mb=16)
 ```
 
+For our analysis, we exploit four different sentiment metrics: **the Stanza library, Vader, MPQA and SentiWordNet**. Below, we show the usage of Stanza as an example. For the full usage, see the code.
+
+```python
+def get_sentiment_scores(text, nlp):
+    doc = nlp(text)
+    sentiment_scores = []
+    for sentence in doc.sentences:
+        sentiment_scores.append(sentence.sentiment)
+    if len(sentiment_scores) == 0:
+        return None
+    else:
+        return {
+            'average': sum(sentiment_scores) / len(sentiment_scores),
+            'maximum': max(sentiment_scores),
+            'sd': statistics.stdev(sentiment_scores),
+            'minimum': min(sentiment_scores)
+        }
+```
+```python
+sentiment_scores = get_sentiment_scores(article, nlp)
+print(sentiment_scores)
+
+{'average': 0.7804878048780488, 'maximum': 1, 'sd': 0.4190581774617469, 'minimum': 0}
+```
+
+
+
 <sub>Roshni Chakraborty, Ananya Bajaj, Ananya Purkait, Pier Luigi Trespidi, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
 
 <sub>Authors’ addresses: Roshni Chakraborty, University of Tartu, Tartu, Estonia, roshni.chakraborty@ut.ee; Ananya Bajaj*, Indian Institute of Technology Goa, Goa, India, ananya.bajaj.20033@iitgoa.ac.in; Ananya Purkait*, Indian Institute of Technology Goa, Goa, India, ananya.purkait.21033@iitgoa.ac.in; Pier Luigi Trespidi*, Department of Mathematical, Physical and Computer Sciences, University of Parma, Parma, Italy, pierluigi.trespidi@studenti.unipr.it; Tarika Gupta, Indian Institute of Technology Goa, Goa, India, tarika.gupta.20042@iitgoa.ac.in; Flavio Bertini, Department of Mathematical, Physical and Computer Sciences, University of Parma, Parma, Italy , flavio.bertini@unipr.it; Rajesh Sharma, University of Tartu, Tartu, Estonia, rajesh.sharma@ut.ee.</sub>
