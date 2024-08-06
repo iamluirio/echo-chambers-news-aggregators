@@ -505,7 +505,7 @@ The pipeline consists of models ranging from tokenizing raw text to performing s
 
 <div align="center">
     <div style="display: flex; justify-content: center;">
-        <img src="https://github.com/user-attachments/assets/5438b812-0e97-4da5-8b28-687f6f3da6f8" style="width: 43%;"margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/5438b812-0e97-4da5-8b28-687f6f3da6f8" style="width: 42.5%;"margin-right: 10px;" />
         <img src="https://github.com/user-attachments/assets/167765d3-b7e5-488c-a710-eecc2a1776ee" style="width: 45%;" />
     </div>
     <p><em>Figure 9: Sentiment Score for Users from India</em></p>
