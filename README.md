@@ -23,7 +23,7 @@ The temporal aspect of our study is not merely a logistical consideration; it pr
 - [Introduction](#introduction)
 - [Usage](#usage)
 ***
-- [Insights and Data Patterns](#insights-and-data-patterns)
+- ### [Insights and Data Patterns](#insights-and-data-patterns)
   - [Homophily between News Recomendation and News Consumption](#homophily-between-news-recommendation-and-news-consumption)
     - [Homophily in Frequency](#homophily-in-frequency)
     - [Temporal Homophily in News Recommendation](#temporal-homophily-in-news-recommendation)
