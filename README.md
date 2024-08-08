@@ -992,14 +992,13 @@ signin_button = driver.find_element(By.NAME, 'signin')
 #signin_button.click()
 ```
 
-Once logged in, our automated system seamlessly navigates to the Yahoo homepage, where news content is presented to the
-user.
+Once logged in, our automated system seamlessly navigates to the Yahoo homepage, where news content is presented to the user.
 
 The main part of our automated system is figuring out what kind of news a user really likes. By assigning specific attributes to the system, we enable the identification of objects within the web page, such as news links, that correspond to a designated string. However, the system, operating solely on the provided string, lacks the autonomy to independently distinguish between articles supporting and opposing the user’s preferences. This is where the integration of Natural Language Processing analyses becomes essential: the system, by simultaneously executing these analyses, can gauge whether the article surpasses a predefined goodness score threshold set by us. This threshold serves as a criteria to determine whether the article is pro or against, for example, to a particular politic party.
 
 Subsequently, the system can make informed decisions about clicking and simulating the reading of the article based on its alignment with the user’s interests. Once the decision is made on whether to click on a particular article, maintaining a record of the clicked news becomes a straightforward process.
 
-
+Please note: the automated system is under development: the above code is provided as an example to show the reader how the dataset construction system can be automated for each user.
 
 
 
