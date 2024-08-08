@@ -21,7 +21,6 @@ The temporal aspect of our study is not merely a logistical consideration; it pr
 
 ## Table of Content
 - [Introduction](#introduction)
-- [Usage](#usage)
 - ##### [Insights and Data Patterns](#insights-and-data-patterns)
   - [Homophily between News Recomendation and News Consumption](#homophily-between-news-recommendation-and-news-consumption)
     - [Homophily in Frequency](#homophily-in-frequency)
@@ -86,13 +85,6 @@ When a user is assigned to a particular political party, it means **they not onl
 | _others_                 | News which are neither macro nor micro.       |
 | _Home_                   | It refers to the Google News articles' homepage. |
                                                             
-## Usage
-```
-git clone https://github.com/iamluirio/echo-chambers-news-aggregators.git
-```
-
-We show the code to be readily utilized for testing purposes, allowing you to explore the presence of echo chambers based on our analysis within a defined text-containing system. This setup also enables you to experiment with the tools we employed throughout our study; this will aid in replicating our methodology and verifying the robustness of our findings in your own investigations.
-
 ## Insights and Data Patterns
 In this section, we face a typology of of analysis that carefully track how the news content changes over time. Our focus is on understanding how Google News evolves, including changes in topics shown in the For You section, and how news articles are arranged.
 
