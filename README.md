@@ -19,7 +19,7 @@ Before continuing, we recommend paying close attention to the small notes at the
 
 The temporal aspect of our study is not merely a logistical consideration; it profoundly influences the nature and interpretation of the data collected. As a result, the data collected during this period may inherently carry a bias, reflecting the heightened emotions, polarization, and discourse surrounding the impeachment proceedings. Additionally, it is crucial to note that we do not intend to personally judge whether the news aggregator favors the creation of echo chambers. Instead, we present our experiments and analyses, allowing the reader to draw their own conclusions based on the evidence provided.
 
-## :ledger: Index
+## Index
 - [Introduction](#introduction)
 - [Usage](#usage)
 - [Insights and Data Patterns](#insights-and-data-patterns)
