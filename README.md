@@ -46,7 +46,8 @@ The temporal aspect of our study is not merely a logistical consideration; it pr
     - [Dependency Tree Height](#dependency-tree-height)
   - [Filter Bubbles](#filter-bubbles)
     - [Average News Document Stance](#average-news-document-stance)
-    - [Entropy User Score](#entropy-user-score) 
+    - [Entropy User Score](#entropy-user-score)
+- [Automated Collecting Data System](#automated-collecting-data-system)
 
 ## Introduction
 Below, we give some preliminary information about the study elements that we used for our research, and how the tools exposed were used consequently. We want to provide a context so that the user can use the tools for similar purposes.
