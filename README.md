@@ -938,6 +938,72 @@ Furthermore, it seems that news about the Democratic Party is not only present i
 
 Users display varying preferences in news consumption. Those with higher entropy values (>0.37) engage with diverse Republican viewpoints, while an entropy of 0 indicates a focus on a single perspective. Democratic news preferences are relatively uniform, with entropy around 0.35, showing some diversity but less than Republican news. Neutral news preferences vary widely, with some users exploring diverse topics and others focusing on specific areas.
 
+## Automated Collecting Data System
+Collecting news for our study prove to be a time-intensive process, particularly when simulating the daily routines of multiple users engaging with diverse news articles.
+
+This task becomes even more pronounced when we need to repeat the processfor approximately 10 users for each component of the project, each requiring distinct news content for their daily interactions. For more information on how our dataset was built from scratch, please refer to the thesis or paper.
+
+To prepare for future versions of our research and analyses, we set ourselves up strategically to avoid manually reconstructing the dataset.We start creating an automated system for collecting news: this system streamlines the process of gathering data, saving us from the tedious job of compiling it manually. We identify Selenium as a powerful open-source
+framework for automating web browsers, including automate interaction with page objects. 
+
+This system facilitate the simulation of user interactions with news articles, automating tasks such as clicking buttons, navigating pages, and extracting data.
+
+```python
+# Create a new instance of the Firefox driver
+custom_options = Options()
+custom_options.set_preference('intl.accept_languages', 'et,en-US')  # Translating from Estonian to English language
+
+driver = webdriver.Firefox(options=custom_options)
+
+# navigate to the website
+driver.get('https://answers.yahoo.com/')
+
+# Wait for the consent popup to appear and accept it
+try:
+    popup = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//form[@class='consent-form']")))
+    driver.execute_script("arguments[0].querySelector('button[name=agree]').click();", popup)
+except:
+    print("No consent popup found")
+
+# Wait for the login button to be present
+login_button = WebDriverWait(driver, 10).until(
+    EC.presence_of_element_located((By.ID,
+     'ybarAccountProfile'))
+)
+
+# Click the login button
+login_button.click()
+
+# Identifying username in the form
+username = driver.find_element(By.ID, "login-username")
+
+# Fill the username field
+username.send_keys('mohamedcebrailhegedus@yahoo.com')
+
+# Disabling the "Stay signed in" button
+stay_signed = driver.find_element(By.ID, "persistent")
+
+if stay_signed.is_enabled():
+    # If the checkbox is enabled, disable it using JavaScript
+    driver.execute_script('arguments[0].disabled = true;', stay_signed)
+
+# Clicking on submit button, after inserting username
+signin_button = driver.find_element(By.NAME, 'signin')
+#signin_button.click()
+```
+
+Once logged in, our automated system seamlessly navigates to the Yahoo homepage, where news content is presented to the
+user.
+
+The main part of our automated system is figuring out what kind of news a user really likes. By assigning specific attributes to the system, we enable the identification of objects within the web page, such as news links, that correspond to a designated string. However, the system, operating solely on the provided string, lacks the autonomy to independently distinguish between articles supporting and opposing the user’s preferences. This is where the integration of Natural Language Processing analyses becomes essential: the system, by simultaneously executing these analyses, can gauge whether the article surpasses a predefined goodness score threshold set by us. This threshold serves as a criteria to determine whether the article is pro or against, for example, to a particular politic party.
+
+Subsequently, the system can make informed decisions about clicking and simulating the reading of the article based on its alignment with the user’s interests. Once the decision is made on whether to click on a particular article, maintaining a record of the clicked news becomes a straightforward process.
+
+
+
+
+
+
 <sub>Roshni Chakraborty, Ananya Bajaj, Ananya Purkait, Pier Luigi Trespidi, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
 
 <sub>Authors’ addresses: Roshni Chakraborty, University of Tartu, Tartu, Estonia, roshni.chakraborty@ut.ee; Ananya Bajaj*, Indian Institute of Technology Goa, Goa, India, ananya.bajaj.20033@iitgoa.ac.in; Ananya Purkait*, Indian Institute of Technology Goa, Goa, India, ananya.purkait.21033@iitgoa.ac.in; Pier Luigi Trespidi*, Department of Mathematical, Physical and Computer Sciences, University of Parma, Parma, Italy, pierluigi.trespidi@studenti.unipr.it; Tarika Gupta, Indian Institute of Technology Goa, Goa, India, tarika.gupta.20042@iitgoa.ac.in; Flavio Bertini, Department of Mathematical, Physical and Computer Sciences, University of Parma, Parma, Italy , flavio.bertini@unipr.it; Rajesh Sharma, University of Tartu, Tartu, Estonia, rajesh.sharma@ut.ee.</sub>
