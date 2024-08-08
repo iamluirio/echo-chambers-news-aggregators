@@ -376,7 +376,6 @@ By giving only the news aggregator link seen before as input, it's impossible fo
 
 With ```requests``` library, we can interact with web services, **retrieve data from URLs, and perform various HTTP operations**. With a get request, passing the Google News article as a parameter,**we are able to obtain the original URL via a get request**.
 
-### Extracting Urls from Dataset
 The extraction process encompassed retrieving essential components of the article, including **the title, subtitle (if present), description (if present) and the text of the article**. The description, in this context, refers to the paragraph typically positioned after the subtitle but before the main text.
 
 ```python
