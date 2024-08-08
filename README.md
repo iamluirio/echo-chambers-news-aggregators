@@ -985,6 +985,11 @@ The main part of our automated system is figuring out what kind of news a user r
 
 Please note: the automated system is under development. The above code is provided as an example to show the reader how the dataset construction system can be automated for each user. We opted for Yahoo news aggregator due to the availability of the APIs provided by the media aggregator.
 
+## Conclusions
+The research being conducted is anticipated to contribute significantly to the advancement of the field of natural language processing (NLP) and text analytics. By exploring new methodologies and approaches, this work aims to enhance the accuracy and effectiveness of NLP models in the News Aggregators field, leading to improved capabilities in analyzing and understanding textual data about news articles. The outcomes of this research are expected to provide valuable insights and tools that will advance both academic research and practical applications in the domain of text analytics.
+
+As a future direction, we intend to extend this work to other/his news media aggregators and include users from other/his countries. Although characterization and visualization of echo chambers is of high significance, it highlights a major flaw in news recommendation, i.e., requirement of development fair news recommender approaches for Google News Recommender such that formation of echo chambers is prevented.
+
 
 <sub>Roshni Chakraborty, Ananya Bajaj, Ananya Purkait, Pier Luigi Trespidi, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
 
