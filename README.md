@@ -776,16 +776,74 @@ Sentence 1: length 9
 
 In the context of news media aggregators, such as online platforms and social media networks, algorithms curate and prioritize content based on user-specific data, including past behaviors, interactions, and demographic information.
 
-For a day of analysis, and for each user from both the USA and India, we take note of how many news about a particular topic Google News returned to that particular user. To do this, we build two matrices: the first m<sub>1</sub> x n<sub>1</sub> matrix, with m<sub>1</sub> rows as many as the topics of users from the USA, and n<sub>1</sub> columns as many as the users from USA plus a column dedicated to the Home section (the usefulness of the additional column will be explained in the next rows), and a second matrix m<sub>2</sub> x n<sub>2</sub> , with m<sub>2</sub> rows as many as the topics of users from India, and n<sub>2</sub> columns as many as there are users from India plus a column dedicated to the Home section. 
+For this type of analysis, we take note of how many news about a particular topic Google News returned to that particular user. To do this, we build two matrices: the first _m<sub>1</sub>_ x _n<sub>1</sub>_ matrix, with _m<sub>1</sub>_ rows as many as the topics of users from the USA, and n<sub>1</sub> columns as many as the users from USA plus a column dedicated to the Home section (the usefulness of the additional column will be explained in the next rows), and a second matrix _m<sub>2</sub>_ x _n<sub>2</sub>_, with _m<sub>2</sub>_ rows as many as the topics of users from India, and _n<sub>2</sub>_ columns as many as there are users from India plus a column dedicated to the Home section. 
 
-The sum of each column is equal to 10: for each user, we take note of how many news articles up to a maximum of 10 were presented by Google News to the users. In this way, we can define the numbers in the cell as the number of news articles presented to user _i_ (with _i_ ranging from U<sub>1</sub> to U<sub>m</sub>) belonging to topic j (with j ranging from T<sub>1</sub> to T<sub>n</sub>). The first three topics of matrix 1 are, respectively, Repub- lican Party, Democratic Party and Neutral Party. The first three topics of matrix 2 are, respectively, pro-Government Party, pro-Opposition Party and Neutral Party. The last column represents the Home column, i.e. the number of news articles belonging to a particular topic present on the Google News Homepage.
+The sum of each column is equal to 10: for each user, we take note of how many news articles up to a maximum of 10 were presented by Google News to the users. In this way, we can define the numbers in the cell as the number of news articles presented to user _i_ (with _i_ ranging from U<sub>1</sub> to U<sub>m</sub>) belonging to topic _j_ (with _j_ ranging from T<sub>1</sub> to T<sub>n</sub>). The first three topics of matrix 1 are, respectively, Republican Party, Democratic Party and Neutral Party. The first three topics of matrix 2 are, respectively, pro-Government Party, pro-Opposition Party and Neutral Party. The last column represents the Home column, i.e. the number of news articles belonging to a particular topic present on the Google News Homepage.
 
 #### Average News Document Stance
-The experiment is based on these two matrices, from which we obtain two potential indices for the study on Filter Bubbles. The first is called **Average News Document Stance**: this index represents **the average position of the news viewed by users based on the various topics considered**. This index is calculated for each user and for each topic of interest. It’s calculated for each user as a weighted average of the scores relating to the various topics.
+The experiment is based on these two matrices, from which we obtain two potential indices for the study on Filter Bubbles. The first is called _**Average News Document Stance**_: this index represents **the average position of the news viewed by users based on the various topics considered**. This index is calculated for each user and for each topic of interest. It’s calculated for each user as a weighted average of the scores relating to the various topics.
 
-The first three rows of the matrix are extracted, which represent the topics of interest for the users (Republican Party, Democratic Party and Neutral Party for users from USA, pro-Government Party, pro-Opposition Party and Neutral for users from India), iterating through the columns of the matrix and for each user, we create a dictionary which contains the scores relating to the various topics. For each topic, the relative score for the user is calculated by dividing the number of news articles related of that topic viewed by the user by the number of total news article viewed by the user across all topics.
+The first three rows of the matrix are extracted, which represent the topics of interest for the users (Republican Party, Democratic Party and Neutral Party for users from USA, pro-Government Party, pro-Opposition Party and Neutral for users from India), iterating through the columns of the matrix and for each user, we create a dictionary which contains the scores relating to the various topics. 
+
+For each topic, the relative score for the user is calculated by dividing the number of news articles related of that topic viewed by the user by the number of total news article viewed by the user across all topics. This represents the fraction of news relating to that topic compared to the total news viewed by the user.
+
+For each user, it represents the distribution of the user’s preferences with respect to the various topics, calculated as a weighted average of the scores relating to the individual topics.
+
+```python
+def calculate_average_news_scores(matrix):
+    topics = matrix[:3]
+
+    users = []
+
+    for user_index in range(matrix.shape[1]):
+        user = {}
+        user['User'] = user_index + 1  # Per l'utente n, inizia da 1
+        for topic_index, topic in enumerate(topics):
+            topic_name = ''
+            if topic_index == 0:
+                topic_name = 'rep'
+            elif topic_index == 1:
+                topic_name = 'dem'
+            else:
+                topic_name = 'neu'
+            
+            user[f'{topic_name} score'] = topic[user_index] / sum(topic)
+        
+        users.append(user)
+
+    return users
+```
+```
+U1:
+rep score: 0.25
+dem score: 0.18
+neu score: 0.00
+U2:
+rep score: 0.50
+dem score: 0.09
+neu score: 0.00
+[...]
+```
 
 #### Entropy User Score
+The second calculated index is called _**Entropy User Score**_. The calculation of user entropy (entropy user scores) evaluate the diversity of that particular user’s preferences with respect to the various topics considered in the context to of the news aggregator.
+
+To calculate this index, we scroll through the columns of the matrix (representing the users), and for each user we calculate the fractions relating to the number of news articles associated with each topic compared to the total news viewed by the user, and the entropy variations are calculated for each topic, using the **Shannon Entropy formula**:
+
+<div align="center">
+    <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/user-attachments/assets/68077343-3f68-49f7-8de9-6b9ddad75551" style="width: 45%;" />
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
 
 
 
