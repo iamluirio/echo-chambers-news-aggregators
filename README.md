@@ -836,13 +836,75 @@ To calculate this index, we scroll through the columns of the matrix (representi
     </div>
 </div>
 
+where _P(x<sub>i</sub>)_ represents the probability that the user sees news related to a given topic. If a user does not view any news on a particular topic, the relative entropy change is considered as 0. 
 
+Finally, the entropy changes relating to all topics are added to obtain the total entropy of the user. User entropy provides
+a measure of the diversity or variability of their preferences with respect to the topics considered.
 
+```python
+def calculate_user_entropy(matrix):
+    users = []
 
+    for user_index in range(matrix.shape[1]):
+        user = {}
+        user['User'] = user_index + 1  
 
+        rep = matrix[0, user_index]
+        dem = matrix[1, user_index]
+        neu = matrix[2, user_index]
 
+        total = rep + dem + neu
+        if total == 0:
+            entropy = 0  # avoid division by zero
+        else:
+            rep_frac = rep / total
+            dem_frac = dem / total
+            neu_frac = neu / total
 
+            if(rep_frac != 0):
+                rep_var = -rep_frac * np.log(rep_frac)
+            else:
+                rep_var = 0
+            if(dem_frac != 0): 
+                dem_var = - dem_frac * np.log(dem_frac)
+            else:
+                dem_var = 0
+            if(neu_frac != 0):  
+                neu_var = - neu_frac * np.log(neu_frac)
+            else:
+                neu_var = 0
+                
+            if(not(math.isnan(rep_var)) and not(math.isnan(dem_var)) and not(math.isnan(neu_var))):
+                entropy = rep_var + dem_var + neu_var
 
+        user['rep'] = rep_var
+        user['dem'] = dem_var
+        user['neu'] = neu_var
+        users.append(user)
+
+    return users
+```
+```
+Rep for User U1: 0.37
+Dem for User U1: 0.27
+Neu for User U1: 0.00
+==========================================
+Rep for User U2: 0.27
+Dem for User U2: 0.37
+Neu for User U2: 0.00
+[...]
+```
+
+Together, these two indexes can provide useful information to identify the presence of Filter Bubbles in users of a news aggregator; the first one provides an overview of the average user preferences with respect to the various topics or themes. High uniformity in preference scores suggests that users are primarily exposed to content that confirms their preexisting opinions. The second index evaluates the diversity or variability of user preferences with respect to the various topics.
+
+<div align="center">
+    <div style="display: flex; justify-content: center;">
+        <img src="https://github.com/user-attachments/assets/01a5f1d7-35e6-4a3a-a12d-6bb12c318240" style="width: 30%; margin-right: 10px;" />
+        <img src="https://github.com/user-attachments/assets/d29ab296-51ee-44cf-be36-757ae9296149" style="width: 30%;" />
+        <img src="https://github.com/user-attachments/assets/0eca7dd9-b236-47c2-8f97-790ddb41f701" style="width: 30%;" />
+    </div>
+    <p><em>Figure 12: Entropy Score for Users from USA.</em></p>
+</div>
 
 
 
