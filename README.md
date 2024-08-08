@@ -22,7 +22,7 @@ The temporal aspect of our study is not merely a logistical consideration; it pr
 ## Table of Content
 - [Introduction](#introduction)
 - [Usage](#usage)
-_______________________________________________________________
+__________________________________________________
 - [Insights and Data Patterns](#insights-and-data-patterns)
   - [Homophily between News Recomendation and News Consumption](#homophily-between-news-recommendation-and-news-consumption)
     - [Homophily in Frequency](#homophily-in-frequency)
@@ -34,7 +34,7 @@ _______________________________________________________________
     - [User Stance Index](#user-stance-index)
   - [New Users in Echo Chambers](#new-users-in-echo-chambers)
   - [Case Study: Susceptibility to Propaganda News](#case-study-susceptibility-to-propaganda-news)
-_______________________________________________________________
+__________________________________________________
 - [Content Analysis and Retrieval](#content-analysis-and-retrieval)
   - [Extracting Urls from Dataset](#extracting-urls-from-dataset)
   - [Text Pre-processing Overview](#text-pre-processing-overview)
@@ -46,11 +46,11 @@ _______________________________________________________________
     - [Part-Of-Speech (POS) Tagging](#part-of-speech-(pos)-tagging)
     - [Topic Modeling](#topic-modeling)
     - [Dependency Tree Height](#dependency-tree-height)
-_______________________________________________________________
+__________________________________________________
   - [Filter Bubbles](#filter-bubbles)
     - [Average News Document Stance](#average-news-document-stance)
     - [Entropy User Score](#entropy-user-score)
-_______________________________________________________________
+__________________________________________________
 - [Automated Collecting Data System](#automated-collecting-data-system)
 
 ## Introduction
