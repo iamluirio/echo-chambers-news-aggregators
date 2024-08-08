@@ -906,7 +906,9 @@ Together, these two indexes can provide useful information to identify the prese
     <p><em>Figure 12: Entropy Score for Users from USA.</em></p>
 </div>
 
+Furthermore, it seems that news about the Democratic Party is not only present in users who view favorable news about the Democratic Party, but in all users who follow political news, plus the Homepage. The news aggregator may seek to provide a broader range of political news that reflects diverse perspectives, including Democratic Party views, regardless of users’ political affiliation.
 
+Users display varying preferences in news consumption. Those with higher entropy values (>0.37) engage with diverse Republican viewpoints, while an entropy of 0 indicates a focus on a single perspective. Democratic news preferences are relatively uniform, with entropy around 0.35, showing some diversity but less than Republican news. Neutral news preferences vary widely, with some users exploring diverse topics and others focusing on specific areas.
 
 
 <sub>Roshni Chakraborty, Ananya Bajaj, Ananya Purkait, Pier Luigi Trespidi, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
