@@ -20,10 +20,9 @@ Before continuing, we recommend paying close attention to the small notes at the
 The temporal aspect of our study is not merely a logistical consideration; it profoundly influences the nature and interpretation of the data collected. As a result, the data collected during this period may inherently carry a bias, reflecting the heightened emotions, polarization, and discourse surrounding the impeachment proceedings. Additionally, it is crucial to note that we do not intend to personally judge whether the news aggregator favors the creation of echo chambers. Instead, we present our experiments and analyses, allowing the reader to draw their own conclusions based on the evidence provided.
 
 ## Table of Content
-- ### [Introduction](#introduction)
-- ### [Usage](#usage)
-***
-- ### Insights and Data Patterns
+- [Introduction](#introduction)
+- [Usage](#usage)
+- [Insights and Data Patterns](#insights-and-data-patterns)
   - [Homophily between News Recomendation and News Consumption](#homophily-between-news-recommendation-and-news-consumption)
     - [Homophily in Frequency](#homophily-in-frequency)
     - [Temporal Homophily in News Recommendation](#temporal-homophily-in-news-recommendation)
@@ -34,8 +33,7 @@ The temporal aspect of our study is not merely a logistical consideration; it pr
     - [User Stance Index](#user-stance-index)
   - [New Users in Echo Chambers](#new-users-in-echo-chambers)
   - [Case Study: Susceptibility to Propaganda News](#case-study-susceptibility-to-propaganda-news)
-***
-- ### Content Analysis and Retrieval
+- [Content Analysis and Retrieval](#content-analysis-and-retrieval)
   - [Extracting Urls from Dataset](#extracting-urls-from-dataset)
   - [Text Pre-processing Overview](#text-pre-processing-overview)
     - [Stemming Analysis](#stemming-analysis)
@@ -49,8 +47,7 @@ The temporal aspect of our study is not merely a logistical consideration; it pr
   - [Filter Bubbles](#filter-bubbles)
     - [Average News Document Stance](#average-news-document-stance)
     - [Entropy User Score](#entropy-user-score)
-***
-- ### Automated Collecting Data System
+- [Automated Collecting Data System](#automated-collecting-data-system)
 
 ## Introduction
 Below, we give some preliminary information about the study elements that we used for our research, and how the tools exposed were used consequently. We want to provide a context so that the user can use the tools for similar purposes.
