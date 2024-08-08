@@ -122,7 +122,7 @@ Currently, we study whether **the observed uniformity in news recommendation is 
 Our observations indicate that the number of news articles recommended to an user which belongs to her macro news topic is much higher than any other news topic irrespective of the day of the week, date or location of the user. We observe similar behavior irrespective of the macro news topic being political or non-political. However, for users with pro-Republican political leaning, they are either recommended news which cover republican news or pro-Democratic view point. We observe this similar pattern through different experiments for pro-Republican users.
 
 #### Positional Homophily in News Recommendation
-As Google News ranks the news articles based on relevance to the user, we explore the positional homophily in news recommendation for an user, i.e., we study the first position of any news article that belong to the user’s macro news topic.
+As Google News ranks the news articles based on relevance to the user, **we explore the positional homophily in news recommendation for an user**, i.e., we study **the first position of any news article that belong to the user’s macro news topic**.
 An user has high positional homophily in news recommendation if the news articles which match her macro news topic is ranked early in her news feed. For our experiment, we repeat this for all the users of both USA and India for 5 days, respectively.
 
 <div align="center">
@@ -160,7 +160,7 @@ and Politics news usually get a good spot in the ranking. That’s a hint that G
 Our observations indicate that _User Viewpoint Similarity Index_ is higher if the users have same macro news choices, such as, _I<sub>1</sub>_ and _I<sub>2</sub>_ have a similarity score of 0.43. We can also see that user _I<sub>3</sub>_ and _I<sub>4</sub>_ have a similarity score of 0.38, whereas it varies significantly if the users like political news but with different stance. Additionally, we observe that Entertainment is a very popular news topic worldwide and has huge number of recommended news which affects User Viewpoint Similarity Index.
 
 #### User Viewpoint Representativeness Score
-We use _**User Viewpoint Representativeness Score to understand the level of specificity in news recommendation for an user, and how it varies than the news articles published that day**_.
+We use _**User Viewpoint Representativeness Score**_ to understand **the level of specificity in news recommendation for an user, and how it varies than the news articles published that day**.
 
 We calculate _User Viewpoint Representativeness Index_ as **the KL-divergence between Topic Distribution (_I<sub>1</sub>_) and Topic Distribution (_I<sub>H</sub>_), where Topic Distribution (_I<sub>1</sub>_) and Topic Distribution (_I<sub>H</sub>_) represents the distribution of the news articles with respect to different topics for _I<sub>1</sub>_ and news published that day (Homepage of Google News), respectively**. **The Kullback-Leibler (KL) divergence, also known as relative entropy, is a measure of how one probability distribution diverges from a second, expected probability distribution**.
 
@@ -793,22 +793,20 @@ Sentence 1: length 9
 ```
 
 ### Filter Bubbles
-**Filter Bubbles** refer to the phenomenon wherein individuals are increasingly exposed to information and perspectives that align with their existing beliefs, preferences, and interests, while being shielded from contradictory or diverse viewpoints.
+**Filter Bubbles** refer to the phenomenon wherein **individuals are increasingly exposed to information and perspectives that align with their existing beliefs, preferences, and interests, while being shielded from contradictory or diverse viewpoints**.
 
 In the context of news media aggregators, such as online platforms and social media networks, algorithms curate and prioritize content based on user-specific data, including past behaviors, interactions, and demographic information.
 
-For this type of analysis, we take note of how many news about a particular topic Google News returned to that particular user. To do this, we build two matrices: the first _m<sub>1</sub>_ x _n<sub>1</sub>_ matrix, with _m<sub>1</sub>_ rows as many as the topics of users from the USA, and n<sub>1</sub> columns as many as the users from USA plus a column dedicated to the Home section (the usefulness of the additional column will be explained in the next rows), and a second matrix _m<sub>2</sub>_ x _n<sub>2</sub>_, with _m<sub>2</sub>_ rows as many as the topics of users from India, and _n<sub>2</sub>_ columns as many as there are users from India plus a column dedicated to the Home section. 
+For this type of analysis, we take note of how many news about a particular topic Google News returned to that particular user. To do this, **we build two matrices**: **the first _m<sub>1</sub>_ x _n<sub>1</sub>_ matrix, with _m<sub>1</sub>_ rows as many as the topics of users from the USA**, and **n<sub>1</sub> columns as many as the users from USA plus a column dedicated to the Home section** (the usefulness of the additional column will be explained in the next rows), and **a second matrix _m<sub>2</sub>_ x _n<sub>2</sub>_, with _m<sub>2</sub>_ rows as many as the topics of users from India, and _n<sub>2</sub>_ columns as many as there are users from India plus a column dedicated to the Home section**. 
 
-The sum of each column is equal to 10: for each user, we take note of how many news articles up to a maximum of 10 were presented by Google News to the users. In this way, we can define the numbers in the cell as the number of news articles presented to user _i_ (with _i_ ranging from U<sub>1</sub> to U<sub>m</sub>) belonging to topic _j_ (with _j_ ranging from T<sub>1</sub> to T<sub>n</sub>). The first three topics of matrix 1 are, respectively, Republican Party, Democratic Party and Neutral Party. The first three topics of matrix 2 are, respectively, pro-Government Party, pro-Opposition Party and Neutral Party. The last column represents the Home column, i.e. the number of news articles belonging to a particular topic present on the Google News Homepage.
+**The sum of each column is equal to 10**: for each user, we take note of **how many news articles up to a maximum of 10 were presented by Google News to the users**. In this way, we can define **the numbers in the cell as the number of news articles presented to user _i_ (with _i_ ranging from U<sub>1</sub> to U<sub>m</sub>) belonging to topic _j_ (with _j_ ranging from T<sub>1</sub> to T<sub>n</sub>)**. **The first three topics of matrix 1 are, respectively, Republican Party, Democratic Party and Neutral Party**. **The first three topics of matrix 2 are, respectively, pro-Government Party, pro-Opposition Party and Neutral Party**. **The last column represents the Home column**, i.e. the number of news articles belonging to a particular topic present on the Google News Homepage.
 
 #### Average News Document Stance
 The experiment is based on these two matrices, from which we obtain two potential indices for the study on Filter Bubbles. The first is called _**Average News Document Stance**_: this index represents **the average position of the news viewed by users based on the various topics considered**. This index is calculated for each user and for each topic of interest. It’s calculated for each user as a weighted average of the scores relating to the various topics.
 
-The first three rows of the matrix are extracted, which represent the topics of interest for the users (Republican Party, Democratic Party and Neutral Party for users from USA, pro-Government Party, pro-Opposition Party and Neutral for users from India), iterating through the columns of the matrix and for each user, we create a dictionary which contains the scores relating to the various topics. 
+The first three rows of the matrix are extracted, iterating through the columns of the matrix and for each user, we create a dictionary which contains the scores relating to the various topics.  **For each topic, the relative score for the user is calculated by dividing the number of news articles related of that topic viewed by the user by the number of total news article viewed by the user across all topics**. This represents **the fraction of news relating to that topic compared to the total news viewed** by the user.
 
-For each topic, the relative score for the user is calculated by dividing the number of news articles related of that topic viewed by the user by the number of total news article viewed by the user across all topics. This represents the fraction of news relating to that topic compared to the total news viewed by the user.
-
-For each user, it represents the distribution of the user’s preferences with respect to the various topics, calculated as a weighted average of the scores relating to the individual topics.
+For each user, **it represents the distribution of the user’s preferences with respect to the various topics**, calculated as a weighted average of the scores relating to the individual topics.
 
 ```python
 def calculate_average_news_scores(matrix):
@@ -847,9 +845,9 @@ neu score: 0.00
 ```
 
 #### Entropy User Score
-The second calculated index is called _**Entropy User Score**_. The calculation of user entropy (entropy user scores) evaluate the diversity of that particular user’s preferences with respect to the various topics considered in the context to of the news aggregator.
+The second calculated index is called _**Entropy User Score**_. The calculation of user entropy evaluate **the diversity of that particular user’s preferences with respect to the various topics considered** in the context to of the news aggregator.
 
-To calculate this index, we scroll through the columns of the matrix (representing the users), and for each user we calculate the fractions relating to the number of news articles associated with each topic compared to the total news viewed by the user, and the entropy variations are calculated for each topic, using the **Shannon Entropy formula**:
+To calculate this index, we scroll through the columns of the matrix (representing the users), and for each user **we calculate the fractions relating to the number of news articles associated with each topic compared to the total news viewed by the user**, and **the entropy variations are calculated for each topic, using the Shannon Entropy formula**:
 
 <div align="center">
     <div style="display: flex; justify-content: center;">
@@ -857,10 +855,9 @@ To calculate this index, we scroll through the columns of the matrix (representi
     </div>
 </div>
 
-where _P(x<sub>i</sub>)_ represents the probability that the user sees news related to a given topic. If a user does not view any news on a particular topic, the relative entropy change is considered as 0. 
+where **_P(x<sub>i</sub>)_ represents the probability that the user sees news related to a given topic**. If a user does not view any news on a particular topic, the relative entropy change is considered as 0. 
 
-Finally, the entropy changes relating to all topics are added to obtain the total entropy of the user. User entropy provides
-a measure of the diversity or variability of their preferences with respect to the topics considered.
+Finally, the entropy changes relating to all topics are added to obtain the total entropy of the user. User entropy provides a measure of the diversity or variability of their preferences with respect to the topics considered.
 
 ```python
 def calculate_user_entropy(matrix):
@@ -932,9 +929,7 @@ Furthermore, it seems that news about the Democratic Party is not only present i
 Users display varying preferences in news consumption. Those with higher entropy values (>0.37) engage with diverse Republican viewpoints, while an entropy of 0 indicates a focus on a single perspective. Democratic news preferences are relatively uniform, with entropy around 0.35, showing some diversity but less than Republican news. Neutral news preferences vary widely, with some users exploring diverse topics and others focusing on specific areas.
 
 ## Automated Collecting Data System
-Collecting news for our study prove to be a time-intensive process, particularly when simulating the daily routines of multiple users engaging with diverse news articles.
-
-This task becomes even more pronounced when we need to repeat the processfor approximately 10 users for each component of the project, each requiring distinct news content for their daily interactions. For more information on how our dataset was built from scratch, please refer to the thesis or paper.
+Collecting news for our study prove to be a time-intensive process, particularly when simulating the daily routines of multiple users engaging with diverse news articles. This task becomes even more pronounced when we need to repeat the processfor approximately 10 users for each component of the project, each requiring distinct news content for their daily interactions. For more information on how our dataset was built from scratch, please refer to the thesis or paper.
 
 To prepare for future versions of our research and analyses, we set ourselves up strategically to avoid manually reconstructing the dataset.We start creating an automated system for collecting news: this system streamlines the process of gathering data, saving us from the tedious job of compiling it manually. We identify Selenium as a powerful open-source
 framework for automating web browsers, including automate interaction with page objects. 
@@ -991,9 +986,7 @@ The main part of our automated system is figuring out what kind of news a user r
 
 Subsequently, the system can make informed decisions about clicking and simulating the reading of the article based on its alignment with the user’s interests. Once the decision is made on whether to click on a particular article, maintaining a record of the clicked news becomes a straightforward process.
 
-Please note: the automated system is under development: the above code is provided as an example to show the reader how the dataset construction system can be automated for each user.
-
-
+Please note: the automated system is under development: the above code is provided as an example to show the reader how the dataset construction system can be automated for each user. We opted for Firefox browser due to the availability of the APIs provided by the media aggregator.
 
 
 <sub>Roshni Chakraborty, Ananya Bajaj, Ananya Purkait, Pier Luigi Trespidi, Tarika Gupta, Flavio Bertini, and Rajesh Sharma. 2023. Echo Chambers in News Media Aggregators. ACM Trans. Web 1, 1, Article 1 (January 2023)</sub>
