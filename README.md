@@ -832,7 +832,7 @@ To calculate this index, we scroll through the columns of the matrix (representi
 
 <div align="center">
     <div style="display: flex; justify-content: center;">
-        <img src="https://github.com/user-attachments/assets/68077343-3f68-49f7-8de9-6b9ddad75551" style="width: 45%;" />
+        <img src="https://github.com/user-attachments/assets/68077343-3f68-49f7-8de9-6b9ddad75551" style="width: 30%;" />
     </div>
 </div>
 
