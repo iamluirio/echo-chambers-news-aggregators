@@ -1,11 +1,11 @@
 # Study of Echo Chambers in News Media Aggregators
 <div align="left">
 
-<img src="https://img.shields.io/badge/scikit_learn-grey?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-<img src="https://img.shields.io/badge/PyTorch-grey?style=for-the-badge&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/TensorFlow-grey?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/scikit_learn-grey?style=for-the-badge&logo=scikit-learn&logoColor=orange" />
+<img src="https://img.shields.io/badge/PyTorch-grey?style=for-the-badge&logo=pytorch&logoColor=red" />
+<img src="https://img.shields.io/badge/TensorFlow-grey?style=for-the-badge&logo=tensorflow&logoColor=orange" />
 <img src="https://img.shields.io/badge/transformers-grey?style=for-the-badge&logo=huggingface&logoColor=yellow" />
-<img src="https://img.shields.io/badge/nltk-grey?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/nltk-grey?style=for-the-badge&logo=python&logoColor=blue" />
 <img src="https://img.shields.io/badge/spacy-grey?style=for-the-badge&logo=spacy&logoColor=lightblue" />
 <img src="https://img.shields.io/badge/selenium-grey?style=for-the-badge&logo=selenium&logoColor=green" />
 </div>
